@@ -6,7 +6,7 @@
     <title>Projetos de Sidiney Rodrigues — Educação, Ciência e Tecnologia</title>
     <meta
       name="description"
-      content="Projetos educacionais gratuitos de Sidiney Rodrigues: Física, Química, Biologia, Filosofia, história das religiões, qualidade de vida e orientação profissional."
+      content="Portfólio de Sidiney Rodrigues: educação, ciência, Python, estatística, investigação factual e ferramentas digitais. Explore os projetos e indique seu interesse."
     />
     <meta name="author" content="Sidiney Rodrigues" />
     <meta name="keywords" content="projetos educacionais gratuitos, tecnologia educacional, Física, Química, Biologia, Filosofia, free educational resources, educational technology, interactive learning, open education" />
@@ -30,34 +30,114 @@
       content="Educação, ciência e tecnologia em projetos gratuitos e abertos."
     />
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Projetos de Sidiney Rodrigues",
+  "url": "https://sidineyr.github.io/",
+  "description": "Educação, ciência, análise de dados e ferramentas digitais.",
+  "dateModified": "2026-10-16",
+  "inLanguage": "pt-BR",
+  "author": {
+    "@type": "Person",
+    "name": "Sidiney Rodrigues",
+    "url": "https://github.com/sidineyr"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
       {
-        "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": "Projetos de Sidiney Rodrigues",
-        "url": "https://sidineyr.github.io/",
-        "description": "Coleção de projetos gratuitos sobre educação, ciência e tecnologia.",
-        "inLanguage": ["pt-BR", "en"],
-        "alternateName": "Sidiney Rodrigues Educational Projects",
-        "author": {
-          "@type": "Person",
-          "name": "Sidiney Rodrigues",
-          "url": "https://github.com/sidineyr"
-        },
-        "mainEntity": {
-          "@type": "ItemList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "url": "https://sidineyr.github.io/Einstein-Fisica/", "name": "Einstein — Física em Movimento"},
-            {"@type": "ListItem", "position": 2, "url": "https://sidineyr.github.io/Chemical/", "name": "Chemical"},
-            {"@type": "ListItem", "position": 3, "url": "https://sidineyr.github.io/qv/", "name": "Quality View"},
-            {"@type": "ListItem", "position": 4, "url": "https://sidineyr.github.io/filosofia-aberta/", "name": "Filosofia Aberta"},
-            {"@type": "ListItem", "position": 5, "url": "https://sidineyr.github.io/biosfera/", "name": "Biosfera Aberta"},
-            {"@type": "ListItem", "position": 6, "url": "https://atlas-do-sagrado.blubier.chatgpt.site/", "name": "Atlas do Sagrado"},
-            {"@type": "ListItem", "position": 7, "url": "https://horizonte-vocacional.blubier.chatgpt.site/", "name": "Horizonte"}
-          ]
-        }
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Einstein · Física em Movimento",
+        "url": "https://sidineyr.github.io/Einstein-Fisica/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Horizonte",
+        "url": "https://horizonte-vocacional.blubier.chatgpt.site/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Quality View",
+        "url": "https://sidineyr.github.io/qv/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Python Swirl",
+        "url": "https://sidineyr.github.io/python-swirl-statistics/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Chemical",
+        "url": "https://sidineyr.github.io/Chemical/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Filosofia Aberta",
+        "url": "https://sidineyr.github.io/filosofia-aberta/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Biosfera Aberta",
+        "url": "https://sidineyr.github.io/biosfera/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Atlas do Sagrado",
+        "url": "https://atlas-do-sagrado.blubier.chatgpt.site/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "BB · Bê-á-Bá da Internet e da IA",
+        "url": "https://sidineyr.github.io/bb/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Contraprova",
+        "url": "https://github.com/sidineyr/contraprova"
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "Polliniza",
+        "url": "https://github.com/sidineyr/Polliniza"
+      },
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "Universidade da Inteligência Artificial",
+        "url": "https://sidineyr.github.io/universidade/"
       }
+    ]
+  }
+}
     </script>
     <style>
+      .updated,.status { color:#afc0d5; font-size:.8rem; }
+      .participation { margin:1.5rem 0 2rem; padding:1.25rem; border:1px solid #335370; border-radius:1rem; }
+      .participation h2 { margin:0 0 .65rem; }
+      .participation p { color:#b9c9de; line-height:1.6; }
+      summary { cursor:pointer; color:#77dcff; }
+      .card-bottom { margin-top:1.3rem; }
+      .status { display:block; margin-bottom:.8rem; }
+      .project-link { display:inline-block; color:#77dcff; text-underline-offset:.25em; padding:.5rem 0; }
+      .choice { display:flex; flex-wrap:wrap; align-items:center; gap:.6rem; margin-top:.8rem; padding-top:.8rem; border-top:1px solid #335370; }
+      .vote { font:inherit; font-size:.85rem; min-height:44px; padding:.55rem .75rem; border:1px solid #77dcff; border-radius:.6rem; color:#eaf3ff; background:#12324a; cursor:pointer; }
+      .vote:disabled { cursor:default; opacity:.7; }
+      .vote-total { color:#b9c9de; font-size:.8rem; }
+      a:focus-visible,button:focus-visible,summary:focus-visible { outline:3px solid #77dcff; outline-offset:4px; }
+      @media(prefers-reduced-motion:reduce) { .card { transition:none !important; } .card:hover { transform:none !important; } }
+
       :root {
         color-scheme: dark;
         font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -184,80 +264,116 @@
         <p class="eyebrow">Sidiney Rodrigues</p>
         <h1>Educação, ciência e tecnologia em movimento.</h1>
         <p class="intro">
-          Uma coleção de experiências gratuitas para aprender, investigar, criar e tomar decisões com mais clareza.
+          Sou Sidiney Rodrigues, pedagogo. Crio experiências de educação, ciência e análise de dados para aprender, investigar e tomar decisões com mais clareza.
         </p>
+        <p class="updated">Atualizado em <time datetime="2026-10-16">16 de outubro de 2026</time></p>
       </header>
+      <section class="participation" aria-labelledby="choose-title"><h2 id="choose-title">Qual projeto desperta seu interesse?</h2><p id="counter-note">Explore e marque os projetos que você gostaria de usar. Os totais são compartilhados entre visitantes; cada projeto pode ser escolhido uma vez neste navegador. Contagem indicativa de interesse, sem cadastro.</p><details><summary>Sobre a contagem e a privacidade</summary><p>Os contadores usam o serviço externo <a href="https://counterapi.com/">CounterAPI</a>, que recebe o endereço IP e dados técnicos da conexão. Enviamos somente o identificador do projeto, sem nome ou respostas das atividades. A escolha fica também neste navegador para evitar repetição. Limpar esses dados ou mudar de navegador permite repetir: os totais não representam pessoas únicas. Falhas de conexão não são exibidas como zero.</p></details><noscript><p>Ative o JavaScript para carregar os contadores. Todos os links continuam disponíveis.</p></noscript></section>
 
       <section class="grid" aria-label="Projetos">
-        <a class="card" href="/Einstein-Fisica/">
-          <div>
-            <span class="tag">Física</span>
-            <h2>Einstein — Física em Movimento</h2>
-            <p>Doze missões investigativas, laboratórios digitais e conteúdos alinhados ao Ensino Médio.</p>
+        <article class="card" data-project="einstein" aria-labelledby="title-einstein">
+          <div><span class="tag">Física</span><h2 id="title-einstein">Einstein · Física em Movimento</h2><p>12 missões investigativas, quatro laboratórios e uma bancada de forças com medições, tabela e gráfico.</p></div>
+          <div class="card-bottom"><span class="status">Ensino Médio</span>
+            <a class="project-link" href="/Einstein-Fisica/">Explorar <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Einstein · Física em Movimento">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
+        </article>
 
-        <a class="card" href="/Chemical/">
-          <div>
-            <span class="tag">Química</span>
-            <h2>Chemical</h2>
-            <p>Química para compreender o mundo por meio de conceitos, experimentos e contexto.</p>
+        <article class="card" data-project="horizonte" aria-labelledby="title-horizonte">
+          <div><span class="tag">Orientação vocacional</span><h2 id="title-horizonte">Horizonte</h2><p>Interesses, caminhos de formação e próximos passos em seis idiomas, com relatório para baixar. Exploração educativa, sem diagnóstico.</p></div>
+          <div class="card-bottom"><span class="status">Seis idiomas</span>
+            <a class="project-link" href="https://horizonte-vocacional.blubier.chatgpt.site/">Explorar <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Horizonte">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
+        </article>
 
-        <a class="card" href="/qv/">
-          <div>
-            <span class="tag">Questionário</span>
-            <h2>Quality View</h2>
-            <p>Uma experiência guiada de perguntas e resultados para apoiar reflexão e autoconhecimento.</p>
+        <article class="card" data-project="quality-view" aria-labelledby="title-quality-view">
+          <div><span class="tag">Qualidade de vida</span><h2 id="title-quality-view">Quality View</h2><p>Questionário progressivo, painel de resultados, histórico e exportação CSV. Respostas guardadas no seu navegador.</p></div>
+          <div class="card-bottom"><span class="status">Reflexão pessoal</span>
+            <a class="project-link" href="/qv/">Explorar <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Quality View">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
+        </article>
 
-        <a class="card" href="/filosofia-aberta/">
-          <div>
-            <span class="tag">Filosofia</span>
-            <h2>Filosofia Aberta</h2>
-            <p>Curso gratuito de filosofia para iniciantes, com percurso cronológico e leitura orientada dos clássicos.</p>
+        <article class="card" data-project="python-swirl" aria-labelledby="title-python-swirl">
+          <div><span class="tag">Python e estatística</span><h2 id="title-python-swirl">Python Swirl</h2><p>Dez módulos com conceitos, vídeos, notebooks, desafios e rubricas. Da primeira célula à entrega de uma análise de dados.</p></div>
+          <div class="card-bottom"><span class="status">Novo no portfólio</span>
+            <a class="project-link" href="/python-swirl-statistics/">Começar o curso <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Python Swirl">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
+        </article>
 
-        <a class="card" href="/biosfera/">
-          <div>
-            <span class="tag">Biologia</span>
-            <h2>Biosfera Aberta</h2>
-            <p>Biologia interativa: germinação, células, corpo humano 3D, ecologia e evolução.</p>
+        <article class="card" data-project="chemical" aria-labelledby="title-chemical">
+          <div><span class="tag">Química</span><h2 id="title-chemical">Chemical</h2><p>Seis trilhas com simulações, construtor de átomo, jogos de elementos e balanceamento, exercícios e avaliação formativa.</p></div>
+          <div class="card-bottom"><span class="status">Ensino Médio</span>
+            <a class="project-link" href="/Chemical/">Explorar <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Chemical">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
+        </article>
 
-        <a class="card" href="https://atlas-do-sagrado.blubier.chatgpt.site/">
-          <div>
-            <span class="tag">História das religiões</span>
-            <h2>Atlas do Sagrado</h2>
-            <p>Curso gratuito sobre religiões do mundo, filosofia da religião, ateísmo e não religião.</p>
+        <article class="card" data-project="filosofia" aria-labelledby="title-filosofia">
+          <div><span class="tag">Filosofia</span><h2 id="title-filosofia">Filosofia Aberta</h2><p>14 etapas cronológicas e três rotas regionais, com leitura de passagens, fontes acadêmicas e caderno pessoal.</p></div>
+          <div class="card-bottom"><span class="status">Leitura orientada</span>
+            <a class="project-link" href="/filosofia-aberta/">Começar a ler <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Filosofia Aberta">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
+        </article>
 
-        <a class="card" href="https://horizonte-vocacional.blubier.chatgpt.site/">
-          <div>
-            <span class="tag">Orientação vocacional</span>
-            <h2>Horizonte</h2>
-            <p>Teste vocacional gratuito para explorar interesses, cursos, profissões e próximos passos.</p>
+        <article class="card" data-project="biosfera" aria-labelledby="title-biosfera">
+          <div><span class="tag">Biologia</span><h2 id="title-biosfera">Biosfera Aberta</h2><p>Da germinação à célula e ao corpo humano em 3D: observe, explore e relacione organismos, ecossistemas e planeta.</p></div>
+          <div class="card-bottom"><span class="status">Aprendizagem visual</span>
+            <a class="project-link" href="/biosfera/">Explorar <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Biosfera Aberta">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
+        </article>
+
+        <article class="card" data-project="atlas" aria-labelledby="title-atlas">
+          <div><span class="tag">História das religiões</span><h2 id="title-atlas">Atlas do Sagrado</h2><p>Oito módulos sobre religiões, não religião e filosofia. Percurso introdutório com certificado simbólico, sem equivalência acadêmica.</p></div>
+          <div class="card-bottom"><span class="status">Curso aberto</span>
+            <a class="project-link" href="https://atlas-do-sagrado.blubier.chatgpt.site/">Explorar <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Atlas do Sagrado">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="bb" aria-labelledby="title-bb">
+          <div><span class="tag">Educação digital</span><h2 id="title-bb">BB · Bê-á-Bá da Internet e da IA</h2><p>Seis etapas e um laboratório de mensagens para pesquisar, reconhecer golpes, conferir informações e proteger dados. Em português e inglês.</p></div>
+          <div class="card-bottom"><span class="status">Novo no portfólio</span>
+            <a class="project-link" href="/bb/">Começar <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em BB · Bê-á-Bá da Internet e da IA">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="contraprova" aria-labelledby="title-contraprova">
+          <div><span class="tag">Investigação factual</span><h2 id="title-contraprova">Contraprova</h2><p>“É verdade que…?” Investigação com fontes e registro de decisões. Acervo local disponível no código; pesquisa online exige servidor e API configurados.</p></div>
+          <div class="card-bottom"><span class="status">Em desenvolvimento</span>
+            <a class="project-link" href="https://github.com/sidineyr/contraprova">Ver projeto e instruções <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Contraprova">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="polliniza" aria-labelledby="title-polliniza">
+          <div><span class="tag">Enquetes</span><h2 id="title-polliniza">Polliniza</h2><p>Prepare enquetes, adapte o texto e revise os destinos. Extensão e site com fluxos assistidos; publicação por API depende de configuração.</p></div>
+          <div class="card-bottom"><span class="status">Em desenvolvimento</span>
+            <a class="project-link" href="https://github.com/sidineyr/Polliniza">Ver projeto e instruções <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Polliniza">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="universidade" aria-labelledby="title-universidade">
+          <div><span class="tag">Percursos de aprendizagem</span><h2 id="title-universidade">Universidade da Inteligência Artificial</h2><p>Projetos reunidos por perguntas e áreas do conhecimento. Iniciativa independente, sem diploma de ensino superior.</p></div>
+          <div class="card-bottom"><span class="status">Portal aberto</span>
+            <a class="project-link" href="/universidade/">Escolher um percurso <span aria-hidden="true">↗</span></a>
+            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Universidade da Inteligência Artificial">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+          </div>
+        </article>
       </section>
 
       <footer>
         <span>Projetos gratuitos de Sidiney Rodrigues.</span>
         <a href="https://github.com/sidineyr">Ver repositórios no GitHub</a>
       </footer>
-    <section aria-label="Universidade aberta" style="margin-top:2rem;padding:1.4rem;border:1px solid #77dcff;border-radius:1rem"><h2>Universidade da Inteligência Artificial</h2><p>Uma pergunta abre a porta. Explore disciplinas, atividades e percursos gratuitos em português e inglês.</p><p><a href="/universidade/">Entrar na universidade aberta →</a></p></section></main>
+    </main>
+    <script src="/project-votes.js" defer></script>
     <script src="/language-toggle.js"></script>
   </body>
 </html>
