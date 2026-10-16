@@ -5,10 +5,10 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/Einstein-Fisica",
     "field": "total",
     "since": "2026-10-16",
-    "value": null,
-    "checkedAt": null,
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
-    "status": "unavailable"
+    "value": 0,
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
+    "status": "ok"
   },
   "chemical": {
     "label": "acessos",
@@ -16,10 +16,10 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/Chemical",
     "field": "total",
     "since": "2026-10-16",
-    "value": null,
-    "checkedAt": null,
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
-    "status": "unavailable"
+    "value": 0,
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
+    "status": "ok"
   },
   "filosofia": {
     "label": "acessos",
@@ -27,10 +27,10 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/filosofia-aberta",
     "field": "total",
     "since": "2026-10-16",
-    "value": null,
-    "checkedAt": null,
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
-    "status": "unavailable"
+    "value": 0,
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
+    "status": "ok"
   },
   "biosfera": {
     "label": "acessos",
@@ -38,10 +38,10 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/biosfera",
     "field": "total",
     "since": "2026-10-16",
-    "value": null,
-    "checkedAt": null,
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
-    "status": "unavailable"
+    "value": 0,
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
+    "status": "ok"
   },
   "python-swirl": {
     "label": "acessos",
@@ -49,10 +49,10 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/python-swirl-statistics",
     "field": "total",
     "since": "2026-10-16",
-    "value": null,
-    "checkedAt": null,
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
-    "status": "unavailable"
+    "value": 0,
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
+    "status": "ok"
   },
   "contraprova": {
     "label": "acessos",
@@ -60,10 +60,10 @@
     "endpoint": "https://hits.sh/api/urns/contraprova.blubier.chatgpt.site",
     "field": "total",
     "since": "2026-10-16",
-    "value": null,
-    "checkedAt": null,
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
-    "status": "unavailable"
+    "value": 0,
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
+    "status": "ok"
   },
   "polliniza": {
     "label": "acessos",
@@ -71,10 +71,10 @@
     "endpoint": "https://hits.sh/api/urns/github.com/sidineyr/Polliniza/web",
     "field": "total",
     "since": "2026-10-16",
-    "value": null,
-    "checkedAt": null,
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
-    "status": "unavailable"
+    "value": 0,
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
+    "status": "ok"
   },
   "universidade": {
     "label": "acessos",
@@ -82,10 +82,10 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/universidade",
     "field": "total",
     "since": "2026-10-16",
-    "value": null,
-    "checkedAt": null,
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
-    "status": "unavailable"
+    "value": 0,
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
+    "status": "ok"
   },
   "bb": {
     "label": "visitas",
@@ -93,8 +93,8 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/bb",
     "field": "total",
     "value": 3,
-    "checkedAt": "2026-10-16T21:43:55+00:00",
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
     "status": "ok"
   },
   "quality-view": {
@@ -104,7 +104,7 @@
     "field": "total",
     "value": null,
     "checkedAt": null,
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
     "status": "unavailable"
   },
   "horizonte": {
@@ -113,8 +113,8 @@
     "endpoint": "https://horizonte-vocacional.blubier.chatgpt.site/api/completions",
     "field": "total",
     "value": 8,
-    "checkedAt": "2026-10-16T21:43:55+00:00",
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
     "status": "ok"
   },
   "atlas": {
@@ -123,8 +123,8 @@
     "endpoint": "https://atlas-do-sagrado.blubier.chatgpt.site/api/views?page=inicio",
     "field": "count",
     "value": 25,
-    "checkedAt": "2026-10-16T21:43:55+00:00",
-    "attemptedAt": "2026-10-16T21:43:55+00:00",
+    "checkedAt": "2026-10-16T21:46:45+00:00",
+    "attemptedAt": "2026-10-16T21:46:45+00:00",
     "status": "ok"
   }
 }
