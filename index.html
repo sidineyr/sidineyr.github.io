@@ -123,6 +123,7 @@
 }
     </script>
     <style>
+      .access-metric{display:grid;gap:.35rem;margin-top:1rem;padding:.8rem 0;border-top:1px solid #335370;font-size:.85rem}.access-metric strong{color:#eaf3ff}.access-metric a{color:#77dcff;text-underline-offset:.2em}.access-metric small,#metrics-note{color:#b9c9de;line-height:1.6}
       .updated,.status { color:#afc0d5; font-size:.8rem; }
       .participation { margin:1.5rem 0 2rem; padding:1.25rem; border:1px solid #335370; border-radius:1rem; }
       .participation h2 { margin:0 0 .65rem; }
@@ -270,12 +271,13 @@
       </header>
       <section class="participation" aria-labelledby="choose-title"><h2 id="choose-title">Qual projeto desperta seu interesse?</h2><p id="counter-note">Explore e marque os projetos que você gostaria de usar. Os totais são compartilhados entre visitantes; cada projeto pode ser escolhido uma vez neste navegador. Contagem indicativa de interesse, sem cadastro.</p><details><summary>Sobre a contagem e a privacidade</summary><p>Os contadores usam o serviço externo <a href="https://counterapi.com/">CounterAPI</a>, que recebe o endereço IP e dados técnicos da conexão. Enviamos somente o identificador do projeto, sem nome ou respostas das atividades. A escolha fica também neste navegador para evitar repetição. Limpar esses dados ou mudar de navegador permite repetir: os totais não representam pessoas únicas. Falhas de conexão não são exibidas como zero.</p></details><noscript><p>Ative o JavaScript para carregar os contadores. Todos os links continuam disponíveis.</p></noscript></section>
 
+      <p id="metrics-note">Os números abaixo vêm dos contadores originais de cada projeto, com consulta prevista a cada seis horas. Acessos, leituras e testes concluídos aparecem identificados. Abrir este portfólio não aumenta esses números.</p>
       <section class="grid" aria-label="Projetos">
         <article class="card" data-project="einstein" aria-labelledby="title-einstein">
           <div><span class="tag">Física</span><h2 id="title-einstein">Einstein · Física em Movimento</h2><p>12 missões investigativas, quatro laboratórios e uma bancada de forças com medições, tabela e gráfico.</p></div>
           <div class="card-bottom"><span class="status">Ensino Médio</span>
             <a class="project-link" href="/Einstein-Fisica/">Explorar <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Einstein · Física em Movimento">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Einstein · Física em Movimento">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -283,7 +285,7 @@
           <div><span class="tag">Orientação vocacional</span><h2 id="title-horizonte">Horizonte</h2><p>Interesses, caminhos de formação e próximos passos em seis idiomas, com relatório para baixar. Exploração educativa, sem diagnóstico.</p></div>
           <div class="card-bottom"><span class="status">Seis idiomas</span>
             <a class="project-link" href="https://horizonte-vocacional.blubier.chatgpt.site/">Explorar <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Horizonte">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Horizonte">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -291,7 +293,7 @@
           <div><span class="tag">Qualidade de vida</span><h2 id="title-quality-view">Quality View</h2><p>Questionário progressivo, painel de resultados, histórico e exportação CSV. Respostas guardadas no seu navegador.</p></div>
           <div class="card-bottom"><span class="status">Reflexão pessoal</span>
             <a class="project-link" href="/qv/">Explorar <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Quality View">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Quality View">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -299,7 +301,7 @@
           <div><span class="tag">Python e estatística</span><h2 id="title-python-swirl">Python Swirl</h2><p>Dez módulos com conceitos, vídeos, notebooks, desafios e rubricas. Da primeira célula à entrega de uma análise de dados.</p></div>
           <div class="card-bottom"><span class="status">Novo no portfólio</span>
             <a class="project-link" href="/python-swirl-statistics/">Começar o curso <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Python Swirl">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Python Swirl">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -307,7 +309,7 @@
           <div><span class="tag">Química</span><h2 id="title-chemical">Chemical</h2><p>Seis trilhas com simulações, construtor de átomo, jogos de elementos e balanceamento, exercícios e avaliação formativa.</p></div>
           <div class="card-bottom"><span class="status">Ensino Médio</span>
             <a class="project-link" href="/Chemical/">Explorar <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Chemical">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Chemical">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -315,7 +317,7 @@
           <div><span class="tag">Filosofia</span><h2 id="title-filosofia">Filosofia Aberta</h2><p>14 etapas cronológicas e três rotas regionais, com leitura de passagens, fontes acadêmicas e caderno pessoal.</p></div>
           <div class="card-bottom"><span class="status">Leitura orientada</span>
             <a class="project-link" href="/filosofia-aberta/">Começar a ler <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Filosofia Aberta">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Filosofia Aberta">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -323,7 +325,7 @@
           <div><span class="tag">Biologia</span><h2 id="title-biosfera">Biosfera Aberta</h2><p>Da germinação à célula e ao corpo humano em 3D: observe, explore e relacione organismos, ecossistemas e planeta.</p></div>
           <div class="card-bottom"><span class="status">Aprendizagem visual</span>
             <a class="project-link" href="/biosfera/">Explorar <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Biosfera Aberta">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Biosfera Aberta">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -331,7 +333,7 @@
           <div><span class="tag">História das religiões</span><h2 id="title-atlas">Atlas do Sagrado</h2><p>Oito módulos sobre religiões, não religião e filosofia. Percurso introdutório com certificado simbólico, sem equivalência acadêmica.</p></div>
           <div class="card-bottom"><span class="status">Curso aberto</span>
             <a class="project-link" href="https://atlas-do-sagrado.blubier.chatgpt.site/">Explorar <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Atlas do Sagrado">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Atlas do Sagrado">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -339,7 +341,7 @@
           <div><span class="tag">Educação digital</span><h2 id="title-bb">BB · Bê-á-Bá da Internet e da IA</h2><p>Seis etapas e um laboratório de mensagens para pesquisar, reconhecer golpes, conferir informações e proteger dados. Em português e inglês.</p></div>
           <div class="card-bottom"><span class="status">Novo no portfólio</span>
             <a class="project-link" href="/bb/">Começar <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em BB · Bê-á-Bá da Internet e da IA">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em BB · Bê-á-Bá da Internet e da IA">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -347,7 +349,7 @@
           <div><span class="tag">Investigação factual</span><h2 id="title-contraprova">Contraprova</h2><p>“É verdade que…?” Investigação com fontes e registro de decisões. Acervo local disponível no código; pesquisa online exige servidor e API configurados.</p></div>
           <div class="card-bottom"><span class="status">Em desenvolvimento</span>
             <a class="project-link" href="https://github.com/sidineyr/contraprova">Ver projeto e instruções <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Contraprova">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Contraprova">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -355,7 +357,7 @@
           <div><span class="tag">Enquetes</span><h2 id="title-polliniza">Polliniza</h2><p>Prepare enquetes, adapte o texto e revise os destinos. Extensão e site com fluxos assistidos; publicação por API depende de configuração.</p></div>
           <div class="card-bottom"><span class="status">Em desenvolvimento</span>
             <a class="project-link" href="https://github.com/sidineyr/Polliniza">Ver projeto e instruções <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Polliniza">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Polliniza">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
 
@@ -363,7 +365,7 @@
           <div><span class="tag">Percursos de aprendizagem</span><h2 id="title-universidade">Universidade da Inteligência Artificial</h2><p>Projetos reunidos por perguntas e áreas do conhecimento. Iniciativa independente, sem diploma de ensino superior.</p></div>
           <div class="card-bottom"><span class="status">Portal aberto</span>
             <a class="project-link" href="/universidade/">Escolher um percurso <span aria-hidden="true">↗</span></a>
-            <div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Universidade da Inteligência Artificial">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
+            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em Universidade da Inteligência Artificial">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>
           </div>
         </article>
       </section>
@@ -373,6 +375,7 @@
         <a href="https://github.com/sidineyr">Ver repositórios no GitHub</a>
       </footer>
     </main>
+    <script src="/project-metrics.js" defer></script>
     <script src="/project-votes.js" defer></script>
     <script src="/language-toggle.js"></script>
   </body>
