@@ -128,7 +128,7 @@
   }
 }
     </script>
-    <link rel="stylesheet" href="/intro.css?v=tutor-cues-2" />
+    <link rel="stylesheet" href="/intro.css?v=tutor-final-32-v1" />
     <style>
       .welcome-dialog{width:min(440px,calc(100% - 2rem));max-height:calc(100dvh - 2rem);overflow:auto;padding:clamp(1.25rem,4vw,2rem);border:1px solid #335370;border-radius:1.25rem;color:#eaf3ff;background:#0d1f36;box-shadow:0 24px 80px #0008}.welcome-dialog::backdrop{background:#020b17bb}.welcome-dialog h2{margin:0 0 1rem;font-size:1.6rem}.welcome-dialog p{color:#b9c9de;line-height:1.6}.welcome-actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.5rem}.welcome-actions button{flex:1;min-width:150px}.welcome-actions .quiet{background:transparent;border-color:#335370}
 
@@ -273,7 +273,7 @@
     <dialog id="welcome-dialog" class="welcome-dialog intro-dialog" aria-labelledby="welcome-title" aria-describedby="welcome-description">
       <div class="intro-top"><span>Um convite à descoberta</span><button type="button" id="intro-skip" class="text-button" autofocus>Pular apresentação</button></div>
       <div class="intro-layout">
-        <figure class="tutor-portrait"><img src="https://raw.githubusercontent.com/sidineyr/callguid/master/desktop/assets/prince.png" width="1024" height="1536" alt="Tutor original do CallGuide, com uma caneta e um livro, entre folhas." decoding="async" /><figcaption>Seu companheiro de descobertas · CallGuide</figcaption><div class="tutor-speech" role="note"><span>Dica do tutor</span><p id="tutor-cue">Clique em Continuar para descobrir o próximo passo.</p></div><span class="intro-star star-one" aria-hidden="true">✦</span><span class="intro-star star-two" aria-hidden="true">✧</span></figure>
+        <svg class="tutor-connection" aria-hidden="true"><path /></svg><figure class="tutor-portrait"><div class="tutor-actor" role="img" aria-label="Tutor do CallGuide escreve, sorri e acena para receber você." hidden></div><img src="/assets/tutor/original-fallback.webp" width="1024" height="1536" alt="Tutor original do CallGuide, com uma caneta e um livro, entre folhas." decoding="async" /><figcaption>Seu companheiro de descobertas · CallGuide</figcaption><div class="tutor-speech" role="note"><span>Dica do tutor</span><p id="tutor-cue">Clique em Continuar para descobrir o próximo passo.</p></div><span class="intro-star star-one" aria-hidden="true">✦</span><span class="intro-star star-two" aria-hidden="true">✧</span></figure>
         <div class="intro-story"><p class="intro-step" id="intro-step">01 / 05 · Acolher</p><h2 id="welcome-title">Olá! Que bom encontrar você por aqui.</h2>
           <p id="welcome-description">Traga sua curiosidade. Há novos caminhos para descobrir.</p>
           <div class="intro-symbols" aria-label="Áreas dos projetos"><span>✧ Ciência</span><span>⌘ Tecnologia</span><span>✎ Aprendizagem</span></div>
@@ -411,7 +411,7 @@
       <footer>
         <span>Projetos gratuitos de Sidiney Rodrigues.</span>
         <a href="https://github.com/sidineyr">Ver repositórios no GitHub</a>
-        <button class="tutor-help-button" id="tutor-open" type="button" aria-haspopup="dialog"><img src="https://raw.githubusercontent.com/sidineyr/callguid/master/desktop/assets/prince.png" alt="" width="38" height="38" loading="lazy" />Precisa de uma pista?</button>
+        <button class="tutor-help-button" id="tutor-open" type="button" aria-haspopup="dialog"><img src="/assets/tutor/original-fallback.webp" alt="" width="38" height="38" loading="lazy" />Precisa de uma pista?</button>
         <section class="radio" id="portfolio-radio" aria-label="Rádio DJIA">
           <details><summary>♫ Rádio DJIA · ouvir música</summary>
             <div class="radio-controls"><label for="radio-track">Saída da Caverna · escolha a versão</label><select id="radio-track"><option value="0">Luminoso</option><option value="1">Sereno</option><option value="2">Suspenso</option></select>
@@ -428,7 +428,7 @@
     <script src="/project-metrics.js" defer></script>
     <script src="/project-updates.js" defer></script>
     <script src="/radio.js" defer></script>
-    <script src="/intro.js?v=tutor-cues-2" defer></script>
+    <script src="/intro.js?v=tutor-final-32-v1" defer></script>
     <script src="/project-votes.js" defer></script>
     <script src="/language-toggle.js"></script>
   </body>
