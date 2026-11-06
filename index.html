@@ -129,7 +129,7 @@
 }
     </script>
     <style>
-      .radio{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:1.5rem;margin:2rem 0;padding:1.5rem;border:1px solid #335370;border-radius:1.25rem;background:linear-gradient(120deg,#12324a,#101e37)}.radio h2{margin:.4rem 0}.radio p,.radio small{color:#b9c9de;line-height:1.6}.radio .eyebrow{color:#77dcff;font-size:.7rem}.radio-controls{display:grid;gap:.7rem;min-width:0}.radio audio{width:100%;height:44px}.radio-bottom{display:flex;flex-wrap:wrap;align-items:center;gap:.7rem}.radio-bottom span{font-size:.8rem;color:#b9c9de}.radio a{color:#77dcff}@media(max-width:650px){.radio{grid-template-columns:1fr;padding:1rem}}
+      .radio{flex-basis:100%;margin:1rem 0 0;padding-top:1rem;border-top:1px solid rgba(183,211,240,.1);font-size:.8rem;color:#8fa4bd}.radio p{margin:.5rem 0;line-height:1.5}.radio summary{color:#afc0d5;min-height:44px;display:flex;align-items:center;gap:.5rem;width:fit-content}.radio-controls{display:grid;gap:.6rem;max-width:420px;padding:.5rem 0}.radio audio{width:100%;height:40px}.radio select{font-size:.8rem;padding:.5rem;background:#0d1f36;border-color:#335370}.radio-bottom{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem}.radio .vote{font-size:.8rem;background:transparent;border-color:#335370}.radio-bottom span{font-size:.75rem}.radio a{color:#afc0d5}
       .project-toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;margin-top:2rem}.project-toolbar h2{margin:0}.project-toolbar label{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem}select{font:inherit;color:#eaf3ff;background:#12324a;border:1px solid #77dcff;border-radius:.5rem;padding:.65rem;max-width:100%}select:focus-visible{outline:3px solid #77dcff;outline-offset:4px}#order-status{color:#77dcff;font-size:.85rem}.project-update{margin-top:1rem;border-top:1px solid #335370;padding-top:.8rem;font-size:.85rem}.project-update p{margin:.5rem 0}.project-update a{color:#77dcff;text-underline-offset:.2em}.project-update ul{padding-left:1.2rem;line-height:1.6}.project-update time{color:#b9c9de;display:block;font-size:.8rem}
       .access-metric{display:grid;gap:.35rem;margin-top:1rem;padding:.8rem 0;border-top:1px solid #335370;font-size:.85rem}.access-metric strong{color:#eaf3ff}.access-metric a{color:#77dcff;text-underline-offset:.2em}.access-metric small,#metrics-note{color:#b9c9de;line-height:1.6}
       .updated,.status { color:#afc0d5; font-size:.8rem; }
@@ -277,13 +277,6 @@
         </p>
         <p class="updated">Atualizado em <time datetime="2026-11-06">6 de novembro de 2026</time></p>
       </header>
-      <section class="radio" aria-labelledby="radio-title">
-        <div><p class="eyebrow">Trilha para explorar</p><h2 id="radio-title">Rádio DJIA</h2><p>Saída da Caverna · três versões instrumentais em sequência.</p></div>
-        <div class="radio-controls"><label for="radio-track">Escolha a faixa</label><select id="radio-track"><option value="0">Saída da Caverna — Luminoso</option><option value="1">Saída da Caverna — Sereno</option><option value="2">Saída da Caverna — Suspenso</option></select>
-        <audio id="radio-audio" controls preload="none" aria-label="Reproduzir Rádio DJIA"></audio>
-        <div class="radio-bottom"><button class="vote" id="radio-next" type="button">Próxima faixa ↗</button><span id="radio-status" role="status">Aperte reproduzir para ouvir · volume inicial 25%.</span></div>
-        <small>Ao terminar, a próxima faixa começa automaticamente. <a href="https://github.com/sidineyr/PythonProjects/tree/master/saida_da_caverna/completa">Músicas no repositório ↗</a></small><noscript><p>Ative JavaScript para ouvir a rádio ou abra as músicas no repositório.</p></noscript></div>
-      </section>
       <section class="participation" aria-labelledby="choose-title"><h2 id="choose-title">Qual projeto desperta seu interesse?</h2><p id="counter-note">Explore e marque os projetos que você gostaria de usar. Os totais são compartilhados entre visitantes; cada projeto pode ser escolhido uma vez neste navegador. Contagem indicativa de interesse, sem cadastro.</p><details><summary>Sobre a contagem e a privacidade</summary><p>Os contadores usam o serviço externo <a href="https://counterapi.com/">CounterAPI</a>, que recebe o endereço IP e dados técnicos da conexão. Enviamos somente o identificador do projeto, sem nome ou respostas das atividades. A escolha fica também neste navegador para evitar repetição. Limpar esses dados ou mudar de navegador permite repetir: os totais não representam pessoas únicas. Falhas de conexão não são exibidas como zero.</p></details><noscript><p>Ative o JavaScript para carregar os contadores. Todos os links continuam disponíveis.</p></noscript></section>
 
       <div class="project-toolbar"><h2>Explore os projetos</h2><label for="project-order">Ordenar por <select id="project-order"><option value="access">Mais acessados</option><option value="updated">Atualizações recentes</option><option value="name">Nome do projeto</option></select></label></div><p id="order-status" role="status">Carregando a ordem dos projetos…</p><p id="metrics-note">Os números abaixo vêm dos contadores originais de cada projeto, com consulta prevista a cada seis horas. Acessos, leituras e testes concluídos aparecem identificados. A ordem inicial considera acessos, visitas e leituras. Testes concluídos aparecem depois, pois medem outra atividade; projetos sem contagem ficam ao final. Empates seguem o nome. Abrir este portfólio não aumenta esses números.</p>
@@ -397,6 +390,17 @@
       <footer>
         <span>Projetos gratuitos de Sidiney Rodrigues.</span>
         <a href="https://github.com/sidineyr">Ver repositórios no GitHub</a>
+        <section class="radio" aria-label="Rádio DJIA">
+          <details><summary>♫ Rádio DJIA · iniciando…</summary>
+            <div class="radio-controls"><label for="radio-track">Saída da Caverna · escolha a versão</label><select id="radio-track"><option value="0">Luminoso</option><option value="1">Sereno</option><option value="2">Suspenso</option></select>
+              <audio id="radio-audio" controls autoplay preload="metadata" aria-label="Reproduzir Rádio DJIA"></audio>
+              <div class="radio-bottom"><button class="vote" id="radio-next" type="button">Próxima faixa</button><span id="radio-status" role="status">Tentando iniciar · volume inicial 25%.</span></div>
+              <small>As três versões tocam em sequência e se repetem.</small>
+            </div>
+          </details>
+          <p>Música: “Saída da Caverna”, do <a href="https://github.com/sidineyr/PythonProjects/tree/master/SimpleDjIA">projeto DJIA</a> · <a href="https://github.com/sidineyr/PythonProjects/tree/master/saida_da_caverna/completa">áudios no repositório ↗</a></p>
+          <noscript><p>Abra os áudios no repositório para ouvir.</p></noscript>
+        </section>
       </footer>
     </main>
     <script src="/project-metrics.js" defer></script>
