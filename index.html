@@ -129,6 +129,8 @@
 }
     </script>
     <style>
+      .welcome-dialog{width:min(440px,calc(100% - 2rem));max-height:calc(100dvh - 2rem);overflow:auto;padding:clamp(1.25rem,4vw,2rem);border:1px solid #335370;border-radius:1.25rem;color:#eaf3ff;background:#0d1f36;box-shadow:0 24px 80px #0008}.welcome-dialog::backdrop{background:#020b17bb}.welcome-dialog h2{margin:0 0 1rem;font-size:1.6rem}.welcome-dialog p{color:#b9c9de;line-height:1.6}.welcome-actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.5rem}.welcome-actions button{flex:1;min-width:150px}.welcome-actions .quiet{background:transparent;border-color:#335370}
+
       .radio{flex-basis:100%;margin:1rem 0 0;padding-top:1rem;border-top:1px solid rgba(183,211,240,.1);font-size:.8rem;color:#8fa4bd}.radio p{margin:.5rem 0;line-height:1.5}.radio summary{color:#afc0d5;min-height:44px;display:flex;align-items:center;gap:.5rem;width:fit-content}.radio-controls{display:grid;gap:.6rem;max-width:420px;padding:.5rem 0}.radio audio{width:100%;height:40px}.radio select{font-size:.8rem;padding:.5rem;background:#0d1f36;border-color:#335370}.radio-bottom{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem}.radio .vote{font-size:.8rem;background:transparent;border-color:#335370}.radio-bottom span{font-size:.75rem}.radio a{color:#afc0d5}
       .project-toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;margin-top:2rem}.project-toolbar h2{margin:0}.project-toolbar label{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem}select{font:inherit;color:#eaf3ff;background:#12324a;border:1px solid #77dcff;border-radius:.5rem;padding:.65rem;max-width:100%}select:focus-visible{outline:3px solid #77dcff;outline-offset:4px}#order-status{color:#77dcff;font-size:.85rem}.project-update{margin-top:1rem;border-top:1px solid #335370;padding-top:.8rem;font-size:.85rem}.project-update p{margin:.5rem 0}.project-update a{color:#77dcff;text-underline-offset:.2em}.project-update ul{padding-left:1.2rem;line-height:1.6}.project-update time{color:#b9c9de;display:block;font-size:.8rem}
       .access-metric{display:grid;gap:.35rem;margin-top:1rem;padding:.8rem 0;border-top:1px solid #335370;font-size:.85rem}.access-metric strong{color:#eaf3ff}.access-metric a{color:#77dcff;text-underline-offset:.2em}.access-metric small,#metrics-note{color:#b9c9de;line-height:1.6}
@@ -267,11 +269,17 @@
     </style>
   </head>
   <body>
+    <dialog id="welcome-dialog" class="welcome-dialog" aria-labelledby="welcome-title" aria-describedby="welcome-description">
+      <h2 id="welcome-title">Boas-vindas!</h2>
+      <p id="welcome-description">Explore os projetos de educação, ciência e tecnologia. Quer ouvir uma música enquanto navega?</p>
+      <p>A rádio toca “Saída da Caverna”, do projeto DJIA, em volume baixo. Você pode pausar e ajustar o som no rodapé.</p>
+      <div class="welcome-actions"><button type="button" class="vote" id="welcome-listen">Ouvir a rádio</button><button type="button" class="vote quiet" id="welcome-silent" autofocus>Continuar sem áudio</button></div>
+    </dialog>
     <aside aria-label="Language / Idioma" style="position:fixed;right:12px;top:12px;z-index:1000;border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:8px 12px;background:rgba(7,20,38,.94);box-shadow:0 8px 24px rgba(0,0,0,.24)"><strong style="margin-right:8px;font-size:12px">PT / EN</strong><span id="google_translate_element"></span></aside>
     <main>
       <header>
         <p class="eyebrow">Sidiney Rodrigues</p>
-        <h1>Educação, ciência e tecnologia em movimento.</h1>
+        <h1 tabindex="-1" id="portfolio-title">Educação, ciência e tecnologia em movimento.</h1>
         <p class="intro">
           Sou Sidiney Rodrigues, pedagogo. Crio experiências de educação, ciência e análise de dados para aprender, investigar e tomar decisões com mais clareza.
         </p>
@@ -391,10 +399,10 @@
         <span>Projetos gratuitos de Sidiney Rodrigues.</span>
         <a href="https://github.com/sidineyr">Ver repositórios no GitHub</a>
         <section class="radio" aria-label="Rádio DJIA">
-          <details><summary>♫ Rádio DJIA · iniciando…</summary>
+          <details><summary>♫ Rádio DJIA · ouvir música</summary>
             <div class="radio-controls"><label for="radio-track">Saída da Caverna · escolha a versão</label><select id="radio-track"><option value="0">Luminoso</option><option value="1">Sereno</option><option value="2">Suspenso</option></select>
-              <audio id="radio-audio" controls autoplay preload="metadata" aria-label="Reproduzir Rádio DJIA"></audio>
-              <div class="radio-bottom"><button class="vote" id="radio-next" type="button">Próxima faixa</button><span id="radio-status" role="status">Tentando iniciar · volume inicial 25%.</span></div>
+              <audio id="radio-audio" controls preload="none" aria-label="Reproduzir Rádio DJIA"></audio>
+              <div class="radio-bottom"><button class="vote" id="radio-next" type="button">Próxima faixa</button><span id="radio-status" role="status">Aperte reproduzir para ouvir · volume inicial 25%.</span></div>
               <small>As três versões tocam em sequência e se repetem.</small>
             </div>
           </details>
