@@ -1,0 +1,509 @@
+{
+  "einstein": {
+    "repository": "sidineyr/Einstein-Fisica",
+    "source": "https://github.com/sidineyr/Einstein-Fisica/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "Adiciona contador público de acessos e integração com o portfólio",
+        "date": "2026-10-16T21:43:52Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/4e98169d21693414ba6eff0c18f3519eddf8acb0",
+        "sha": "4e98169d21693414ba6eff0c18f3519eddf8acb0"
+      },
+      {
+        "title": "i18n: adicionar seletor português inglês",
+        "date": "2026-09-15T22:49:18Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/b1601ea763367fc69e6b1e4860b7e85f1a31c2fd",
+        "sha": "b1601ea763367fc69e6b1e4860b7e85f1a31c2fd"
+      },
+      {
+        "title": "SEO: refinar termos de Física e links internos",
+        "date": "2026-09-15T22:32:46Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/1b7240cb53c648961f39a0679079f2c97fee62fd",
+        "sha": "1b7240cb53c648961f39a0679079f2c97fee62fd"
+      },
+      {
+        "title": "feat: add direct Hospital Pequeno Príncipe donation note",
+        "date": "2026-09-13T22:34:24Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/636f78c669f9db663552b64b28ffc5eae3b7e0cc",
+        "sha": "636f78c669f9db663552b64b28ffc5eae3b7e0cc"
+      },
+      {
+        "title": "Add prominent authorship and OpenAI credits (#1)",
+        "date": "2026-09-05T19:36:43Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/2b8642791206c7dddb3a94f2b6073446803865d2",
+        "sha": "2b8642791206c7dddb3a94f2b6073446803865d2"
+      }
+    ],
+    "status": "ok"
+  },
+  "horizonte": {
+    "repository": "sidineyr/horizonte",
+    "source": "https://github.com/sidineyr/horizonte/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "i18n: reforçar descoberta bilíngue PT EN",
+        "date": "2026-09-15T22:49:19Z",
+        "url": "https://github.com/sidineyr/horizonte/commit/4dd66896cf3bbaddb4e2fb6a15252206b99d9987",
+        "sha": "4dd66896cf3bbaddb4e2fb6a15252206b99d9987"
+      },
+      {
+        "title": "SEO: alinhar intenção de busca e conectar projetos",
+        "date": "2026-09-15T22:32:43Z",
+        "url": "https://github.com/sidineyr/horizonte/commit/8e2dada727bd88a2361b41d7f05fa448bf3faac0",
+        "sha": "8e2dada727bd88a2361b41d7f05fa448bf3faac0"
+      },
+      {
+        "title": "feat: add direct Hospital Pequeno Príncipe donation note",
+        "date": "2026-09-13T22:34:22Z",
+        "url": "https://github.com/sidineyr/horizonte/commit/8b7eeb739bb4d6cce9d23304b88ba2f48a7e9c60",
+        "sha": "8b7eeb739bb4d6cce9d23304b88ba2f48a7e9c60"
+      },
+      {
+        "title": "Add search engine discovery and ownership verification",
+        "date": "2026-08-31T22:39:54Z",
+        "url": "https://github.com/sidineyr/horizonte/commit/71a6b4467bd51b7a3bbe21d6019fc40e99052066",
+        "sha": "71a6b4467bd51b7a3bbe21d6019fc40e99052066"
+      },
+      {
+        "title": "Merge: suporte a idiomas, melhorias recentes e convite à comunidade",
+        "date": "2026-08-31T18:20:45Z",
+        "url": "https://github.com/sidineyr/horizonte/commit/756af2ca39c3f67af1f02e1d3be439cb02a0e302",
+        "sha": "756af2ca39c3f67af1f02e1d3be439cb02a0e302"
+      }
+    ],
+    "status": "ok"
+  },
+  "quality-view": {
+    "repository": "sidineyr/qv",
+    "source": "https://github.com/sidineyr/qv/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "SEO: notificar IndexNow após deploy do QV",
+        "date": "2026-09-28T15:25:44Z",
+        "url": "https://github.com/sidineyr/qv/commit/7f7dbe739c365473981feb5172664672c0fb882c",
+        "sha": "7f7dbe739c365473981feb5172664672c0fb882c"
+      },
+      {
+        "title": "Docs: destacar site publicado do QV",
+        "date": "2026-09-28T14:58:11Z",
+        "url": "https://github.com/sidineyr/qv/commit/78f6b5f0f2be1588e1fd1b90460330b1de16c9e0",
+        "sha": "78f6b5f0f2be1588e1fd1b90460330b1de16c9e0"
+      },
+      {
+        "title": "SEO: atualizar data do sitemap do QV",
+        "date": "2026-09-28T14:58:09Z",
+        "url": "https://github.com/sidineyr/qv/commit/6c4b7b6fac0908a4528f826fcb374c264641ea6f",
+        "sha": "6c4b7b6fac0908a4528f826fcb374c264641ea6f"
+      },
+      {
+        "title": "Recuperar questionário e painel após dados locais inválidos (#3)",
+        "date": "2026-09-27T21:40:34Z",
+        "url": "https://github.com/sidineyr/qv/commit/b2b7a8d975a53aa4fea0c20b5cd5117f2720fdc3",
+        "sha": "b2b7a8d975a53aa4fea0c20b5cd5117f2720fdc3"
+      },
+      {
+        "title": "i18n: adicionar seletor português inglês",
+        "date": "2026-09-15T22:49:21Z",
+        "url": "https://github.com/sidineyr/qv/commit/f46b8afe661d99a49a8a2d54e9c41d8c25ecfc5e",
+        "sha": "f46b8afe661d99a49a8a2d54e9c41d8c25ecfc5e"
+      }
+    ],
+    "status": "ok"
+  },
+  "python-swirl": {
+    "repository": "sidineyr/python-swirl-statistics",
+    "source": "https://github.com/sidineyr/python-swirl-statistics/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "Adiciona contador público de acessos e integração com o portfólio",
+        "date": "2026-10-16T21:44:05Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/df4d175257ebebb0d84c5577219fddd4e23413ed",
+        "sha": "df4d175257ebebb0d84c5577219fddd4e23413ed"
+      },
+      {
+        "title": "Corrige preservação de respostas e conferência; aprofunda avaliação das dez aulas",
+        "date": "2026-10-12T17:31:28Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/ddc098e9ec9c35350c5d73607a0f0d6cf5b2d14e",
+        "sha": "ddc098e9ec9c35350c5d73607a0f0d6cf5b2d14e"
+      },
+      {
+        "title": "Document successful deployment, CI and desktop course walkthrough",
+        "date": "2026-10-08T22:56:35Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/85afb525b05232313e13ca196024bbce212c6e92",
+        "sha": "85afb525b05232313e13ca196024bbce212c6e92"
+      },
+      {
+        "title": "Keep worked-example data available for notebook practice questions",
+        "date": "2026-10-08T22:53:46Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/bcb2587a3745ab40243099ae2355ccbace16ffb1",
+        "sha": "bcb2587a3745ab40243099ae2355ccbace16ffb1"
+      },
+      {
+        "title": "Rebuild online course with ten modules, curated videos and executable notebooks",
+        "date": "2026-10-08T22:52:47Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/bd9af483a8614c09ce999a9805fd1b3437c6cceb",
+        "sha": "bd9af483a8614c09ce999a9805fd1b3437c6cceb"
+      }
+    ],
+    "status": "ok"
+  },
+  "chemical": {
+    "repository": "sidineyr/Chemical",
+    "source": "https://github.com/sidineyr/Chemical/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "docs: add contribution guide",
+        "date": "2026-10-16T22:48:54Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/993bce92592f140e651168ee88fd0f70085815ea",
+        "sha": "993bce92592f140e651168ee88fd0f70085815ea"
+      },
+      {
+        "title": "Adiciona contador público de acessos e integração com o portfólio",
+        "date": "2026-10-16T21:43:55Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/93d7b067ade65b3df521de4ac926e591fa3c223a",
+        "sha": "93d7b067ade65b3df521de4ac926e591fa3c223a"
+      },
+      {
+        "title": "SEO: notificar IndexNow após deploy do Chemical",
+        "date": "2026-09-28T15:25:46Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/9f8463aa5608024254217e29b51eee39e55ccf14",
+        "sha": "9f8463aa5608024254217e29b51eee39e55ccf14"
+      },
+      {
+        "title": "Pages: publicar arquivos estáticos sem processamento Jekyll",
+        "date": "2026-09-28T14:58:27Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/adace2dd56825fe4d3b059a3b6e1ab988434112f",
+        "sha": "adace2dd56825fe4d3b059a3b6e1ab988434112f"
+      },
+      {
+        "title": "Docs: destacar site publicado do Chemical",
+        "date": "2026-09-28T14:58:25Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/cc47bd7cc47ce1802b5ad7e75b9cf4a5b1a50add",
+        "sha": "cc47bd7cc47ce1802b5ad7e75b9cf4a5b1a50add"
+      }
+    ],
+    "status": "ok"
+  },
+  "filosofia": {
+    "repository": "sidineyr/filosofia-aberta",
+    "source": "https://github.com/sidineyr/filosofia-aberta/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "Adiciona contador público de acessos e integração com o portfólio",
+        "date": "2026-10-16T21:43:59Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/829cea127e79b9a6f772cc0ed0259af2735398f5",
+        "sha": "829cea127e79b9a6f772cc0ed0259af2735398f5"
+      },
+      {
+        "title": "i18n: oferecer tradução PT EN em todas as páginas",
+        "date": "2026-09-15T22:49:22Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/d7b4caf257501555abaf3ada5ae39540fa57f8e4",
+        "sha": "d7b4caf257501555abaf3ada5ae39540fa57f8e4"
+      },
+      {
+        "title": "SEO: otimizar percurso para iniciantes",
+        "date": "2026-09-15T22:32:47Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/2a00f8345d1396581812eda906ea784606f904e2",
+        "sha": "2a00f8345d1396581812eda906ea784606f904e2"
+      },
+      {
+        "title": "Release v0.3.0: complete the guided philosophy path",
+        "date": "2026-09-10T21:17:15Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/3e1acd438cf1b997ff8d588be94409bc66729a61",
+        "sha": "3e1acd438cf1b997ff8d588be94409bc66729a61"
+      },
+      {
+        "title": "Release v0.2.0: bloquinhos de conhecimento (#2)",
+        "date": "2026-09-08T15:49:00Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/c8474d70155ebb68dbae5df95b756baf780ad241",
+        "sha": "c8474d70155ebb68dbae5df95b756baf780ad241"
+      }
+    ],
+    "status": "ok"
+  },
+  "biosfera": {
+    "repository": "sidineyr/biosfera",
+    "source": "https://github.com/sidineyr/biosfera/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "Adiciona contador público de acessos e integração com o portfólio",
+        "date": "2026-10-16T21:44:02Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/4c72fa79052e3d763d2f37a9910bd706af10b664",
+        "sha": "4c72fa79052e3d763d2f37a9910bd706af10b664"
+      },
+      {
+        "title": "i18n: alinhar metadados bilíngues",
+        "date": "2026-09-15T22:49:22Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/c8088805c1ab6bbf8cc3f8f23f39fe960a063357",
+        "sha": "c8088805c1ab6bbf8cc3f8f23f39fe960a063357"
+      },
+      {
+        "title": "SEO: alinhar termos de Biologia interativa",
+        "date": "2026-09-15T22:32:44Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/511f3927d90abb6d1b0a3e08dfbaaabe71e53168",
+        "sha": "511f3927d90abb6d1b0a3e08dfbaaabe71e53168"
+      },
+      {
+        "title": "feat: launch Biosfera Aberta visual biology experience",
+        "date": "2026-09-13T21:08:44Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/b3661467df682ced6421a9c6e13dcdc8030a1daf",
+        "sha": "b3661467df682ced6421a9c6e13dcdc8030a1daf"
+      },
+      {
+        "title": "chore: initialize Biosfera Aberta",
+        "date": "2026-09-13T21:08:07Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/2c2b2c7a967007715b2496c11c6abe267f3aa8b6",
+        "sha": "2c2b2c7a967007715b2496c11c6abe267f3aa8b6"
+      }
+    ],
+    "status": "ok"
+  },
+  "atlas": {
+    "repository": "sidineyr/atlas-do-sagrado",
+    "source": "https://github.com/sidineyr/atlas-do-sagrado/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "fix(ux): revisar orientação pedagógica, fontes e conclusão dos módulos",
+        "date": "2026-10-30T00:00:22Z",
+        "url": "https://github.com/sidineyr/atlas-do-sagrado/commit/82d4d88138947585dc13cbf10ac9fc109f99055c",
+        "sha": "82d4d88138947585dc13cbf10ac9fc109f99055c"
+      },
+      {
+        "title": "i18n: adicionar seletor português inglês",
+        "date": "2026-09-15T22:49:19Z",
+        "url": "https://github.com/sidineyr/atlas-do-sagrado/commit/66a7dd9aca1b11b67bcce1247ee0eb7e5cc3d386",
+        "sha": "66a7dd9aca1b11b67bcce1247ee0eb7e5cc3d386"
+      },
+      {
+        "title": "SEO: ampliar descoberta do curso de religiões",
+        "date": "2026-09-15T22:32:45Z",
+        "url": "https://github.com/sidineyr/atlas-do-sagrado/commit/78e73cdff1e9b94034e1b451fa41d5c131df76d2",
+        "sha": "78e73cdff1e9b94034e1b451fa41d5c131df76d2"
+      },
+      {
+        "title": "feat: add direct Hospital Pequeno Príncipe donation note",
+        "date": "2026-09-13T22:34:25Z",
+        "url": "https://github.com/sidineyr/atlas-do-sagrado/commit/17bd64215bb6ef21c7d3030496c4b3d444a91eb4",
+        "sha": "17bd64215bb6ef21c7d3030496c4b3d444a91eb4"
+      },
+      {
+        "title": "docs: create issue tracking template for testing improvements",
+        "date": "2026-09-11T23:37:56Z",
+        "url": "https://github.com/sidineyr/atlas-do-sagrado/commit/2761511d0affe813e6f4fead48da2c2cb697a647",
+        "sha": "2761511d0affe813e6f4fead48da2c2cb697a647"
+      }
+    ],
+    "status": "ok"
+  },
+  "bb": {
+    "repository": "sidineyr/bb",
+    "source": "https://github.com/sidineyr/bb/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "Adiciona contador público de visitas",
+        "date": "2026-09-16T21:42:08Z",
+        "url": "https://github.com/sidineyr/bb/commit/31758078c57de80e9da124c954274de490dc1e71",
+        "sha": "31758078c57de80e9da124c954274de490dc1e71"
+      },
+      {
+        "title": "Estiliza contador público de visitas",
+        "date": "2026-09-16T21:42:07Z",
+        "url": "https://github.com/sidineyr/bb/commit/33579c5723575a5d1e9cfefc4fe1cd752af01bc8",
+        "sha": "33579c5723575a5d1e9cfefc4fe1cd752af01bc8"
+      },
+      {
+        "title": "Adiciona verificação IndexNow para mecanismos de busca",
+        "date": "2026-09-16T21:30:08Z",
+        "url": "https://github.com/sidineyr/bb/commit/df5f114bc6236d4367418012051bc2813a3cb854",
+        "sha": "df5f114bc6236d4367418012051bc2813a3cb854"
+      },
+      {
+        "title": "Cria o BB — Bê-á-Bá da Internet e da IA",
+        "date": "2026-09-16T21:08:36Z",
+        "url": "https://github.com/sidineyr/bb/commit/0d20beb4e14e920c3f6a93493f656372c8c97317",
+        "sha": "0d20beb4e14e920c3f6a93493f656372c8c97317"
+      },
+      {
+        "title": "Inicia o BB — Bê-á-Bá da Internet e da IA",
+        "date": "2026-09-16T21:07:38Z",
+        "url": "https://github.com/sidineyr/bb/commit/6a0db60d0988e8356dc482efe468dd720695f3e4",
+        "sha": "6a0db60d0988e8356dc482efe468dd720695f3e4"
+      }
+    ],
+    "status": "ok"
+  },
+  "contraprova": {
+    "repository": "sidineyr/contraprova",
+    "source": "https://github.com/sidineyr/contraprova/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "Adiciona contador público de acessos e integração com o portfólio",
+        "date": "2026-10-16T21:44:08Z",
+        "url": "https://github.com/sidineyr/contraprova/commit/31a690b918dd9b5828ec02a764c4b32f90326fa4",
+        "sha": "31a690b918dd9b5828ec02a764c4b32f90326fa4"
+      },
+      {
+        "title": "Contraprova 0.3: investigação online com fontes e histórico preservado",
+        "date": "2026-10-14T00:23:04Z",
+        "url": "https://github.com/sidineyr/contraprova/commit/ee3bd1f1d21d42793cf9031fe111ea4d9f0067ac",
+        "sha": "ee3bd1f1d21d42793cf9031fe111ea4d9f0067ac"
+      },
+      {
+        "title": "Document verified browser workflow and comparison pilot [skip ci]",
+        "date": "2026-10-01T22:05:36Z",
+        "url": "https://github.com/sidineyr/contraprova/commit/4df244af01cb33cecda4d51923d40b31d86c4900",
+        "sha": "4df244af01cb33cecda4d51923d40b31d86c4900"
+      },
+      {
+        "title": "Recover input validation and persist selected claim drafts",
+        "date": "2026-10-01T22:01:46Z",
+        "url": "https://github.com/sidineyr/contraprova/commit/541dd6ff7e42d8d057b1bd13d89ce177dd51bfaa",
+        "sha": "541dd6ff7e42d8d057b1bd13d89ce177dd51bfaa"
+      },
+      {
+        "title": "Preserve previous decisions when correcting claims and resume interpretation drafts",
+        "date": "2026-10-01T22:00:04Z",
+        "url": "https://github.com/sidineyr/contraprova/commit/f18356b543e929a1ebcb275cf510d66cae01ee79",
+        "sha": "f18356b543e929a1ebcb275cf510d66cae01ee79"
+      }
+    ],
+    "status": "ok"
+  },
+  "polliniza": {
+    "repository": "sidineyr/Polliniza",
+    "source": "https://github.com/sidineyr/Polliniza/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "Adiciona contador público de acessos e integração com o portfólio",
+        "date": "2026-10-16T21:44:11Z",
+        "url": "https://github.com/sidineyr/Polliniza/commit/c186b342766e74063e11b58871df4fc4298a0e56",
+        "sha": "c186b342766e74063e11b58871df4fc4298a0e56"
+      },
+      {
+        "title": "docs: bilingual presentation and reproducible extension release (#6)",
+        "date": "2026-09-29T20:56:49Z",
+        "url": "https://github.com/sidineyr/Polliniza/commit/387f18e42ad449eab58e5891c0fe7ce9c2cbce74",
+        "sha": "387f18e42ad449eab58e5891c0fe7ce9c2cbce74"
+      },
+      {
+        "title": "feat: add no-card Vercel hosting option (#4)",
+        "date": "2026-09-27T22:37:46Z",
+        "url": "https://github.com/sidineyr/Polliniza/commit/0b77128f678ac9cffd408b7ffbc3f191344658b1",
+        "sha": "0b77128f678ac9cffd408b7ffbc3f191344658b1"
+      },
+      {
+        "title": "feat: prepare free hosting and search indexing (#3)",
+        "date": "2026-09-27T22:12:11Z",
+        "url": "https://github.com/sidineyr/Polliniza/commit/dd2b2a3f0a9e043935bb5359f69dbc503fb52dc5",
+        "sha": "dd2b2a3f0a9e043935bb5359f69dbc503fb52dc5"
+      },
+      {
+        "title": "fix: make web startup deployable and validate public origin (#2)",
+        "date": "2026-09-27T22:06:20Z",
+        "url": "https://github.com/sidineyr/Polliniza/commit/15b68ce46e3f9760df9b3b0b0ba1a577239510ec",
+        "sha": "15b68ce46e3f9760df9b3b0b0ba1a577239510ec"
+      }
+    ],
+    "status": "ok"
+  },
+  "universidade": {
+    "repository": "sidineyr/sidineyr.github.io",
+    "source": "https://github.com/sidineyr/sidineyr.github.io/commits/main/universidade",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "Integra contadores originais e atualização periódica das métricas",
+        "date": "2026-10-16T21:43:44Z",
+        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/95d040cd1c0470cd9783b98e2ce8bf8c409259b5",
+        "sha": "95d040cd1c0470cd9783b98e2ce8bf8c409259b5"
+      },
+      {
+        "title": "Publish curated resources and usage conditions",
+        "date": "2026-09-27T02:03:27Z",
+        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/2a472a04abd021d6092dc29d93be19bdcadd549b",
+        "sha": "2a472a04abd021d6092dc29d93be19bdcadd549b"
+      },
+      {
+        "title": "Add curated external resources to university",
+        "date": "2026-09-27T02:03:26Z",
+        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/4f33ec9611ac1b34afb568dd75dbf75944c73137",
+        "sha": "4f33ec9611ac1b34afb568dd75dbf75944c73137"
+      },
+      {
+        "title": "Add curated external resources to university",
+        "date": "2026-09-27T02:03:24Z",
+        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/7790db0d0a859a7cd924fa003935e946a9a9ff52",
+        "sha": "7790db0d0a859a7cd924fa003935e946a9a9ff52"
+      },
+      {
+        "title": "Add curated external resources to university",
+        "date": "2026-09-27T02:03:22Z",
+        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/7fec942a4af16e33802f887c04b440ef6eac07e1",
+        "sha": "7fec942a4af16e33802f887c04b440ef6eac07e1"
+      }
+    ],
+    "status": "ok"
+  },
+  "callguid": {
+    "repository": "sidineyr/callguid",
+    "source": "https://github.com/sidineyr/callguid/commits",
+    "checkedAt": "2026-11-06T20:14:33+00:00",
+    "attemptedAt": "2026-11-06T20:14:33+00:00",
+    "items": [
+      {
+        "title": "Exercise native desktop animations on the isolated CI display",
+        "date": "2026-11-06T17:04:30Z",
+        "url": "https://github.com/sidineyr/callguid/commit/517fde22de115219e71ca43dc9ef686c34d9e005",
+        "sha": "517fde22de115219e71ca43dc9ef686c34d9e005"
+      },
+      {
+        "title": "Use the animation frame clock consistently and await actual progress in native smoke tests",
+        "date": "2026-11-06T17:03:42Z",
+        "url": "https://github.com/sidineyr/callguid/commit/f386516a2b9a8d599b296a6137405c6f6871fa75",
+        "sha": "f386516a2b9a8d599b296a6137405c6f6871fa75"
+      },
+      {
+        "title": "Record desktop smoke failures before checking the native process exit",
+        "date": "2026-11-06T17:01:22Z",
+        "url": "https://github.com/sidineyr/callguid/commit/92be37372ae0da026aedf0eee1df36b44a6e89a8",
+        "sha": "92be37372ae0da026aedf0eee1df36b44a6e89a8"
+      },
+      {
+        "title": "Publish CallGuide Desktop for Windows, Linux and macOS",
+        "date": "2026-11-06T16:57:52Z",
+        "url": "https://github.com/sidineyr/callguid/commit/f9b73b9e0dbdd3276e8f3f94db692f63f2de2744",
+        "sha": "f9b73b9e0dbdd3276e8f3f94db692f63f2de2744"
+      },
+      {
+        "title": "Keep bilingual desktop release notes separate from workflow YAML",
+        "date": "2026-11-06T16:54:55Z",
+        "url": "https://github.com/sidineyr/callguid/commit/356e8b05776cfa8e2734d529bcef05f28a3f4ce5",
+        "sha": "356e8b05776cfa8e2734d529bcef05f28a3f4ce5"
+      }
+    ],
+    "status": "ok"
+  }
+}

@@ -63,18 +63,19 @@
   },
   "quality-view": {
     "label": "acessos",
-    "source": "https://visitorbadge.io/status?user=sidineyr&repo=qv-site",
-    "endpoint": "https://api.visitorbadge.io/api/status?user=sidineyr&repo=qv-site",
-    "field": "total"
+    "source": "https://hits.sh/sidineyr.github.io/qv/",
+    "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/qv",
+    "field": "total",
+    "since": "2026-11-06"
   },
   "horizonte": {
-    "label": "testes concluídos",
+    "label": "testes concluÃ­dos",
     "source": "https://horizonte-vocacional.blubier.chatgpt.site/",
     "endpoint": "https://horizonte-vocacional.blubier.chatgpt.site/api/completions",
     "field": "total"
   },
   "atlas": {
-    "label": "leituras da página inicial",
+    "label": "leituras da pÃ¡gina inicial",
     "source": "https://atlas-do-sagrado.blubier.chatgpt.site/",
     "endpoint": "https://atlas-do-sagrado.blubier.chatgpt.site/api/views?page=inicio",
     "field": "count"
