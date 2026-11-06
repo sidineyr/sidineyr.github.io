@@ -129,6 +129,7 @@
 }
     </script>
     <style>
+      .project-toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;margin-top:2rem}.project-toolbar h2{margin:0}.project-toolbar label{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem}select{font:inherit;color:#eaf3ff;background:#12324a;border:1px solid #77dcff;border-radius:.5rem;padding:.65rem;max-width:100%}select:focus-visible{outline:3px solid #77dcff;outline-offset:4px}#order-status{color:#77dcff;font-size:.85rem}.project-update{margin-top:1rem;border-top:1px solid #335370;padding-top:.8rem;font-size:.85rem}.project-update p{margin:.5rem 0}.project-update a{color:#77dcff;text-underline-offset:.2em}.project-update ul{padding-left:1.2rem;line-height:1.6}.project-update time{color:#b9c9de;display:block;font-size:.8rem}
       .access-metric{display:grid;gap:.35rem;margin-top:1rem;padding:.8rem 0;border-top:1px solid #335370;font-size:.85rem}.access-metric strong{color:#eaf3ff}.access-metric a{color:#77dcff;text-underline-offset:.2em}.access-metric small,#metrics-note{color:#b9c9de;line-height:1.6}
       .updated,.status { color:#afc0d5; font-size:.8rem; }
       .participation { margin:1.5rem 0 2rem; padding:1.25rem; border:1px solid #335370; border-radius:1rem; }
@@ -277,7 +278,7 @@
       </header>
       <section class="participation" aria-labelledby="choose-title"><h2 id="choose-title">Qual projeto desperta seu interesse?</h2><p id="counter-note">Explore e marque os projetos que você gostaria de usar. Os totais são compartilhados entre visitantes; cada projeto pode ser escolhido uma vez neste navegador. Contagem indicativa de interesse, sem cadastro.</p><details><summary>Sobre a contagem e a privacidade</summary><p>Os contadores usam o serviço externo <a href="https://counterapi.com/">CounterAPI</a>, que recebe o endereço IP e dados técnicos da conexão. Enviamos somente o identificador do projeto, sem nome ou respostas das atividades. A escolha fica também neste navegador para evitar repetição. Limpar esses dados ou mudar de navegador permite repetir: os totais não representam pessoas únicas. Falhas de conexão não são exibidas como zero.</p></details><noscript><p>Ative o JavaScript para carregar os contadores. Todos os links continuam disponíveis.</p></noscript></section>
 
-      <p id="metrics-note">Os números abaixo vêm dos contadores originais de cada projeto, com consulta prevista a cada seis horas. Acessos, leituras e testes concluídos aparecem identificados. Abrir este portfólio não aumenta esses números.</p>
+      <div class="project-toolbar"><h2>Explore os projetos</h2><label for="project-order">Ordenar por <select id="project-order"><option value="access">Mais acessados</option><option value="updated">Atualizações recentes</option><option value="name">Nome do projeto</option></select></label></div><p id="order-status" role="status">Carregando a ordem dos projetos…</p><p id="metrics-note">Os números abaixo vêm dos contadores originais de cada projeto, com consulta prevista a cada seis horas. Acessos, leituras e testes concluídos aparecem identificados. A ordem inicial considera acessos, visitas e leituras. Testes concluídos aparecem depois, pois medem outra atividade; projetos sem contagem ficam ao final. Empates seguem o nome. Abrir este portfólio não aumenta esses números.</p>
       <section class="grid" aria-label="Projetos">
         <article class="card" data-project="einstein" aria-labelledby="title-einstein">
           <div><span class="tag">Física</span><h2 id="title-einstein">Einstein · Física em Movimento</h2><p>12 missões investigativas, quatro laboratórios e uma bancada de forças com medições, tabela e gráfico.</p></div>
@@ -391,6 +392,7 @@
       </footer>
     </main>
     <script src="/project-metrics.js" defer></script>
+    <script src="/project-updates.js" defer></script>
     <script src="/project-votes.js" defer></script>
     <script src="/language-toggle.js"></script>
   </body>
