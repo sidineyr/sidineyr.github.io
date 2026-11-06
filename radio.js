@@ -7,10 +7,10 @@
   const status = document.querySelector('#radio-status');
   const summary = document.querySelector('.radio summary');
   const base = 'https://raw.githubusercontent.com/sidineyr/PythonProjects/master/saida_da_caverna/completa/';
-  const files = ['saida_da_caverna_luminoso.mp3','saida_da_caverna_sereno.mp3','saida_da_caverna_suspenso.mp3'];
+  const files = ['https://raw.githubusercontent.com/sidineyr/PythonProjects/master/abertura_portfolio/portal_da_descoberta.mp3', ...['saida_da_caverna_luminoso.mp3','saida_da_caverna_sereno.mp3','saida_da_caverna_suspenso.mp3'].map(file => base + file)];
   let index = 0, failures = 0, request = 0, listening = false;
   audio.volume = .25;
-  audio.src = base + files[0];
+  audio.src = files[0];
   async function play() {
     listening = true;
     const current = ++request;
@@ -23,7 +23,7 @@
   }
   function choose(value, resume) {
     index = value; select.value = String(index);
-    audio.src = base + files[index];
+    audio.src = files[index];
     status.textContent = resume ? 'Carregando a faixa…' : 'Faixa selecionada. Aperte reproduzir para ouvir.';
     if (resume) play();
   }
@@ -52,7 +52,7 @@
   // The introduction owns opening the welcome dialog; these buttons own consent.
   if ('mediaSession'  in navigator && typeof MediaMetadata !== 'undefined') {
     audio.addEventListener('playing', () => {
-      navigator.mediaSession.metadata = new MediaMetadata({title:select.options[index].textContent,artist:'DJIA',album:'Saída da Caverna'});
+      navigator.mediaSession.metadata = new MediaMetadata({title:select.options[index].textContent,artist:'DJIA',album:'Rádio DJIA · Portfólio'});
     });
     navigator.mediaSession.setActionHandler('nexttrack', () => next.click());
   }
