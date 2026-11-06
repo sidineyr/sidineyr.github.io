@@ -69,13 +69,13 @@
     "since": "2026-11-06"
   },
   "horizonte": {
-    "label": "testes concluÃ­dos",
+    "label": "testes concluídos",
     "source": "https://horizonte-vocacional.blubier.chatgpt.site/",
     "endpoint": "https://horizonte-vocacional.blubier.chatgpt.site/api/completions",
     "field": "total"
   },
   "atlas": {
-    "label": "leituras da pÃ¡gina inicial",
+    "label": "leituras da página inicial",
     "source": "https://atlas-do-sagrado.blubier.chatgpt.site/",
     "endpoint": "https://atlas-do-sagrado.blubier.chatgpt.site/api/views?page=inicio",
     "field": "count"

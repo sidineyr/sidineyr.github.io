@@ -128,6 +128,7 @@
   }
 }
     </script>
+    <link rel="stylesheet" href="/intro.css" />
     <style>
       .welcome-dialog{width:min(440px,calc(100% - 2rem));max-height:calc(100dvh - 2rem);overflow:auto;padding:clamp(1.25rem,4vw,2rem);border:1px solid #335370;border-radius:1.25rem;color:#eaf3ff;background:#0d1f36;box-shadow:0 24px 80px #0008}.welcome-dialog::backdrop{background:#020b17bb}.welcome-dialog h2{margin:0 0 1rem;font-size:1.6rem}.welcome-dialog p{color:#b9c9de;line-height:1.6}.welcome-actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.5rem}.welcome-actions button{flex:1;min-width:150px}.welcome-actions .quiet{background:transparent;border-color:#335370}
 
@@ -269,11 +270,23 @@
     </style>
   </head>
   <body>
-    <dialog id="welcome-dialog" class="welcome-dialog" aria-labelledby="welcome-title" aria-describedby="welcome-description">
-      <h2 id="welcome-title">Boas-vindas!</h2>
-      <p id="welcome-description">Explore os projetos de educação, ciência e tecnologia. Quer ouvir uma música enquanto navega?</p>
-      <p>A rádio toca “Saída da Caverna”, do projeto DJIA, em volume baixo. Você pode pausar e ajustar o som no rodapé.</p>
-      <div class="welcome-actions"><button type="button" class="vote" id="welcome-listen">Ouvir a rádio</button><button type="button" class="vote quiet" id="welcome-silent" autofocus>Continuar sem áudio</button></div>
+    <dialog id="welcome-dialog" class="welcome-dialog intro-dialog" aria-labelledby="welcome-title" aria-describedby="welcome-description">
+      <div class="intro-top"><span>Um convite à descoberta</span><button type="button" id="intro-skip" class="text-button" autofocus>Pular apresentação</button></div>
+      <div class="intro-layout">
+        <figure class="tutor-portrait"><img src="https://raw.githubusercontent.com/sidineyr/callguid/master/desktop/assets/prince.png" width="1024" height="1536" alt="Tutor original do CallGuide, com uma caneta e um livro, entre folhas." decoding="async" /><figcaption>Seu companheiro de descobertas · CallGuide</figcaption><span class="intro-star star-one" aria-hidden="true">✦</span><span class="intro-star star-two" aria-hidden="true">✧</span></figure>
+        <div class="intro-story"><p class="intro-step" id="intro-step">01 / 05 · Acolher</p><h2 id="welcome-title">Olá! Que bom encontrar você por aqui.</h2>
+          <p id="welcome-description">Traga sua curiosidade. Há novos caminhos para descobrir.</p>
+          <div class="intro-symbols" aria-label="Áreas dos projetos"><span>✧ Ciência</span><span>⌘ Tecnologia</span><span>✎ Aprendizagem</span></div>
+          <div id="intro-previews" class="intro-previews" hidden><span>Einstein · investigar</span><span>Filosofia Aberta · refletir</span><span>CallGuide · experimentar</span></div>
+          <div id="intro-audio" hidden><p>As músicas são do projeto DJIA. Você pode pausar e ajustar o volume na rádio, no rodapé.</p><div class="welcome-actions"><button type="button" class="vote" id="welcome-listen">Entrar com música</button><button type="button" class="vote quiet" id="welcome-silent">Entrar sem música</button></div></div>
+          <div class="intro-navigation"><button type="button" id="intro-back" class="text-button" disabled>Voltar</button><span id="intro-progress" aria-hidden="true">● ○ ○ ○ ○</span><button type="button" id="intro-next" class="vote">Continuar →</button></div>
+          <button type="button" id="intro-pause" class="text-button">Pausar apresentação</button>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="tutor-help" class="welcome-dialog" aria-labelledby="tutor-help-title">
+      <h2 id="tutor-help-title">Vamos descobrir um caminho?</h2><p>Você escolhe por onde começar. Estas pistas podem ajudar:</p>
+      <ul class="tutor-tips"><li><a href="#projects">Conhecer os projetos</a> — escolha um card e explore.</li><li><a href="#project-order">Mudar a ordem</a> — veja os mais acessados ou as atualizações recentes.</li><li><a href="#portfolio-radio">Ouvir a rádio DJIA</a> — escolha a música e ajuste o volume.</li><li><a href="https://github.com/sidineyr/sidineyr.github.io/issues/new">Compartilhar uma sugestão</a> — abre o GitHub, que pode pedir uma conta.</li></ul><p>Suas perguntas e ideias também fazem parte desta descoberta.</p><button type="button" class="vote" id="tutor-close">Continuar explorando</button>
     </dialog>
     <aside aria-label="Language / Idioma" style="position:fixed;right:12px;top:12px;z-index:1000;border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:8px 12px;background:rgba(7,20,38,.94);box-shadow:0 8px 24px rgba(0,0,0,.24)"><strong style="margin-right:8px;font-size:12px">PT / EN</strong><span id="google_translate_element"></span></aside>
     <main>
@@ -288,7 +301,7 @@
       <section class="participation" aria-labelledby="choose-title"><h2 id="choose-title">Qual projeto desperta seu interesse?</h2><p id="counter-note">Explore e marque os projetos que você gostaria de usar. Os totais são compartilhados entre visitantes; cada projeto pode ser escolhido uma vez neste navegador. Contagem indicativa de interesse, sem cadastro.</p><details><summary>Sobre a contagem e a privacidade</summary><p>Os contadores usam o serviço externo <a href="https://counterapi.com/">CounterAPI</a>, que recebe o endereço IP e dados técnicos da conexão. Enviamos somente o identificador do projeto, sem nome ou respostas das atividades. A escolha fica também neste navegador para evitar repetição. Limpar esses dados ou mudar de navegador permite repetir: os totais não representam pessoas únicas. Falhas de conexão não são exibidas como zero.</p></details><noscript><p>Ative o JavaScript para carregar os contadores. Todos os links continuam disponíveis.</p></noscript></section>
 
       <div class="project-toolbar"><h2>Explore os projetos</h2><label for="project-order">Ordenar por <select id="project-order"><option value="access">Mais acessados</option><option value="updated">Atualizações recentes</option><option value="name">Nome do projeto</option></select></label></div><p id="order-status" role="status">Carregando a ordem dos projetos…</p><p id="metrics-note">Os números abaixo vêm dos contadores originais de cada projeto, com consulta prevista a cada seis horas. Acessos, leituras e testes concluídos aparecem identificados. A ordem inicial considera acessos, visitas e leituras. Testes concluídos aparecem depois, pois medem outra atividade; projetos sem contagem ficam ao final. Empates seguem o nome. Abrir este portfólio não aumenta esses números.</p>
-      <section class="grid" aria-label="Projetos">
+      <section class="grid" id="projects" aria-label="Projetos">
         <article class="card" data-project="einstein" aria-labelledby="title-einstein">
           <div><span class="tag">Física</span><h2 id="title-einstein">Einstein · Física em Movimento</h2><p>12 missões investigativas, quatro laboratórios e uma bancada de forças com medições, tabela e gráfico.</p></div>
           <div class="card-bottom"><span class="status">Ensino Médio</span>
@@ -398,7 +411,8 @@
       <footer>
         <span>Projetos gratuitos de Sidiney Rodrigues.</span>
         <a href="https://github.com/sidineyr">Ver repositórios no GitHub</a>
-        <section class="radio" aria-label="Rádio DJIA">
+        <button class="tutor-help-button" id="tutor-open" type="button" aria-haspopup="dialog"><img src="https://raw.githubusercontent.com/sidineyr/callguid/master/desktop/assets/prince.png" alt="" width="38" height="38" loading="lazy" />Precisa de uma pista?</button>
+        <section class="radio" id="portfolio-radio" aria-label="Rádio DJIA">
           <details><summary>♫ Rádio DJIA · ouvir música</summary>
             <div class="radio-controls"><label for="radio-track">Saída da Caverna · escolha a versão</label><select id="radio-track"><option value="0">Luminoso</option><option value="1">Sereno</option><option value="2">Suspenso</option></select>
               <audio id="radio-audio" controls preload="none" aria-label="Reproduzir Rádio DJIA"></audio>
@@ -414,6 +428,7 @@
     <script src="/project-metrics.js" defer></script>
     <script src="/project-updates.js" defer></script>
     <script src="/radio.js" defer></script>
+    <script src="/intro.js" defer></script>
     <script src="/project-votes.js" defer></script>
     <script src="/language-toggle.js"></script>
   </body>

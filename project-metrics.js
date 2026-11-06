@@ -14,19 +14,19 @@
         const value = metric.value;
         const valid = Number.isSafeInteger(value) && value >= 0;
         const label = document.createElement('strong');
-        label.textContent = valid ? `${number.format(value)} ${metric.label}` : 'Contagem indisponÃ­vel';
+        label.textContent = valid ? `${number.format(value)} ${metric.label}` : 'Contagem indisponível';
         const source = document.createElement('a');
         const url = new URL(metric.source);
         if (url.protocol !== 'https:') return;
         source.href = url.href;
-        source.textContent = 'Ver contador original â†—';
+        source.textContent = 'Ver contador original ↗';
         const detail = document.createElement('small');
-        detail.textContent = valid && metric.checkedAt ? `Consulta: ${date.format(new Date(metric.checkedAt))}${metric.status === 'stale' ? ' Â· atualizaÃ§Ã£o pendente' : ''}` : (metric.since ? 'Novo contador Â· instalado em 16/10/2026' : 'NÃ£o foi possÃ­vel consultar a fonte');
+        detail.textContent = valid && metric.checkedAt ? `Consulta: ${date.format(new Date(metric.checkedAt))}${metric.since ? ` · contagem desde ${metric.since}` : ''}${metric.status === 'stale' ? ' · atualização pendente' : ''}` : (metric.since ? `Novo contador · início: ${metric.since}` : 'Não foi possível consultar a fonte');
         node.replaceChildren(label,source,detail);
       });
     }).catch(() => {
       document.querySelectorAll('.access-metric').forEach(node => {
-        node.textContent = 'Contadores temporariamente indisponÃ­veis';
+        node.textContent = 'Contadores temporariamente indisponíveis';
       });
     });
 })();

@@ -49,7 +49,7 @@
   document.querySelector('#welcome-listen').addEventListener('click', () => {play();dismiss();});
   document.querySelector('#welcome-silent').addEventListener('click', dismiss);
   // Escape dismisses the native dialog without starting music.
-  if (typeof welcome.showModal === 'function') welcome.showModal();
+  // The introduction owns opening the welcome dialog; these buttons own consent.
   if ('mediaSession'  in navigator && typeof MediaMetadata !== 'undefined') {
     audio.addEventListener('playing', () => {
       navigator.mediaSession.metadata = new MediaMetadata({title:select.options[index].textContent,artist:'DJIA',album:'Saída da Caverna'});
