@@ -9,6 +9,7 @@ import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECTS = {
+    'art': ('art', None),
     'einstein': ('Einstein-Fisica', None),
     'horizonte': ('horizonte', None),
     'quality-view': ('qv', None),
