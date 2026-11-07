@@ -41,3 +41,6 @@ jobs:
         with:
           path: '.'
       - uses: actions/deploy-pages@v4
+        with:
+          # Allow delayed Pages deployments more than the default 10 minutes.
+          timeout: 1200000
