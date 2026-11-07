@@ -2,8 +2,8 @@
   "art": {
     "repository": "sidineyr/art",
     "source": "https://github.com/sidineyr/art/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Integra a contagem pública de acessos e a divulgação do ART",
@@ -35,8 +35,8 @@
   "einstein": {
     "repository": "sidineyr/Einstein-Fisica",
     "source": "https://github.com/sidineyr/Einstein-Fisica/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
@@ -74,8 +74,8 @@
   "horizonte": {
     "repository": "sidineyr/horizonte",
     "source": "https://github.com/sidineyr/horizonte/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "i18n: reforçar descoberta bilíngue PT EN",
@@ -113,8 +113,8 @@
   "quality-view": {
     "repository": "sidineyr/qv",
     "source": "https://github.com/sidineyr/qv/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Corrige contador indisponível com Hits e informa início da contagem (#4)",
@@ -152,8 +152,8 @@
   "python-swirl": {
     "repository": "sidineyr/python-swirl-statistics",
     "source": "https://github.com/sidineyr/python-swirl-statistics/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
@@ -191,8 +191,8 @@
   "chemical": {
     "repository": "sidineyr/Chemical",
     "source": "https://github.com/sidineyr/Chemical/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "docs: add contribution guide",
@@ -230,8 +230,8 @@
   "filosofia": {
     "repository": "sidineyr/filosofia-aberta",
     "source": "https://github.com/sidineyr/filosofia-aberta/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
@@ -269,8 +269,8 @@
   "biosfera": {
     "repository": "sidineyr/biosfera",
     "source": "https://github.com/sidineyr/biosfera/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
@@ -308,8 +308,8 @@
   "atlas": {
     "repository": "sidineyr/atlas-do-sagrado",
     "source": "https://github.com/sidineyr/atlas-do-sagrado/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "fix(ux): revisar orientação pedagógica, fontes e conclusão dos módulos",
@@ -347,8 +347,8 @@
   "bb": {
     "repository": "sidineyr/bb",
     "source": "https://github.com/sidineyr/bb/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Adiciona contador público de visitas",
@@ -386,8 +386,8 @@
   "contraprova": {
     "repository": "sidineyr/contraprova",
     "source": "https://github.com/sidineyr/contraprova/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
@@ -425,8 +425,8 @@
   "polliniza": {
     "repository": "sidineyr/Polliniza",
     "source": "https://github.com/sidineyr/Polliniza/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
@@ -464,8 +464,8 @@
   "universidade": {
     "repository": "sidineyr/sidineyr.github.io",
     "source": "https://github.com/sidineyr/sidineyr.github.io/commits/main/universidade",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Integra contadores originais e atualização periódica das métricas",
@@ -503,8 +503,8 @@
   "callguid": {
     "repository": "sidineyr/callguid",
     "source": "https://github.com/sidineyr/callguid/commits",
-    "checkedAt": "2026-11-07T19:28:14+00:00",
-    "attemptedAt": "2026-11-07T19:28:14+00:00",
+    "checkedAt": "2026-11-07T19:37:12+00:00",
+    "attemptedAt": "2026-11-07T19:37:12+00:00",
     "items": [
       {
         "title": "Exercise native desktop animations on the isolated CI display",
