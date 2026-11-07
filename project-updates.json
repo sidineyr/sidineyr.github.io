@@ -2,32 +2,38 @@
   "art": {
     "repository": "sidineyr/art",
     "source": "https://github.com/sidineyr/art/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
       {
-        "title": "Integra a contagem pública de acessos e a divulgação do ART",
-        "date": "2026-11-07T19:23:08Z",
-        "url": "https://github.com/sidineyr/art/commit/d0c2bd68c72af10e90c59ba6def24766bc5d5bfe",
-        "sha": "d0c2bd68c72af10e90c59ba6def24766bc5d5bfe"
+        "title": "Prepara publicidade discreta e reforça doação independente",
+        "date": "2026-11-07T21:52:22Z",
+        "url": "https://github.com/sidineyr/art/commit/cbabae699a14cf73394b0083301aa182d12deb89",
+        "sha": "cbabae699a14cf73394b0083301aa182d12deb89"
       },
       {
-        "title": "Apresenta minha proposta pedagógica e autoria no projeto ART",
-        "date": "2026-11-07T18:51:59Z",
-        "url": "https://github.com/sidineyr/art/commit/9709aec9645f9324ae87a1f3cb8030be569a6243",
-        "sha": "9709aec9645f9324ae87a1f3cb8030be569a6243"
+        "title": "Prepara o teste gratuito do tutor de Artes em vídeo",
+        "date": "2026-11-07T20:47:58Z",
+        "url": "https://github.com/sidineyr/art/commit/1a1fc997b755ddd15b63ab6f04c1cb923d256fa7",
+        "sha": "1a1fc997b755ddd15b63ab6f04c1cb923d256fa7"
       },
       {
-        "title": "Desenvolve 30 encontros de Artes com criação, caderno e participação moderada",
-        "date": "2026-11-07T18:44:58Z",
-        "url": "https://github.com/sidineyr/art/commit/a6e0afe728d7e97ebe69cb2d4c7ce4d956cc50e0",
-        "sha": "a6e0afe728d7e97ebe69cb2d4c7ce4d956cc50e0"
+        "title": "Confere a versão da abertura entregue pelo site público",
+        "date": "2026-11-07T20:29:50Z",
+        "url": "https://github.com/sidineyr/art/commit/5f6ea19931b5f88ea5b62d34cc4b7a45772f4c68",
+        "sha": "5f6ea19931b5f88ea5b62d34cc4b7a45772f4c68"
       },
       {
-        "title": "Inicia o ART como projeto de educação em Artes",
-        "date": "2026-11-07T12:07:40Z",
-        "url": "https://github.com/sidineyr/art/commit/1816a00df2c9b0631190db6874f3f7e65860afc9",
-        "sha": "1816a00df2c9b0631190db6874f3f7e65860afc9"
+        "title": "Corrige a atualização da abertura guardada no navegador",
+        "date": "2026-11-07T20:27:27Z",
+        "url": "https://github.com/sidineyr/art/commit/a6e45277a96f5c1632d0e4186fa43864de67623d",
+        "sha": "a6e45277a96f5c1632d0e4186fa43864de67623d"
+      },
+      {
+        "title": "Transforma a abertura do ART em um palco para as oficinas",
+        "date": "2026-11-07T20:23:04Z",
+        "url": "https://github.com/sidineyr/art/commit/7e596866ba404538392264e9fd1770b7e5ea80de",
+        "sha": "7e596866ba404538392264e9fd1770b7e5ea80de"
       }
     ],
     "status": "ok"
@@ -35,9 +41,15 @@
   "einstein": {
     "repository": "sidineyr/Einstein-Fisica",
     "source": "https://github.com/sidineyr/Einstein-Fisica/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
+      {
+        "title": "Prepara publicidade discreta e reforça doação independente",
+        "date": "2026-11-07T21:52:07Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/3562a029ceeb77ea19eeaeaeac62b933d97fb515",
+        "sha": "3562a029ceeb77ea19eeaeaeac62b933d97fb515"
+      },
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
         "date": "2026-10-16T21:43:52Z",
@@ -61,12 +73,6 @@
         "date": "2026-09-13T22:34:24Z",
         "url": "https://github.com/sidineyr/Einstein-Fisica/commit/636f78c669f9db663552b64b28ffc5eae3b7e0cc",
         "sha": "636f78c669f9db663552b64b28ffc5eae3b7e0cc"
-      },
-      {
-        "title": "Add prominent authorship and OpenAI credits (#1)",
-        "date": "2026-09-05T19:36:43Z",
-        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/2b8642791206c7dddb3a94f2b6073446803865d2",
-        "sha": "2b8642791206c7dddb3a94f2b6073446803865d2"
       }
     ],
     "status": "ok"
@@ -74,8 +80,8 @@
   "horizonte": {
     "repository": "sidineyr/horizonte",
     "source": "https://github.com/sidineyr/horizonte/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
       {
         "title": "i18n: reforçar descoberta bilíngue PT EN",
@@ -113,9 +119,15 @@
   "quality-view": {
     "repository": "sidineyr/qv",
     "source": "https://github.com/sidineyr/qv/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
+      {
+        "title": "Prepara publicidade discreta e reforça doação independente",
+        "date": "2026-11-07T21:51:57Z",
+        "url": "https://github.com/sidineyr/qv/commit/bdea45cb6b2a0e24bf0a183f0892032801a3d91a",
+        "sha": "bdea45cb6b2a0e24bf0a183f0892032801a3d91a"
+      },
       {
         "title": "Corrige contador indisponível com Hits e informa início da contagem (#4)",
         "date": "2026-11-06T20:20:49Z",
@@ -139,12 +151,6 @@
         "date": "2026-09-28T14:58:09Z",
         "url": "https://github.com/sidineyr/qv/commit/6c4b7b6fac0908a4528f826fcb374c264641ea6f",
         "sha": "6c4b7b6fac0908a4528f826fcb374c264641ea6f"
-      },
-      {
-        "title": "Recuperar questionário e painel após dados locais inválidos (#3)",
-        "date": "2026-09-27T21:40:34Z",
-        "url": "https://github.com/sidineyr/qv/commit/b2b7a8d975a53aa4fea0c20b5cd5117f2720fdc3",
-        "sha": "b2b7a8d975a53aa4fea0c20b5cd5117f2720fdc3"
       }
     ],
     "status": "ok"
@@ -152,9 +158,15 @@
   "python-swirl": {
     "repository": "sidineyr/python-swirl-statistics",
     "source": "https://github.com/sidineyr/python-swirl-statistics/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
+      {
+        "title": "Prepara publicidade discreta e reforça doação independente",
+        "date": "2026-11-07T21:54:12Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/b356884237121971472079f5aae24e9e16d0db79",
+        "sha": "b356884237121971472079f5aae24e9e16d0db79"
+      },
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
         "date": "2026-10-16T21:44:05Z",
@@ -178,12 +190,6 @@
         "date": "2026-10-08T22:53:46Z",
         "url": "https://github.com/sidineyr/python-swirl-statistics/commit/bcb2587a3745ab40243099ae2355ccbace16ffb1",
         "sha": "bcb2587a3745ab40243099ae2355ccbace16ffb1"
-      },
-      {
-        "title": "Rebuild online course with ten modules, curated videos and executable notebooks",
-        "date": "2026-10-08T22:52:47Z",
-        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/bd9af483a8614c09ce999a9805fd1b3437c6cceb",
-        "sha": "bd9af483a8614c09ce999a9805fd1b3437c6cceb"
       }
     ],
     "status": "ok"
@@ -191,9 +197,15 @@
   "chemical": {
     "repository": "sidineyr/Chemical",
     "source": "https://github.com/sidineyr/Chemical/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
+      {
+        "title": "Prepara publicidade discreta e reforça doação independente",
+        "date": "2026-11-07T21:52:37Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/ef2b7458604dab134948b4d95a099315bb8cc4b4",
+        "sha": "ef2b7458604dab134948b4d95a099315bb8cc4b4"
+      },
       {
         "title": "docs: add contribution guide",
         "date": "2026-10-16T22:48:54Z",
@@ -217,12 +229,6 @@
         "date": "2026-09-28T14:58:27Z",
         "url": "https://github.com/sidineyr/Chemical/commit/adace2dd56825fe4d3b059a3b6e1ab988434112f",
         "sha": "adace2dd56825fe4d3b059a3b6e1ab988434112f"
-      },
-      {
-        "title": "Docs: destacar site publicado do Chemical",
-        "date": "2026-09-28T14:58:25Z",
-        "url": "https://github.com/sidineyr/Chemical/commit/cc47bd7cc47ce1802b5ad7e75b9cf4a5b1a50add",
-        "sha": "cc47bd7cc47ce1802b5ad7e75b9cf4a5b1a50add"
       }
     ],
     "status": "ok"
@@ -230,8 +236,8 @@
   "filosofia": {
     "repository": "sidineyr/filosofia-aberta",
     "source": "https://github.com/sidineyr/filosofia-aberta/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
@@ -269,9 +275,15 @@
   "biosfera": {
     "repository": "sidineyr/biosfera",
     "source": "https://github.com/sidineyr/biosfera/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
+      {
+        "title": "Prepara publicidade discreta e reforça doação independente",
+        "date": "2026-11-07T21:52:22Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/ed41420ea899eb586b9eb9821d7d9ba430a96a5c",
+        "sha": "ed41420ea899eb586b9eb9821d7d9ba430a96a5c"
+      },
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
         "date": "2026-10-16T21:44:02Z",
@@ -295,12 +307,6 @@
         "date": "2026-09-13T21:08:44Z",
         "url": "https://github.com/sidineyr/biosfera/commit/b3661467df682ced6421a9c6e13dcdc8030a1daf",
         "sha": "b3661467df682ced6421a9c6e13dcdc8030a1daf"
-      },
-      {
-        "title": "chore: initialize Biosfera Aberta",
-        "date": "2026-09-13T21:08:07Z",
-        "url": "https://github.com/sidineyr/biosfera/commit/2c2b2c7a967007715b2496c11c6abe267f3aa8b6",
-        "sha": "2c2b2c7a967007715b2496c11c6abe267f3aa8b6"
       }
     ],
     "status": "ok"
@@ -308,8 +314,8 @@
   "atlas": {
     "repository": "sidineyr/atlas-do-sagrado",
     "source": "https://github.com/sidineyr/atlas-do-sagrado/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
       {
         "title": "fix(ux): revisar orientação pedagógica, fontes e conclusão dos módulos",
@@ -347,9 +353,15 @@
   "bb": {
     "repository": "sidineyr/bb",
     "source": "https://github.com/sidineyr/bb/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
+      {
+        "title": "Prepara publicidade discreta e reforça doação independente",
+        "date": "2026-11-07T21:51:45Z",
+        "url": "https://github.com/sidineyr/bb/commit/2bff6bcf10929fcd5bd087d1b45fa2880f1795c9",
+        "sha": "2bff6bcf10929fcd5bd087d1b45fa2880f1795c9"
+      },
       {
         "title": "Adiciona contador público de visitas",
         "date": "2026-09-16T21:42:08Z",
@@ -373,12 +385,6 @@
         "date": "2026-09-16T21:08:36Z",
         "url": "https://github.com/sidineyr/bb/commit/0d20beb4e14e920c3f6a93493f656372c8c97317",
         "sha": "0d20beb4e14e920c3f6a93493f656372c8c97317"
-      },
-      {
-        "title": "Inicia o BB — Bê-á-Bá da Internet e da IA",
-        "date": "2026-09-16T21:07:38Z",
-        "url": "https://github.com/sidineyr/bb/commit/6a0db60d0988e8356dc482efe468dd720695f3e4",
-        "sha": "6a0db60d0988e8356dc482efe468dd720695f3e4"
       }
     ],
     "status": "ok"
@@ -386,8 +392,8 @@
   "contraprova": {
     "repository": "sidineyr/contraprova",
     "source": "https://github.com/sidineyr/contraprova/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
@@ -425,9 +431,15 @@
   "polliniza": {
     "repository": "sidineyr/Polliniza",
     "source": "https://github.com/sidineyr/Polliniza/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
+      {
+        "title": "Prepara publicidade discreta e reforça doação independente",
+        "date": "2026-11-07T21:52:21Z",
+        "url": "https://github.com/sidineyr/Polliniza/commit/173358d80b896ee33e39be366a3504e646c50eee",
+        "sha": "173358d80b896ee33e39be366a3504e646c50eee"
+      },
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
         "date": "2026-10-16T21:44:11Z",
@@ -451,12 +463,6 @@
         "date": "2026-09-27T22:12:11Z",
         "url": "https://github.com/sidineyr/Polliniza/commit/dd2b2a3f0a9e043935bb5359f69dbc503fb52dc5",
         "sha": "dd2b2a3f0a9e043935bb5359f69dbc503fb52dc5"
-      },
-      {
-        "title": "fix: make web startup deployable and validate public origin (#2)",
-        "date": "2026-09-27T22:06:20Z",
-        "url": "https://github.com/sidineyr/Polliniza/commit/15b68ce46e3f9760df9b3b0b0ba1a577239510ec",
-        "sha": "15b68ce46e3f9760df9b3b0b0ba1a577239510ec"
       }
     ],
     "status": "ok"
@@ -464,8 +470,8 @@
   "universidade": {
     "repository": "sidineyr/sidineyr.github.io",
     "source": "https://github.com/sidineyr/sidineyr.github.io/commits/main/universidade",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
       {
         "title": "Integra contadores originais e atualização periódica das métricas",
@@ -503,8 +509,8 @@
   "callguid": {
     "repository": "sidineyr/callguid",
     "source": "https://github.com/sidineyr/callguid/commits",
-    "checkedAt": "2026-11-07T19:37:12+00:00",
-    "attemptedAt": "2026-11-07T19:37:12+00:00",
+    "checkedAt": "2026-11-07T21:54:51+00:00",
+    "attemptedAt": "2026-11-07T21:54:51+00:00",
     "items": [
       {
         "title": "Exercise native desktop animations on the isolated CI display",
