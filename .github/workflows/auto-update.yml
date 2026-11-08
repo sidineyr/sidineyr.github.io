@@ -1,0 +1,67 @@
+name: Atualizar Casa de Cursos
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  repository_dispatch:
+    types: [course-updated]
+  schedule:
+    - cron: '41 */6 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: casa-cursos-update
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Atualizar catálogo e gerar percursos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python casa-source/build.py --refresh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: casa-cursos
+          path: |
+            cursos/
+            casa-source/catalog.json
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v4
+        with:
+          name: casa-cursos
+          path: .
+      - name: Publicar arquivos gerados na fonte atual do Pages
+        run: |
+          git config user.name 'Sidiney Rodrigues'
+          git config user.email '4397607+sidineyr@users.noreply.github.com'
+          git add cursos casa-source/catalog.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualiza percursos públicos da Casa de Cursos'
+            git push origin HEAD:main
+          fi
+      - name: Preparar site completo preservando páginas existentes
+        run: |
+          mkdir _site
+          rsync -a --exclude='.git/' --exclude='.github/' --exclude='casa-source/' --exclude='_site/' ./ _site/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

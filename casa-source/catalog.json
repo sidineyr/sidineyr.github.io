@@ -1,0 +1,344 @@
+[
+  {
+    "id": "callguid",
+    "title": "callguid",
+    "repository": "https://github.com/sidineyr/callguid",
+    "branch": "master"
+  },
+  {
+    "id": "ieml",
+    "title": "ieml",
+    "repository": "https://github.com/sidineyr/ieml",
+    "branch": "master"
+  },
+  {
+    "id": "linux",
+    "title": "linux",
+    "repository": "https://github.com/sidineyr/linux",
+    "branch": "master"
+  },
+  {
+    "id": "fullstack-course1-module2",
+    "title": "fullstack-course1-module2",
+    "repository": "https://github.com/sidineyr/fullstack-course1-module2",
+    "branch": "master"
+  },
+  {
+    "id": "machine-learning-coursera",
+    "title": "machine-learning-coursera",
+    "repository": "https://github.com/sidineyr/machine-learning-coursera",
+    "branch": "master"
+  },
+  {
+    "id": "shiny",
+    "title": "shiny",
+    "repository": "https://github.com/sidineyr/shiny",
+    "branch": "master"
+  },
+  {
+    "id": "fio-de-ariadne",
+    "title": "fio-de-ariadne",
+    "repository": "https://github.com/sidineyr/fio-de-ariadne",
+    "branch": "master"
+  },
+  {
+    "id": "DataScienceSpecialization.github.io",
+    "title": "DataScienceSpecialization.github.io",
+    "repository": "https://github.com/sidineyr/DataScienceSpecialization.github.io",
+    "branch": "master"
+  },
+  {
+    "id": "OEnigmadoReiArthur",
+    "title": "OEnigmadoReiArthur",
+    "repository": "https://github.com/sidineyr/OEnigmadoReiArthur",
+    "branch": "master"
+  },
+  {
+    "id": "LinkedinBot",
+    "title": "LinkedinBot",
+    "repository": "https://github.com/sidineyr/LinkedinBot",
+    "branch": "master"
+  },
+  {
+    "id": "my-first-blog",
+    "title": "my-first-blog",
+    "repository": "https://github.com/sidineyr/my-first-blog",
+    "branch": "master"
+  },
+  {
+    "id": "sidineyr.github.io",
+    "title": "sidineyr.github.io",
+    "repository": "https://github.com/sidineyr/sidineyr.github.io",
+    "branch": "main"
+  },
+  {
+    "id": "Catch",
+    "title": "Catch",
+    "repository": "https://github.com/sidineyr/Catch",
+    "branch": "master"
+  },
+  {
+    "id": "socios-brasil",
+    "title": "socios-brasil",
+    "repository": "https://github.com/sidineyr/socios-brasil",
+    "branch": "master"
+  },
+  {
+    "id": "LearningC",
+    "title": "LearningC",
+    "repository": "https://github.com/sidineyr/LearningC",
+    "branch": "master"
+  },
+  {
+    "id": "GCompris-qt",
+    "title": "GCompris-qt",
+    "repository": "https://github.com/sidineyr/GCompris-qt",
+    "branch": "master"
+  },
+  {
+    "id": "collective-intelligence-framework",
+    "title": "collective-intelligence-framework",
+    "repository": "https://github.com/sidineyr/collective-intelligence-framework",
+    "branch": "master"
+  },
+  {
+    "id": "serenata-de-amor",
+    "title": "serenata-de-amor",
+    "repository": "https://github.com/sidineyr/serenata-de-amor",
+    "branch": "master"
+  },
+  {
+    "id": "system-chess",
+    "title": "system-chess",
+    "repository": "https://github.com/sidineyr/system-chess",
+    "branch": "master"
+  },
+  {
+    "id": "computer-science",
+    "title": "computer-science",
+    "repository": "https://github.com/sidineyr/computer-science",
+    "branch": "master"
+  },
+  {
+    "id": "ProgrammingAssignment2",
+    "title": "ProgrammingAssignment2",
+    "repository": "https://github.com/sidineyr/ProgrammingAssignment2",
+    "branch": "master"
+  },
+  {
+    "id": "opencog",
+    "title": "opencog",
+    "repository": "https://github.com/sidineyr/opencog",
+    "branch": "master"
+  },
+  {
+    "id": "donuts",
+    "title": "donuts",
+    "repository": "https://github.com/sidineyr/donuts",
+    "branch": "master"
+  },
+  {
+    "id": "atlas-do-sagrado",
+    "title": "atlas-do-sagrado",
+    "repository": "https://github.com/sidineyr/atlas-do-sagrado",
+    "branch": "main"
+  },
+  {
+    "id": "GCompris",
+    "title": "GCompris",
+    "repository": "https://github.com/sidineyr/GCompris",
+    "branch": "master"
+  },
+  {
+    "id": "libieml",
+    "title": "libieml",
+    "repository": "https://github.com/sidineyr/libieml",
+    "branch": "master"
+  },
+  {
+    "id": "swirl",
+    "title": "swirl",
+    "repository": "https://github.com/sidineyr/swirl",
+    "branch": "master"
+  },
+  {
+    "id": "interactive-tutorials",
+    "title": "interactive-tutorials",
+    "repository": "https://github.com/sidineyr/interactive-tutorials",
+    "branch": "master"
+  },
+  {
+    "id": "auto-sklearn",
+    "title": "auto-sklearn",
+    "repository": "https://github.com/sidineyr/auto-sklearn",
+    "branch": "master"
+  },
+  {
+    "id": "project-open-data.github.io",
+    "title": "project-open-data.github.io",
+    "repository": "https://github.com/sidineyr/project-open-data.github.io",
+    "branch": "master"
+  },
+  {
+    "id": "nexmo-python",
+    "title": "nexmo-python",
+    "repository": "https://github.com/sidineyr/nexmo-python",
+    "branch": "master"
+  },
+  {
+    "id": "bb",
+    "title": "bb",
+    "repository": "https://github.com/sidineyr/bb",
+    "branch": "main"
+  },
+  {
+    "id": "puzzless",
+    "title": "puzzless",
+    "repository": "https://github.com/sidineyr/puzzless",
+    "branch": "main"
+  },
+  {
+    "id": "twitterexplode",
+    "title": "twitterexplode",
+    "repository": "https://github.com/sidineyr/twitterexplode",
+    "branch": "master"
+  },
+  {
+    "id": "datasharing",
+    "title": "datasharing",
+    "repository": "https://github.com/sidineyr/datasharing",
+    "branch": "master"
+  },
+  {
+    "id": "balanced-dashboard",
+    "title": "balanced-dashboard",
+    "repository": "https://github.com/sidineyr/balanced-dashboard",
+    "branch": "master"
+  },
+  {
+    "id": "horizonte",
+    "title": "horizonte",
+    "repository": "https://github.com/sidineyr/horizonte",
+    "branch": "main"
+  },
+  {
+    "id": "PortugueseGame",
+    "title": "PortugueseGame",
+    "repository": "https://github.com/sidineyr/PortugueseGame",
+    "branch": "master"
+  },
+  {
+    "id": "IBM",
+    "title": "IBM",
+    "repository": "https://github.com/sidineyr/IBM",
+    "branch": "main"
+  },
+  {
+    "id": "wikiacolhe",
+    "title": "wikiacolhe",
+    "repository": "https://github.com/sidineyr/wikiacolhe",
+    "branch": "main"
+  },
+  {
+    "id": "ExData_Plotting1",
+    "title": "ExData_Plotting1",
+    "repository": "https://github.com/sidineyr/ExData_Plotting1",
+    "branch": "master"
+  },
+  {
+    "id": "reimagined-happiness",
+    "title": "reimagined-happiness",
+    "repository": "https://github.com/sidineyr/reimagined-happiness",
+    "branch": "main"
+  },
+  {
+    "id": "biosfera",
+    "title": "biosfera",
+    "repository": "https://github.com/sidineyr/biosfera",
+    "branch": "main"
+  },
+  {
+    "id": "sidineyr",
+    "title": "sidineyr",
+    "repository": "https://github.com/sidineyr/sidineyr",
+    "branch": "main"
+  },
+  {
+    "id": "contraprova",
+    "title": "contraprova",
+    "repository": "https://github.com/sidineyr/contraprova",
+    "branch": "main"
+  },
+  {
+    "id": "Chemical",
+    "title": "Chemical",
+    "repository": "https://github.com/sidineyr/Chemical",
+    "branch": "main"
+  },
+  {
+    "id": "filosofia-aberta",
+    "title": "filosofia-aberta",
+    "repository": "https://github.com/sidineyr/filosofia-aberta",
+    "branch": "main"
+  },
+  {
+    "id": "qv",
+    "title": "qv",
+    "repository": "https://github.com/sidineyr/qv",
+    "branch": "main"
+  },
+  {
+    "id": "sidletras",
+    "title": "sidletras",
+    "repository": "https://github.com/sidineyr/sidletras",
+    "branch": "main"
+  },
+  {
+    "id": "python-swirl-statistics",
+    "title": "python-swirl-statistics",
+    "repository": "https://github.com/sidineyr/python-swirl-statistics",
+    "branch": "main"
+  },
+  {
+    "id": "Polliniza",
+    "title": "Polliniza",
+    "repository": "https://github.com/sidineyr/Polliniza",
+    "branch": "main"
+  },
+  {
+    "id": "Rlearning",
+    "title": "Rlearning",
+    "repository": "https://github.com/sidineyr/Rlearning",
+    "branch": "main"
+  },
+  {
+    "id": "Topotime",
+    "title": "Topotime",
+    "repository": "https://github.com/sidineyr/Topotime",
+    "branch": "master"
+  },
+  {
+    "id": "PythonProjects",
+    "title": "PythonProjects",
+    "repository": "https://github.com/sidineyr/PythonProjects",
+    "branch": "master"
+  },
+  {
+    "id": "CyberSecurity",
+    "title": "CyberSecurity",
+    "repository": "https://github.com/sidineyr/CyberSecurity",
+    "branch": "main"
+  },
+  {
+    "id": "art",
+    "title": "art",
+    "repository": "https://github.com/sidineyr/art",
+    "branch": "main"
+  },
+  {
+    "id": "Einstein-Fisica",
+    "title": "Einstein-Fisica",
+    "repository": "https://github.com/sidineyr/Einstein-Fisica",
+    "branch": "main"
+  }
+]
