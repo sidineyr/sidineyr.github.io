@@ -30,7 +30,7 @@ def refresh():
 def shell(title, description, path, content, course=''):
     return f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)} · Casa de Cursos</title><meta name="description" content="{e(description,quote=True)}">
+<title>{e(title) + (' · Casa de Cursos' if title != 'Casa de Cursos' else '')}</title><meta name="description" content="{e(description,quote=True)}">
 <meta name="author" content="Sidiney Rodrigues"><link rel="canonical" href="{BASE}{quote(path)}">
 <link rel="stylesheet" href="/cursos/style.css"><script defer src="/cursos/course.js"></script></head>
 <body data-course="{e(course,quote=True)}"><a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -79,12 +79,13 @@ def build():
 <p><strong>Materiais:</strong> navegador, documentação do projeto e um espaço para anotar.</p>
 <ol><li>Abra o projeto e examine sua apresentação, os arquivos e os exemplos.</li><li>Localize requisitos, instruções e licença, quando disponíveis.</li><li>Escolha uma ação pequena descrita pelo autor. Se faltarem instruções, registre essa lacuna e examine um exemplo sem executá-lo.</li></ol>
 <p>Antes de executar código, compreenda o ambiente necessário e as instruções. Evite comandos de instalação por tentativa.</p>'''
-        video=r.get('video')
+        video=r.get('video',BASE+'media/como-estudar.mp4')
+        r.setdefault('captions',BASE+'media/como-estudar.pt-BR.vtt')
         if valid_url(video):
             content+=f'<video id="video" controls playsinline preload="metadata" src="{e(video,quote=True)}" hidden>'
             if valid_url(r.get('captions')): content+=f'<track kind="captions" srclang="pt-BR" label="Português" src="{e(r["captions"],quote=True)}" default>'
             content+='</video><p id="video-status" role="status"></p><p>Assista a 90% do vídeo ou realize a atividade textual equivalente.</p>'
-        content+='''<label for="answer">Qual deve ser seu primeiro passo?</label><select id="answer"><option value="">Escolha uma resposta</option><option value="guess">Executar comandos por tentativa</option><option value="docs">Consultar a proposta, os requisitos e a documentação</option></select>
+        content+='''<details><summary>Atividade textual equivalente</summary><p>Observar, experimentar e refletir: consulte a documentação, realize uma pequena tarefa e registre suas descobertas. Sem ambiente de execução, analise um exemplo.</p></details><label for="answer">Qual deve ser seu primeiro passo?</label><select id="answer"><option value="">Escolha uma resposta</option><option value="guess">Executar comandos por tentativa</option><option value="docs">Consultar a proposta, os requisitos e a documentação</option></select>
 <p><button id="check" type="button">Verificar e desbloquear a prática</button></p><p id="feedback" role="status" aria-live="polite"></p></section>
 <section class="lesson" id="practice" hidden><p class="eyebrow">Encontro 02</p><h2>Experimentar e criar</h2>
 <p><strong>Tarefa:</strong> siga uma experiência da documentação. Compare o resultado com sua expectativa; altere um elemento documentado e observe o efeito.</p>
