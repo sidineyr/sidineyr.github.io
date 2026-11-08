@@ -53,7 +53,11 @@ jobs:
           git add cursos casa-source/catalog.json
           if ! git diff --cached --quiet; then
             git commit -m 'Atualiza percursos públicos da Casa de Cursos'
-            git push origin HEAD:main
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+            done
           fi
       - name: Preparar site completo preservando páginas existentes
         run: |

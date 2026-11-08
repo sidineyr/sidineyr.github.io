@@ -5,7 +5,7 @@
     $('search').addEventListener('input', () => {
       const term = $('search').value.trim().toLocaleLowerCase('pt-BR');
       let count = 0;
-      document.querySelectorAll('[data-course]').forEach(card => {
+      document.querySelectorAll('article[data-course]').forEach(card => {
         card.hidden = !card.textContent.toLocaleLowerCase('pt-BR').includes(term);
         if (!card.hidden) count++;
       });
@@ -61,16 +61,25 @@
   const video=$('video');
   if (video && video.getAttribute('src')) {
     video.hidden=false;
-    const coverage=new Set(); let previous=0, wall=performance.now();
+    let intervals=[]; let previous=0, wall=performance.now();
     const reset=()=>{previous=video.currentTime; wall=performance.now();};
     ['play','pause','seeking','seeked','ratechange'].forEach(e=>video.addEventListener(e,reset));
     document.addEventListener('visibilitychange',()=>{if(document.hidden)video.pause();reset();});
     video.addEventListener('timeupdate',()=>{
       const now=performance.now(), current=video.currentTime, delta=current-previous;
-      if (!document.hidden && !video.paused && !video.seeking && delta>0 && delta<=Math.min(2,(now-wall)/1000*video.playbackRate+.2))
-        for(let i=Math.ceil(previous*10);i<Math.floor(current*10);i++)coverage.add(i);
+      if (!document.hidden && !video.paused && !video.seeking && delta>0 && delta<=Math.min(2,(now-wall)/1000*video.playbackRate+.2)) {
+        intervals.push([previous,current]);
+        intervals.sort((a,b)=>a[0]-b[0]);
+        const merged=[];
+        for(const segment of intervals){
+          const last=merged[merged.length-1];
+          if(last && segment[0]<=last[1])last[1]=Math.max(last[1],segment[1]);
+          else merged.push([...segment]);
+        }
+        intervals=merged;
+      }
       if(Number.isFinite(video.duration)&&video.duration>0){
-        const ratio=coverage.size/(video.duration*10);
+        const ratio=intervals.reduce((sum,[a,b])=>sum+b-a,0)/video.duration;
         $('video-status').textContent=`${Math.min(100,Math.floor(ratio*100))}% assistido`;
         if(ratio>=.9)unlock();
       }

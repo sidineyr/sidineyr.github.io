@@ -50,8 +50,19 @@ def banner():
 
 def build():
     repos=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'))
+    overrides_path=ROOT/'overrides.json'
+    overrides=json.loads(overrides_path.read_text(encoding='utf-8')) if overrides_path.exists() else {}
+    for r in repos:
+        r.update({k:v for k,v in overrides.get(r['id'],{}).items() if k in ('title','description','video','captions')})
     assert len({r['id'] for r in repos})==len(repos)
     OUT.mkdir(exist_ok=True)
+    manifest=OUT/'generated.json'
+    current={r['id'] for r in repos}
+    if manifest.exists():
+        for old in json.loads(manifest.read_text(encoding='utf-8')):
+            if old not in current and re.fullmatch(r'[A-Za-z0-9_.-]+',old) and old not in ('.','..'):
+                obsolete=OUT/old/'index.html'
+                if obsolete.is_file(): obsolete.unlink()
     for name in ('style.css','course.js'):
         OUT.joinpath(name).write_text(ROOT.joinpath(name).read_text(encoding='utf-8'),encoding='utf-8')
     cards=[]
@@ -88,6 +99,7 @@ def build():
     OUT.joinpath('index.html').write_text(shell('Casa de Cursos','Percursos iniciais gratuitos para explorar os projetos públicos de Sidiney Rodrigues.','',content),encoding='utf-8')
     OUT.joinpath('sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+BASE+quote(p)+'</loc></url>' for p in ['']+[r['id']+'/' for r in repos])+'</urlset>',encoding='utf-8')
     print(f'{len(repos)} percursos gerados; demais páginas preservadas.')
+    manifest.write_text(json.dumps(sorted(current),indent=2)+'\n',encoding='utf-8')
 
 if __name__=='__main__':
     import sys
