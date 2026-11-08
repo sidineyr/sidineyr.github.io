@@ -32,7 +32,7 @@ def shell(title, description, path, content, course=''):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title) + (' · Casa de Cursos' if title != 'Casa de Cursos' else '')}</title><meta name="description" content="{e(description,quote=True)}">
 <meta name="author" content="Sidiney Rodrigues"><link rel="canonical" href="{BASE}{quote(path)}">
-<link rel="stylesheet" href="/cursos/style.css"><script defer src="/cursos/course.js"></script></head>
+<link rel="stylesheet" href="/cursos/style.css"><script defer src="/cursos/course.js"></script><script defer src="/assets/google-footer-ad.js"></script></head>
 <body data-course="{e(course,quote=True)}"><a class="skip" href="#conteudo">Pular para o conteúdo</a>
 <header><a class="brand" href="/cursos/">casa de cursos.</a><nav aria-label="Principal"><a href="/">Portfólio</a><a href="/universidade/">Universidade</a><a href="/cursos/">Todos os percursos</a></nav></header>
 <main id="conteudo">{content}<p id="status" class="status" role="status" aria-live="polite"></p></main>
