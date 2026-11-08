@@ -2,9 +2,21 @@
   "art": {
     "repository": "sidineyr/art",
     "source": "https://github.com/sidineyr/art/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Integra entrada para o percurso de aprendizagem da Casa de Cursos",
+        "date": "2026-11-08T16:59:39Z",
+        "url": "https://github.com/sidineyr/art/commit/0a64aa052baf4226f614b498514a78f583ff6bbb",
+        "sha": "0a64aa052baf4226f614b498514a78f583ff6bbb"
+      },
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:08Z",
+        "url": "https://github.com/sidineyr/art/commit/0f8ffca51c1eca74df8d010a41f2e585b5f4544c",
+        "sha": "0f8ffca51c1eca74df8d010a41f2e585b5f4544c"
+      },
       {
         "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
         "date": "2026-11-08T00:17:20Z",
@@ -22,18 +34,6 @@
         "date": "2026-11-07T23:59:41Z",
         "url": "https://github.com/sidineyr/art/commit/ef22233b91ceb7f29f4ed85b9d0c1b20bddcf7b4",
         "sha": "ef22233b91ceb7f29f4ed85b9d0c1b20bddcf7b4"
-      },
-      {
-        "title": "Publica guia de materiais com prioridades, experiências e links reais",
-        "date": "2026-11-07T23:58:42Z",
-        "url": "https://github.com/sidineyr/art/commit/892164b36c0a1d0734fc5bdc4dfe348df962c9ea",
-        "sha": "892164b36c0a1d0734fc5bdc4dfe348df962c9ea"
-      },
-      {
-        "title": "Remove arquivo vazio sem uso",
-        "date": "2026-11-07T23:55:14Z",
-        "url": "https://github.com/sidineyr/art/commit/88bd6b896d49e911d0b956aabaa22f85a0c8ee7e",
-        "sha": "88bd6b896d49e911d0b956aabaa22f85a0c8ee7e"
       }
     ],
     "status": "ok"
@@ -41,9 +41,15 @@
   "einstein": {
     "repository": "sidineyr/Einstein-Fisica",
     "source": "https://github.com/sidineyr/Einstein-Fisica/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:10Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/410d210ac0ec1778ba6d32db8c7f8ba632d514f0",
+        "sha": "410d210ac0ec1778ba6d32db8c7f8ba632d514f0"
+      },
       {
         "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
         "date": "2026-11-08T00:17:45Z",
@@ -67,12 +73,6 @@
         "date": "2026-11-08T00:00:25Z",
         "url": "https://github.com/sidineyr/Einstein-Fisica/commit/bdba8f0c2c8df8514e26f2974655aad4957d7f8f",
         "sha": "bdba8f0c2c8df8514e26f2974655aad4957d7f8f"
-      },
-      {
-        "title": "Integra catálogo contextual e links oficiais de materiais",
-        "date": "2026-11-07T23:59:44Z",
-        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/19ce82474d2abcb4ba801648f462b1c444db016a",
-        "sha": "19ce82474d2abcb4ba801648f462b1c444db016a"
       }
     ],
     "status": "ok"
@@ -80,9 +80,15 @@
   "horizonte": {
     "repository": "sidineyr/horizonte",
     "source": "https://github.com/sidineyr/horizonte/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:20Z",
+        "url": "https://github.com/sidineyr/horizonte/commit/3dcdd8b4472fd853c46f5838d310de60eb1e1012",
+        "sha": "3dcdd8b4472fd853c46f5838d310de60eb1e1012"
+      },
       {
         "title": "i18n: reforçar descoberta bilíngue PT EN",
         "date": "2026-09-15T22:49:19Z",
@@ -106,12 +112,6 @@
         "date": "2026-08-31T22:39:54Z",
         "url": "https://github.com/sidineyr/horizonte/commit/71a6b4467bd51b7a3bbe21d6019fc40e99052066",
         "sha": "71a6b4467bd51b7a3bbe21d6019fc40e99052066"
-      },
-      {
-        "title": "Merge: suporte a idiomas, melhorias recentes e convite à comunidade",
-        "date": "2026-08-31T18:20:45Z",
-        "url": "https://github.com/sidineyr/horizonte/commit/756af2ca39c3f67af1f02e1d3be439cb02a0e302",
-        "sha": "756af2ca39c3f67af1f02e1d3be439cb02a0e302"
       }
     ],
     "status": "ok"
@@ -119,9 +119,21 @@
   "quality-view": {
     "repository": "sidineyr/qv",
     "source": "https://github.com/sidineyr/qv/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Integra entrada para o percurso de aprendizagem da Casa de Cursos",
+        "date": "2026-11-08T16:59:47Z",
+        "url": "https://github.com/sidineyr/qv/commit/df8e2407570bd6d8d5a58015562ca73d794a37a9",
+        "sha": "df8e2407570bd6d8d5a58015562ca73d794a37a9"
+      },
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:19Z",
+        "url": "https://github.com/sidineyr/qv/commit/3fb5ad0437f43c412f5bf7603461c4ab76c45c05",
+        "sha": "3fb5ad0437f43c412f5bf7603461c4ab76c45c05"
+      },
       {
         "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
         "date": "2026-11-08T00:17:38Z",
@@ -139,18 +151,6 @@
         "date": "2026-11-07T23:59:16Z",
         "url": "https://github.com/sidineyr/qv/commit/4d9f2505b57a4e2226052143fc5ad68bc5e8b147",
         "sha": "4d9f2505b57a4e2226052143fc5ad68bc5e8b147"
-      },
-      {
-        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
-        "date": "2026-11-07T23:09:00Z",
-        "url": "https://github.com/sidineyr/qv/commit/25fd0a04a51c79ed97e41ae3111f95fefc0b8a3c",
-        "sha": "25fd0a04a51c79ed97e41ae3111f95fefc0b8a3c"
-      },
-      {
-        "title": "...",
-        "date": "2026-11-07T22:34:52Z",
-        "url": "https://github.com/sidineyr/qv/commit/f742246e116af8caa4b776988133f642f80f2b36",
-        "sha": "f742246e116af8caa4b776988133f642f80f2b36"
       }
     ],
     "status": "ok"
@@ -158,9 +158,27 @@
   "python-swirl": {
     "repository": "sidineyr/python-swirl-statistics",
     "source": "https://github.com/sidineyr/python-swirl-statistics/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Preserva entrada da Casa de Cursos ao gerar a página inicial",
+        "date": "2026-11-08T17:01:30Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/af3d93afeaccd55d21c0b34f9e6533fea6a92970",
+        "sha": "af3d93afeaccd55d21c0b34f9e6533fea6a92970"
+      },
+      {
+        "title": "Integra entrada para o percurso de aprendizagem da Casa de Cursos",
+        "date": "2026-11-08T16:59:51Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/cc09ce920123916ffe3a4c46b628072dd45dda34",
+        "sha": "cc09ce920123916ffe3a4c46b628072dd45dda34"
+      },
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:23Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/226af5a230ae07bdb78b53b1666eddea1291bb83",
+        "sha": "226af5a230ae07bdb78b53b1666eddea1291bb83"
+      },
       {
         "title": "Amplia catálogo revisado de materiais com metadados próprios do Python Swirl",
         "date": "2026-11-08T00:16:43Z",
@@ -172,24 +190,6 @@
         "date": "2026-11-08T00:09:40Z",
         "url": "https://github.com/sidineyr/python-swirl-statistics/commit/0cc7605156da3f9f82452e0caa70857cd033c509",
         "sha": "0cc7605156da3f9f82452e0caa70857cd033c509"
-      },
-      {
-        "title": "Integra catálogo contextual e links oficiais de materiais",
-        "date": "2026-11-07T23:59:48Z",
-        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/92583f827e6a2ef9ce5b12bdc0ac55c6f1753b0a",
-        "sha": "92583f827e6a2ef9ce5b12bdc0ac55c6f1753b0a"
-      },
-      {
-        "title": "Publica guia de materiais com prioridades, experiências e links reais",
-        "date": "2026-11-07T23:59:14Z",
-        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/4665cf27da8fca1b9ad049926e80bb8bcaa02315",
-        "sha": "4665cf27da8fca1b9ad049926e80bb8bcaa02315"
-      },
-      {
-        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
-        "date": "2026-11-07T23:08:57Z",
-        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/1c3429333227b8504c72ed7e9a82994a31568f71",
-        "sha": "1c3429333227b8504c72ed7e9a82994a31568f71"
       }
     ],
     "status": "ok"
@@ -197,9 +197,21 @@
   "chemical": {
     "repository": "sidineyr/Chemical",
     "source": "https://github.com/sidineyr/Chemical/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Integra entrada para o percurso de aprendizagem da Casa de Cursos",
+        "date": "2026-11-08T16:59:41Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/55735efd2ba5bbcd007a8a2d4fbdc51dab393f4d",
+        "sha": "55735efd2ba5bbcd007a8a2d4fbdc51dab393f4d"
+      },
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:09Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/ed5c306b6db1e8f8f5b97a1212e49471a1cb2285",
+        "sha": "ed5c306b6db1e8f8f5b97a1212e49471a1cb2285"
+      },
       {
         "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
         "date": "2026-11-08T00:17:27Z",
@@ -217,18 +229,6 @@
         "date": "2026-11-07T23:58:30Z",
         "url": "https://github.com/sidineyr/Chemical/commit/be157a9184c35662e77f690ee8c08e298d4d0741",
         "sha": "be157a9184c35662e77f690ee8c08e298d4d0741"
-      },
-      {
-        "title": "...",
-        "date": "2026-11-07T23:12:43Z",
-        "url": "https://github.com/sidineyr/Chemical/commit/2c8f0a77cea00706068cc09b2d5f0cb8c6d3bcd6",
-        "sha": "2c8f0a77cea00706068cc09b2d5f0cb8c6d3bcd6"
-      },
-      {
-        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
-        "date": "2026-11-07T23:08:44Z",
-        "url": "https://github.com/sidineyr/Chemical/commit/63edb47fad2b31b7d9794c70657228ceb1fb6785",
-        "sha": "63edb47fad2b31b7d9794c70657228ceb1fb6785"
       }
     ],
     "status": "ok"
@@ -236,38 +236,38 @@
   "filosofia": {
     "repository": "sidineyr/filosofia-aberta",
     "source": "https://github.com/sidineyr/filosofia-aberta/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Alinha página inicial ao resultado do gerador sem alterar o contador",
+        "date": "2026-11-08T17:00:52Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/d9c6c2a6a3a4812f2b4340b662d93cf1bd671312",
+        "sha": "d9c6c2a6a3a4812f2b4340b662d93cf1bd671312"
+      },
+      {
+        "title": "Preserva integração da Casa de Cursos ao regenerar a página inicial",
+        "date": "2026-11-08T17:00:25Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/527cbfa705aea7d745987873f939726846fbe6d5",
+        "sha": "527cbfa705aea7d745987873f939726846fbe6d5"
+      },
+      {
+        "title": "Integra entrada para o percurso de aprendizagem da Casa de Cursos",
+        "date": "2026-11-08T16:59:42Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/88f030e4cb2cd004b99163ae8f7f917855a1bcd3",
+        "sha": "88f030e4cb2cd004b99163ae8f7f917855a1bcd3"
+      },
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:11Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/6d9bc71b47194d55995868b520aff2075146dbba",
+        "sha": "6d9bc71b47194d55995868b520aff2075146dbba"
+      },
       {
         "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
         "date": "2026-11-08T00:17:33Z",
         "url": "https://github.com/sidineyr/filosofia-aberta/commit/489e4945d430786a7e9899530deaa78e5bbf082d",
         "sha": "489e4945d430786a7e9899530deaa78e5bbf082d"
-      },
-      {
-        "title": "Integra catálogo contextual e links oficiais de materiais",
-        "date": "2026-11-07T23:59:46Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/bc8350efb264377fe440228a1c8020ebaea889ed",
-        "sha": "bc8350efb264377fe440228a1c8020ebaea889ed"
-      },
-      {
-        "title": "Publica guia de materiais com prioridades, experiências e links reais",
-        "date": "2026-11-07T23:59:09Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/6ebc71e62e77e54cb5a52f929c2b24f410b32252",
-        "sha": "6ebc71e62e77e54cb5a52f929c2b24f410b32252"
-      },
-      {
-        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
-        "date": "2026-11-07T23:08:51Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/49f3e44f1555184e072d1e3d21737c2fa0ca0f87",
-        "sha": "49f3e44f1555184e072d1e3d21737c2fa0ca0f87"
-      },
-      {
-        "title": "...",
-        "date": "2026-11-07T22:34:52Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/c720d460f8efd853b1af7b1382e1177a64e73962",
-        "sha": "c720d460f8efd853b1af7b1382e1177a64e73962"
       }
     ],
     "status": "ok"
@@ -275,9 +275,21 @@
   "biosfera": {
     "repository": "sidineyr/biosfera",
     "source": "https://github.com/sidineyr/biosfera/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Integra entrada para o percurso de aprendizagem da Casa de Cursos",
+        "date": "2026-11-08T16:59:44Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/5fbc5d45f3ae5973ec19af41e8b5aa0af59eb7c7",
+        "sha": "5fbc5d45f3ae5973ec19af41e8b5aa0af59eb7c7"
+      },
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:14Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/021e5a6c6c5810d66714451b082a984e58b367b8",
+        "sha": "021e5a6c6c5810d66714451b082a984e58b367b8"
+      },
       {
         "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
         "date": "2026-11-08T00:17:25Z",
@@ -295,18 +307,6 @@
         "date": "2026-11-07T23:58:54Z",
         "url": "https://github.com/sidineyr/biosfera/commit/b435df598f673044c2537a3a97d21f139a124d8a",
         "sha": "b435df598f673044c2537a3a97d21f139a124d8a"
-      },
-      {
-        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
-        "date": "2026-11-07T23:08:42Z",
-        "url": "https://github.com/sidineyr/biosfera/commit/d6db20752c71ef9fb0dcee09be9f565e1c9ce52c",
-        "sha": "d6db20752c71ef9fb0dcee09be9f565e1c9ce52c"
-      },
-      {
-        "title": "...",
-        "date": "2026-11-07T22:34:49Z",
-        "url": "https://github.com/sidineyr/biosfera/commit/41773d3bdf848bfea4598c36f21589598af25d1f",
-        "sha": "41773d3bdf848bfea4598c36f21589598af25d1f"
       }
     ],
     "status": "ok"
@@ -314,9 +314,15 @@
   "atlas": {
     "repository": "sidineyr/atlas-do-sagrado",
     "source": "https://github.com/sidineyr/atlas-do-sagrado/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:12Z",
+        "url": "https://github.com/sidineyr/atlas-do-sagrado/commit/6a5b8025e1d716ca5ba036bc2dd3d2c8eae47e38",
+        "sha": "6a5b8025e1d716ca5ba036bc2dd3d2c8eae47e38"
+      },
       {
         "title": "fix(ux): revisar orientação pedagógica, fontes e conclusão dos módulos",
         "date": "2026-10-30T00:00:22Z",
@@ -340,12 +346,6 @@
         "date": "2026-09-13T22:34:25Z",
         "url": "https://github.com/sidineyr/atlas-do-sagrado/commit/17bd64215bb6ef21c7d3030496c4b3d444a91eb4",
         "sha": "17bd64215bb6ef21c7d3030496c4b3d444a91eb4"
-      },
-      {
-        "title": "docs: create issue tracking template for testing improvements",
-        "date": "2026-09-11T23:37:56Z",
-        "url": "https://github.com/sidineyr/atlas-do-sagrado/commit/2761511d0affe813e6f4fead48da2c2cb697a647",
-        "sha": "2761511d0affe813e6f4fead48da2c2cb697a647"
       }
     ],
     "status": "ok"
@@ -353,9 +353,21 @@
   "bb": {
     "repository": "sidineyr/bb",
     "source": "https://github.com/sidineyr/bb/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Integra entrada para o percurso de aprendizagem da Casa de Cursos",
+        "date": "2026-11-08T16:59:45Z",
+        "url": "https://github.com/sidineyr/bb/commit/c0b8e271716cddd81d93f34755985599bee1bf06",
+        "sha": "c0b8e271716cddd81d93f34755985599bee1bf06"
+      },
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:15Z",
+        "url": "https://github.com/sidineyr/bb/commit/305bfb6edef44434ffafbaf4e4e5b0b9789a5792",
+        "sha": "305bfb6edef44434ffafbaf4e4e5b0b9789a5792"
+      },
       {
         "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
         "date": "2026-11-08T00:17:23Z",
@@ -373,18 +385,6 @@
         "date": "2026-11-07T23:58:47Z",
         "url": "https://github.com/sidineyr/bb/commit/f2627961cb358008467c25c8c6adc84a75b1a3d1",
         "sha": "f2627961cb358008467c25c8c6adc84a75b1a3d1"
-      },
-      {
-        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
-        "date": "2026-11-07T23:08:37Z",
-        "url": "https://github.com/sidineyr/bb/commit/082d76308004e054a689a7016cf0846a49335fa1",
-        "sha": "082d76308004e054a689a7016cf0846a49335fa1"
-      },
-      {
-        "title": "...",
-        "date": "2026-11-07T22:34:57Z",
-        "url": "https://github.com/sidineyr/bb/commit/08be4986b7fd82e492757821cf4de0ced22fd72b",
-        "sha": "08be4986b7fd82e492757821cf4de0ced22fd72b"
       }
     ],
     "status": "ok"
@@ -392,9 +392,27 @@
   "contraprova": {
     "repository": "sidineyr/contraprova",
     "source": "https://github.com/sidineyr/contraprova/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Fixa runner do teste de navegador em Ubuntu compatível com Playwright",
+        "date": "2026-11-08T17:01:07Z",
+        "url": "https://github.com/sidineyr/contraprova/commit/71698fe604ea229d134480ed283304087f91b5f6",
+        "sha": "71698fe604ea229d134480ed283304087f91b5f6"
+      },
+      {
+        "title": "Integra entrada para o percurso de aprendizagem da Casa de Cursos",
+        "date": "2026-11-08T16:59:50Z",
+        "url": "https://github.com/sidineyr/contraprova/commit/7cadf333c1ff72dacc6ae51d5588ffe4659af2d4",
+        "sha": "7cadf333c1ff72dacc6ae51d5588ffe4659af2d4"
+      },
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:22Z",
+        "url": "https://github.com/sidineyr/contraprova/commit/488bf0aba045c2e590d590258f2a35660516aa60",
+        "sha": "488bf0aba045c2e590d590258f2a35660516aa60"
+      },
       {
         "title": "Adiciona materiais opcionais de leitura somente ao início",
         "date": "2026-11-08T00:27:44Z",
@@ -406,24 +424,6 @@
         "date": "2026-10-16T21:44:08Z",
         "url": "https://github.com/sidineyr/contraprova/commit/31a690b918dd9b5828ec02a764c4b32f90326fa4",
         "sha": "31a690b918dd9b5828ec02a764c4b32f90326fa4"
-      },
-      {
-        "title": "Contraprova 0.3: investigação online com fontes e histórico preservado",
-        "date": "2026-10-14T00:23:04Z",
-        "url": "https://github.com/sidineyr/contraprova/commit/ee3bd1f1d21d42793cf9031fe111ea4d9f0067ac",
-        "sha": "ee3bd1f1d21d42793cf9031fe111ea4d9f0067ac"
-      },
-      {
-        "title": "Document verified browser workflow and comparison pilot [skip ci]",
-        "date": "2026-10-01T22:05:36Z",
-        "url": "https://github.com/sidineyr/contraprova/commit/4df244af01cb33cecda4d51923d40b31d86c4900",
-        "sha": "4df244af01cb33cecda4d51923d40b31d86c4900"
-      },
-      {
-        "title": "Recover input validation and persist selected claim drafts",
-        "date": "2026-10-01T22:01:46Z",
-        "url": "https://github.com/sidineyr/contraprova/commit/541dd6ff7e42d8d057b1bd13d89ce177dd51bfaa",
-        "sha": "541dd6ff7e42d8d057b1bd13d89ce177dd51bfaa"
       }
     ],
     "status": "ok"
@@ -431,9 +431,21 @@
   "polliniza": {
     "repository": "sidineyr/Polliniza",
     "source": "https://github.com/sidineyr/Polliniza/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Integra entrada para o percurso de aprendizagem da Casa de Cursos",
+        "date": "2026-11-08T16:59:52Z",
+        "url": "https://github.com/sidineyr/Polliniza/commit/dba8deb7db2e09d9a79c335f5495572ab505fec9",
+        "sha": "dba8deb7db2e09d9a79c335f5495572ab505fec9"
+      },
+      {
+        "title": "Documenta percurso de aprendizagem inspirado no ART",
+        "date": "2026-11-08T16:59:18Z",
+        "url": "https://github.com/sidineyr/Polliniza/commit/0f6ab28da0f9c7df0803ec3647c33243bca6abb3",
+        "sha": "0f6ab28da0f9c7df0803ec3647c33243bca6abb3"
+      },
       {
         "title": "...",
         "date": "2026-11-07T22:34:51Z",
@@ -451,18 +463,6 @@
         "date": "2026-10-16T21:44:11Z",
         "url": "https://github.com/sidineyr/Polliniza/commit/c186b342766e74063e11b58871df4fc4298a0e56",
         "sha": "c186b342766e74063e11b58871df4fc4298a0e56"
-      },
-      {
-        "title": "docs: bilingual presentation and reproducible extension release (#6)",
-        "date": "2026-09-29T20:56:49Z",
-        "url": "https://github.com/sidineyr/Polliniza/commit/387f18e42ad449eab58e5891c0fe7ce9c2cbce74",
-        "sha": "387f18e42ad449eab58e5891c0fe7ce9c2cbce74"
-      },
-      {
-        "title": "feat: add no-card Vercel hosting option (#4)",
-        "date": "2026-09-27T22:37:46Z",
-        "url": "https://github.com/sidineyr/Polliniza/commit/0b77128f678ac9cffd408b7ffbc3f191344658b1",
-        "sha": "0b77128f678ac9cffd408b7ffbc3f191344658b1"
       }
     ],
     "status": "ok"
@@ -470,8 +470,8 @@
   "universidade": {
     "repository": "sidineyr/sidineyr.github.io",
     "source": "https://github.com/sidineyr/sidineyr.github.io/commits/main/universidade",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
       {
         "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
@@ -509,9 +509,15 @@
   "callguid": {
     "repository": "sidineyr/callguid",
     "source": "https://github.com/sidineyr/callguid/commits",
-    "checkedAt": "2026-11-08T13:29:37+00:00",
-    "attemptedAt": "2026-11-08T13:29:37+00:00",
+    "checkedAt": "2026-11-08T22:10:18+00:00",
+    "attemptedAt": "2026-11-08T22:10:18+00:00",
     "items": [
+      {
+        "title": "Integra percurso inicial da Casa de Cursos ao projeto",
+        "date": "2026-11-08T16:58:59Z",
+        "url": "https://github.com/sidineyr/callguid/commit/8fe043ee3de12362f55c6514bc90c4a405cd4b24",
+        "sha": "8fe043ee3de12362f55c6514bc90c4a405cd4b24"
+      },
       {
         "title": "Inclui materiais opcionais no site e separa capturas manuais da publicação",
         "date": "2026-11-08T00:28:38Z",
@@ -535,12 +541,6 @@
         "date": "2026-11-06T17:01:22Z",
         "url": "https://github.com/sidineyr/callguid/commit/92be37372ae0da026aedf0eee1df36b44a6e89a8",
         "sha": "92be37372ae0da026aedf0eee1df36b44a6e89a8"
-      },
-      {
-        "title": "Publish CallGuide Desktop for Windows, Linux and macOS",
-        "date": "2026-11-06T16:57:52Z",
-        "url": "https://github.com/sidineyr/callguid/commit/f9b73b9e0dbdd3276e8f3f94db692f63f2de2744",
-        "sha": "f9b73b9e0dbdd3276e8f3f94db692f63f2de2744"
       }
     ],
     "status": "ok"
