@@ -41,7 +41,7 @@ def shell(title, description, path, content, course=''):
 <p><a href="https://github.com/sidineyr/sidineyr.github.io/issues">Contato e correções</a> · <a href="/materiais/">Materiais e condições comerciais</a></p>{banner()}</footer></body></html>'''
 
 def banner():
-    return '''<aside class="footer-ad" aria-label="Publicidade"><p><small>Publicidade · links de afiliados</small></p><p><a href="https://link.amazon/B0gRgztiU" target="_blank" rel="sponsored noopener noreferrer">Materiais escolares · Amazon ↗</a> · <a href="https://www.mercadolivre.com.br/social/mrsid" target="_blank" rel="sponsored noopener noreferrer">Aprender e Criar · Mercado Livre ↗</a></p><p class="disclosure">Compra opcional. Como participante do Programa de Associados da Amazon, sou remunerado pelas compras qualificadas efetuadas. Também posso receber comissão pelo Mercado Livre. Confira preços e condições no destino.</p></aside>'''
+    return '''<aside class="footer-ad" aria-label="Publicidade"><p><small>Publicidade · links de afiliados</small></p><p><a href="https://link.amazon/B0gRgztiU" target="_blank" rel="sponsored noopener noreferrer">Materiais escolares · Amazon ↗</a> · <a href="https://www.mercadolivre.com.br/social/mrsid" target="_blank" rel="sponsored noopener noreferrer">Aprender e Criar · Mercado Livre ↗</a></p></aside>'''
 
 def build():
     repos=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'))
