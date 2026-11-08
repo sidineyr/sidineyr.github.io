@@ -1,344 +1,458 @@
 [
   {
-    "id": "callguid",
-    "title": "callguid",
-    "repository": "https://github.com/sidineyr/callguid",
-    "branch": "master"
-  },
-  {
-    "id": "ieml",
-    "title": "ieml",
-    "repository": "https://github.com/sidineyr/ieml",
-    "branch": "master"
-  },
-  {
-    "id": "linux",
-    "title": "linux",
-    "repository": "https://github.com/sidineyr/linux",
-    "branch": "master"
-  },
-  {
-    "id": "fullstack-course1-module2",
-    "title": "fullstack-course1-module2",
-    "repository": "https://github.com/sidineyr/fullstack-course1-module2",
-    "branch": "master"
-  },
-  {
-    "id": "machine-learning-coursera",
-    "title": "machine-learning-coursera",
-    "repository": "https://github.com/sidineyr/machine-learning-coursera",
-    "branch": "master"
-  },
-  {
-    "id": "shiny",
-    "title": "shiny",
-    "repository": "https://github.com/sidineyr/shiny",
-    "branch": "master"
-  },
-  {
-    "id": "fio-de-ariadne",
-    "title": "fio-de-ariadne",
-    "repository": "https://github.com/sidineyr/fio-de-ariadne",
-    "branch": "master"
-  },
-  {
-    "id": "DataScienceSpecialization.github.io",
-    "title": "DataScienceSpecialization.github.io",
-    "repository": "https://github.com/sidineyr/DataScienceSpecialization.github.io",
-    "branch": "master"
-  },
-  {
-    "id": "OEnigmadoReiArthur",
-    "title": "OEnigmadoReiArthur",
-    "repository": "https://github.com/sidineyr/OEnigmadoReiArthur",
-    "branch": "master"
-  },
-  {
-    "id": "LinkedinBot",
-    "title": "LinkedinBot",
-    "repository": "https://github.com/sidineyr/LinkedinBot",
-    "branch": "master"
-  },
-  {
-    "id": "my-first-blog",
-    "title": "my-first-blog",
-    "repository": "https://github.com/sidineyr/my-first-blog",
-    "branch": "master"
-  },
-  {
-    "id": "sidineyr.github.io",
-    "title": "sidineyr.github.io",
-    "repository": "https://github.com/sidineyr/sidineyr.github.io",
-    "branch": "main"
-  },
-  {
-    "id": "Catch",
-    "title": "Catch",
-    "repository": "https://github.com/sidineyr/Catch",
-    "branch": "master"
-  },
-  {
-    "id": "socios-brasil",
-    "title": "socios-brasil",
-    "repository": "https://github.com/sidineyr/socios-brasil",
-    "branch": "master"
-  },
-  {
-    "id": "LearningC",
-    "title": "LearningC",
-    "repository": "https://github.com/sidineyr/LearningC",
-    "branch": "master"
-  },
-  {
-    "id": "GCompris-qt",
-    "title": "GCompris-qt",
-    "repository": "https://github.com/sidineyr/GCompris-qt",
-    "branch": "master"
-  },
-  {
-    "id": "collective-intelligence-framework",
-    "title": "collective-intelligence-framework",
-    "repository": "https://github.com/sidineyr/collective-intelligence-framework",
-    "branch": "master"
-  },
-  {
-    "id": "serenata-de-amor",
-    "title": "serenata-de-amor",
-    "repository": "https://github.com/sidineyr/serenata-de-amor",
-    "branch": "master"
-  },
-  {
-    "id": "system-chess",
-    "title": "system-chess",
-    "repository": "https://github.com/sidineyr/system-chess",
-    "branch": "master"
-  },
-  {
-    "id": "computer-science",
-    "title": "computer-science",
-    "repository": "https://github.com/sidineyr/computer-science",
-    "branch": "master"
-  },
-  {
-    "id": "ProgrammingAssignment2",
-    "title": "ProgrammingAssignment2",
-    "repository": "https://github.com/sidineyr/ProgrammingAssignment2",
-    "branch": "master"
-  },
-  {
-    "id": "opencog",
-    "title": "opencog",
-    "repository": "https://github.com/sidineyr/opencog",
-    "branch": "master"
-  },
-  {
-    "id": "donuts",
-    "title": "donuts",
-    "repository": "https://github.com/sidineyr/donuts",
-    "branch": "master"
+    "id": "art",
+    "title": "art",
+    "repository": "https://github.com/sidineyr/art",
+    "branch": "main",
+    "description": "Percursos formativos em Artes Visuais, Música, Dança e Teatro, com referência na BNCC, tutoria interativa e atividades de apreciação, experimentação e criação. Recursos verificados de museus e instituições públicas, com créditos às fontes, acessibilidade e links externos em nova aba.",
+    "fork": false
   },
   {
     "id": "atlas-do-sagrado",
     "title": "atlas-do-sagrado",
     "repository": "https://github.com/sidineyr/atlas-do-sagrado",
-    "branch": "main"
-  },
-  {
-    "id": "GCompris",
-    "title": "GCompris",
-    "repository": "https://github.com/sidineyr/GCompris",
-    "branch": "master"
-  },
-  {
-    "id": "libieml",
-    "title": "libieml",
-    "repository": "https://github.com/sidineyr/libieml",
-    "branch": "master"
-  },
-  {
-    "id": "swirl",
-    "title": "swirl",
-    "repository": "https://github.com/sidineyr/swirl",
-    "branch": "master"
-  },
-  {
-    "id": "interactive-tutorials",
-    "title": "interactive-tutorials",
-    "repository": "https://github.com/sidineyr/interactive-tutorials",
-    "branch": "master"
+    "branch": "main",
+    "description": "MOOC aberto em português sobre história das religiões, não religião e filosofia, com fontes verificáveis e certificado simbólico em PDF.",
+    "fork": false
   },
   {
     "id": "auto-sklearn",
     "title": "auto-sklearn",
     "repository": "https://github.com/sidineyr/auto-sklearn",
-    "branch": "master"
-  },
-  {
-    "id": "project-open-data.github.io",
-    "title": "project-open-data.github.io",
-    "repository": "https://github.com/sidineyr/project-open-data.github.io",
-    "branch": "master"
-  },
-  {
-    "id": "nexmo-python",
-    "title": "nexmo-python",
-    "repository": "https://github.com/sidineyr/nexmo-python",
-    "branch": "master"
-  },
-  {
-    "id": "bb",
-    "title": "bb",
-    "repository": "https://github.com/sidineyr/bb",
-    "branch": "main"
-  },
-  {
-    "id": "puzzless",
-    "title": "puzzless",
-    "repository": "https://github.com/sidineyr/puzzless",
-    "branch": "main"
-  },
-  {
-    "id": "twitterexplode",
-    "title": "twitterexplode",
-    "repository": "https://github.com/sidineyr/twitterexplode",
-    "branch": "master"
-  },
-  {
-    "id": "datasharing",
-    "title": "datasharing",
-    "repository": "https://github.com/sidineyr/datasharing",
-    "branch": "master"
+    "branch": "master",
+    "description": "",
+    "fork": true
   },
   {
     "id": "balanced-dashboard",
     "title": "balanced-dashboard",
     "repository": "https://github.com/sidineyr/balanced-dashboard",
-    "branch": "master"
+    "branch": "master",
+    "description": "The Balanced dashboard.",
+    "fork": true
   },
   {
-    "id": "horizonte",
-    "title": "horizonte",
-    "repository": "https://github.com/sidineyr/horizonte",
-    "branch": "main"
-  },
-  {
-    "id": "PortugueseGame",
-    "title": "PortugueseGame",
-    "repository": "https://github.com/sidineyr/PortugueseGame",
-    "branch": "master"
-  },
-  {
-    "id": "IBM",
-    "title": "IBM",
-    "repository": "https://github.com/sidineyr/IBM",
-    "branch": "main"
-  },
-  {
-    "id": "wikiacolhe",
-    "title": "wikiacolhe",
-    "repository": "https://github.com/sidineyr/wikiacolhe",
-    "branch": "main"
-  },
-  {
-    "id": "ExData_Plotting1",
-    "title": "ExData_Plotting1",
-    "repository": "https://github.com/sidineyr/ExData_Plotting1",
-    "branch": "master"
-  },
-  {
-    "id": "reimagined-happiness",
-    "title": "reimagined-happiness",
-    "repository": "https://github.com/sidineyr/reimagined-happiness",
-    "branch": "main"
+    "id": "bb",
+    "title": "bb",
+    "repository": "https://github.com/sidineyr/bb",
+    "branch": "main",
+    "description": "a baby project",
+    "fork": false
   },
   {
     "id": "biosfera",
     "title": "biosfera",
     "repository": "https://github.com/sidineyr/biosfera",
-    "branch": "main"
+    "branch": "main",
+    "description": "",
+    "fork": false
   },
   {
-    "id": "sidineyr",
-    "title": "sidineyr",
-    "repository": "https://github.com/sidineyr/sidineyr",
-    "branch": "main"
+    "id": "callguid",
+    "title": "callguid",
+    "repository": "https://github.com/sidineyr/callguid",
+    "branch": "master",
+    "description": "CallGuide: aplicativo Android gratuito e offline para praticar caligrafia, letras e palavras, com orientações pedagógicas. Sem cadastro ou anúncios. Código aberto sob licença MIT.",
+    "fork": false
   },
   {
-    "id": "contraprova",
-    "title": "contraprova",
-    "repository": "https://github.com/sidineyr/contraprova",
-    "branch": "main"
+    "id": "Catch",
+    "title": "Catch",
+    "repository": "https://github.com/sidineyr/Catch",
+    "branch": "master",
+    "description": "C++ AutomatedTest Cases in Headers",
+    "fork": true
   },
   {
     "id": "Chemical",
     "title": "Chemical",
     "repository": "https://github.com/sidineyr/Chemical",
-    "branch": "main"
+    "branch": "main",
+    "description": "Learn Chemical With Python",
+    "fork": false
   },
   {
-    "id": "filosofia-aberta",
-    "title": "filosofia-aberta",
-    "repository": "https://github.com/sidineyr/filosofia-aberta",
-    "branch": "main"
+    "id": "collective-intelligence-framework",
+    "title": "collective-intelligence-framework",
+    "repository": "https://github.com/sidineyr/collective-intelligence-framework",
+    "branch": "master",
+    "description": "Automatically exported from code.google.com/p/collective-intelligence-framework",
+    "fork": false
   },
   {
-    "id": "qv",
-    "title": "qv",
-    "repository": "https://github.com/sidineyr/qv",
-    "branch": "main"
+    "id": "computer-science",
+    "title": "computer-science",
+    "repository": "https://github.com/sidineyr/computer-science",
+    "branch": "master",
+    "description": ":mortar_board: Path to a free self-taught education in Computer Science!",
+    "fork": true
   },
   {
-    "id": "sidletras",
-    "title": "sidletras",
-    "repository": "https://github.com/sidineyr/sidletras",
-    "branch": "main"
-  },
-  {
-    "id": "python-swirl-statistics",
-    "title": "python-swirl-statistics",
-    "repository": "https://github.com/sidineyr/python-swirl-statistics",
-    "branch": "main"
-  },
-  {
-    "id": "Polliniza",
-    "title": "Polliniza",
-    "repository": "https://github.com/sidineyr/Polliniza",
-    "branch": "main"
-  },
-  {
-    "id": "Rlearning",
-    "title": "Rlearning",
-    "repository": "https://github.com/sidineyr/Rlearning",
-    "branch": "main"
-  },
-  {
-    "id": "Topotime",
-    "title": "Topotime",
-    "repository": "https://github.com/sidineyr/Topotime",
-    "branch": "master"
-  },
-  {
-    "id": "PythonProjects",
-    "title": "PythonProjects",
-    "repository": "https://github.com/sidineyr/PythonProjects",
-    "branch": "master"
+    "id": "contraprova",
+    "title": "contraprova",
+    "repository": "https://github.com/sidineyr/contraprova",
+    "branch": "main",
+    "description": "caderno de investigação exportável. Professores poderiam acompanhar o percurso de raciocínio; estudantes poderiam perceber onde aceitaram uma resposta sem examiná-la. A primeira versão funcionaria sem cadastro, assinatura ou API de IA.",
+    "fork": false
   },
   {
     "id": "CyberSecurity",
     "title": "CyberSecurity",
     "repository": "https://github.com/sidineyr/CyberSecurity",
-    "branch": "main"
+    "branch": "main",
+    "description": " Our study delves into various aspects of cybersecurity, addressing topics such as threat intelligence, vulnerability analysis, and risk mitigation strategies. Stay informed about emerging trends, innovative solutions, and key insights.",
+    "fork": false
   },
   {
-    "id": "art",
-    "title": "art",
-    "repository": "https://github.com/sidineyr/art",
-    "branch": "main"
+    "id": "DataScienceSpecialization.github.io",
+    "title": "DataScienceSpecialization.github.io",
+    "repository": "https://github.com/sidineyr/DataScienceSpecialization.github.io",
+    "branch": "master",
+    "description": "http://DataScienceSpecialization.github.io",
+    "fork": true
+  },
+  {
+    "id": "datasharing",
+    "title": "datasharing",
+    "repository": "https://github.com/sidineyr/datasharing",
+    "branch": "master",
+    "description": "The Leek group guide to data sharing ",
+    "fork": true
+  },
+  {
+    "id": "donuts",
+    "title": "donuts",
+    "repository": "https://github.com/sidineyr/donuts",
+    "branch": "master",
+    "description": "A Powerfull energy",
+    "fork": false
   },
   {
     "id": "Einstein-Fisica",
     "title": "Einstein-Fisica",
     "repository": "https://github.com/sidineyr/Einstein-Fisica",
-    "branch": "main"
+    "branch": "main",
+    "description": "Estúdio aberto de investigação em Física para o Ensino Médio, alinhado à BNCC, com laboratórios digitais e fontes oficiais.",
+    "fork": false
+  },
+  {
+    "id": "ExData_Plotting1",
+    "title": "ExData_Plotting1",
+    "repository": "https://github.com/sidineyr/ExData_Plotting1",
+    "branch": "master",
+    "description": "Plotting Assignment 1 for Exploratory Data Analysis",
+    "fork": true
+  },
+  {
+    "id": "filosofia-aberta",
+    "title": "filosofia-aberta",
+    "repository": "https://github.com/sidineyr/filosofia-aberta",
+    "branch": "main",
+    "description": "Plataforma gratuita de leitura orientada de Filosofia, com percurso histórico, trechos de obras clássicas, perguntas para reflexão e fontes acadêmicas abertas. Para iniciantes e leitores em geral: ler, compreender, refletir e continuar. Projeto de Sidiney Rodrigues.",
+    "fork": false
+  },
+  {
+    "id": "fio-de-ariadne",
+    "title": "fio-de-ariadne",
+    "repository": "https://github.com/sidineyr/fio-de-ariadne",
+    "branch": "master",
+    "description": "",
+    "fork": true
+  },
+  {
+    "id": "fullstack-course1-module2",
+    "title": "fullstack-course1-module2",
+    "repository": "https://github.com/sidineyr/fullstack-course1-module2",
+    "branch": "master",
+    "description": "",
+    "fork": true
+  },
+  {
+    "id": "GCompris",
+    "title": "GCompris",
+    "repository": "https://github.com/sidineyr/GCompris",
+    "branch": "master",
+    "description": "Educational Software Suite",
+    "fork": true
+  },
+  {
+    "id": "GCompris-qt",
+    "title": "GCompris-qt",
+    "repository": "https://github.com/sidineyr/GCompris-qt",
+    "branch": "master",
+    "description": "GCompris in Qt Quick",
+    "fork": true
+  },
+  {
+    "id": "horizonte",
+    "title": "horizonte",
+    "repository": "https://github.com/sidineyr/horizonte",
+    "branch": "main",
+    "description": "Exploração vocacional educativa para estudantes na fase do ENEM: questionário de interesses, habilidades e contexto, dashboard de possibilidades e sugestões de formação. Sem cadastro e sem diagnóstico psicológico.",
+    "fork": false
+  },
+  {
+    "id": "IBM",
+    "title": "IBM",
+    "repository": "https://github.com/sidineyr/IBM",
+    "branch": "main",
+    "description": "Data Science From Coursera",
+    "fork": false
+  },
+  {
+    "id": "ieml",
+    "title": "ieml",
+    "repository": "https://github.com/sidineyr/ieml",
+    "branch": "master",
+    "description": "IEML langage python implementation",
+    "fork": true
+  },
+  {
+    "id": "interactive-tutorials",
+    "title": "interactive-tutorials",
+    "repository": "https://github.com/sidineyr/interactive-tutorials",
+    "branch": "master",
+    "description": "Interactive Tutorials",
+    "fork": true
+  },
+  {
+    "id": "LearningC",
+    "title": "LearningC",
+    "repository": "https://github.com/sidineyr/LearningC",
+    "branch": "master",
+    "description": "C exercices",
+    "fork": false
+  },
+  {
+    "id": "libieml",
+    "title": "libieml",
+    "repository": "https://github.com/sidineyr/libieml",
+    "branch": "master",
+    "description": "Faq",
+    "fork": false
+  },
+  {
+    "id": "LinkedinBot",
+    "title": "LinkedinBot",
+    "repository": "https://github.com/sidineyr/LinkedinBot",
+    "branch": "master",
+    "description": "LinkedinBot",
+    "fork": false
+  },
+  {
+    "id": "linux",
+    "title": "linux",
+    "repository": "https://github.com/sidineyr/linux",
+    "branch": "master",
+    "description": "Linux kernel source tree",
+    "fork": true
+  },
+  {
+    "id": "machine-learning-coursera",
+    "title": "machine-learning-coursera",
+    "repository": "https://github.com/sidineyr/machine-learning-coursera",
+    "branch": "master",
+    "description": "Lecture notes and assignments for coursera machine learning class  ",
+    "fork": true
+  },
+  {
+    "id": "my-first-blog",
+    "title": "my-first-blog",
+    "repository": "https://github.com/sidineyr/my-first-blog",
+    "branch": "master",
+    "description": "My first Blog",
+    "fork": false
+  },
+  {
+    "id": "nexmo-python",
+    "title": "nexmo-python",
+    "repository": "https://github.com/sidineyr/nexmo-python",
+    "branch": "master",
+    "description": "Nexmo REST API client for Python. API support for SMS, Voice, Text-to-Speech, Numbers, Verify (2FA) and more.",
+    "fork": true
+  },
+  {
+    "id": "OEnigmadoReiArthur",
+    "title": "OEnigmadoReiArthur",
+    "repository": "https://github.com/sidineyr/OEnigmadoReiArthur",
+    "branch": "master",
+    "description": "Game, strategy, keys, rpg",
+    "fork": false
+  },
+  {
+    "id": "opencog",
+    "title": "opencog",
+    "repository": "https://github.com/sidineyr/opencog",
+    "branch": "master",
+    "description": "A framework for integrated Artificial Intelligence & Artificial General Intelligence (AGI)",
+    "fork": true
+  },
+  {
+    "id": "Polliniza",
+    "title": "Polliniza",
+    "repository": "https://github.com/sidineyr/Polliniza",
+    "branch": "main",
+    "description": "",
+    "fork": false
+  },
+  {
+    "id": "PortugueseGame",
+    "title": "PortugueseGame",
+    "repository": "https://github.com/sidineyr/PortugueseGame",
+    "branch": "master",
+    "description": "Jogo educativo de alfabetização em Python e Tkinter para completar letras ausentes em palavras da língua portuguesa.",
+    "fork": false
+  },
+  {
+    "id": "ProgrammingAssignment2",
+    "title": "ProgrammingAssignment2",
+    "repository": "https://github.com/sidineyr/ProgrammingAssignment2",
+    "branch": "master",
+    "description": "Repository for Programming Assignment 2 for R Programming on Coursera",
+    "fork": true
+  },
+  {
+    "id": "project-open-data.github.io",
+    "title": "project-open-data.github.io",
+    "repository": "https://github.com/sidineyr/project-open-data.github.io",
+    "branch": "master",
+    "description": "Open Data Policy — Managing Information as an Asset",
+    "fork": true
+  },
+  {
+    "id": "puzzless",
+    "title": "puzzless",
+    "repository": "https://github.com/sidineyr/puzzless",
+    "branch": "main",
+    "description": "A little package of digital puzzles. ",
+    "fork": false
+  },
+  {
+    "id": "python-swirl-statistics",
+    "title": "python-swirl-statistics",
+    "repository": "https://github.com/sidineyr/python-swirl-statistics",
+    "branch": "main",
+    "description": "Curso interativo e gratuito para compreender estatística praticando em Python, com lições guiadas em português.",
+    "fork": false
+  },
+  {
+    "id": "PythonProjects",
+    "title": "PythonProjects",
+    "repository": "https://github.com/sidineyr/PythonProjects",
+    "branch": "master",
+    "description": "projetos",
+    "fork": false
+  },
+  {
+    "id": "qv",
+    "title": "qv",
+    "repository": "https://github.com/sidineyr/qv",
+    "branch": "main",
+    "description": "Quality View",
+    "fork": false
+  },
+  {
+    "id": "reimagined-happiness",
+    "title": "reimagined-happiness",
+    "repository": "https://github.com/sidineyr/reimagined-happiness",
+    "branch": "main",
+    "description": "Repositório experimental para estudos e protótipos.",
+    "fork": false
+  },
+  {
+    "id": "Rlearning",
+    "title": "Rlearning",
+    "repository": "https://github.com/sidineyr/Rlearning",
+    "branch": "main",
+    "description": "A little bit about.",
+    "fork": false
+  },
+  {
+    "id": "serenata-de-amor",
+    "title": "serenata-de-amor",
+    "repository": "https://github.com/sidineyr/serenata-de-amor",
+    "branch": "master",
+    "description": "🕵 Artificial Intelligence for social control of public administration",
+    "fork": true
+  },
+  {
+    "id": "shiny",
+    "title": "shiny",
+    "repository": "https://github.com/sidineyr/shiny",
+    "branch": "master",
+    "description": "Easy interactive web applications with R",
+    "fork": true
+  },
+  {
+    "id": "sidineyr",
+    "title": "sidineyr",
+    "repository": "https://github.com/sidineyr/sidineyr",
+    "branch": "main",
+    "description": "My portfolio",
+    "fork": false
+  },
+  {
+    "id": "sidineyr.github.io",
+    "title": "sidineyr.github.io",
+    "repository": "https://github.com/sidineyr/sidineyr.github.io",
+    "branch": "main",
+    "description": "Página central dos projetos públicos de educação, ciência e tecnologia.",
+    "fork": false
+  },
+  {
+    "id": "sidletras",
+    "title": "sidletras",
+    "repository": "https://github.com/sidineyr/sidletras",
+    "branch": "main",
+    "description": "My website",
+    "fork": false
+  },
+  {
+    "id": "socios-brasil",
+    "title": "socios-brasil",
+    "repository": "https://github.com/sidineyr/socios-brasil",
+    "branch": "master",
+    "description": "Captura os dados de sócios das empresas brasileiras na Receita Federal e exporta para um formato legível por humanos",
+    "fork": true
+  },
+  {
+    "id": "swirl",
+    "title": "swirl",
+    "repository": "https://github.com/sidineyr/swirl",
+    "branch": "master",
+    "description": ":cyclone: Learn R, in R.",
+    "fork": true
+  },
+  {
+    "id": "system-chess",
+    "title": "system-chess",
+    "repository": "https://github.com/sidineyr/system-chess",
+    "branch": "master",
+    "description": "System Chess",
+    "fork": false
+  },
+  {
+    "id": "Topotime",
+    "title": "Topotime",
+    "repository": "https://github.com/sidineyr/Topotime",
+    "branch": "master",
+    "description": "A pragmatic data model and D3 layout for representing complex time",
+    "fork": true
+  },
+  {
+    "id": "twitterexplode",
+    "title": "twitterexplode",
+    "repository": "https://github.com/sidineyr/twitterexplode",
+    "branch": "master",
+    "description": "Random nonsense I wrote while learning to code, do not look closely ;)",
+    "fork": true
+  },
+  {
+    "id": "wikiacolhe",
+    "title": "wikiacolhe",
+    "repository": "https://github.com/sidineyr/wikiacolhe",
+    "branch": "main",
+    "description": "Portal educacional bilíngue e acessível para iniciantes aprenderem a navegar, pesquisar, verificar informações e cuidar de si na internet. PWA gratuito, sem cadastro e sem coleta de dados.",
+    "fork": false
   }
 ]
