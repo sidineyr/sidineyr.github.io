@@ -2,38 +2,38 @@
   "art": {
     "repository": "sidineyr/art",
     "source": "https://github.com/sidineyr/art/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
       {
-        "title": "Prepara publicidade discreta e reforça doação independente",
-        "date": "2026-11-07T21:52:22Z",
-        "url": "https://github.com/sidineyr/art/commit/cbabae699a14cf73394b0083301aa182d12deb89",
-        "sha": "cbabae699a14cf73394b0083301aa182d12deb89"
+        "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
+        "date": "2026-11-08T00:17:20Z",
+        "url": "https://github.com/sidineyr/art/commit/e0612a34de26f45bd7f0c0942cba8f6967fdb447",
+        "sha": "e0612a34de26f45bd7f0c0942cba8f6967fdb447"
       },
       {
-        "title": "Prepara o teste gratuito do tutor de Artes em vídeo",
-        "date": "2026-11-07T20:47:58Z",
-        "url": "https://github.com/sidineyr/art/commit/1a1fc997b755ddd15b63ab6f04c1cb923d256fa7",
-        "sha": "1a1fc997b755ddd15b63ab6f04c1cb923d256fa7"
+        "title": "Inclui guia de materiais no artefato público de Artes",
+        "date": "2026-11-08T00:04:48Z",
+        "url": "https://github.com/sidineyr/art/commit/6e87feedb1dc4351f55d72981f05ee5a8cd6a58f",
+        "sha": "6e87feedb1dc4351f55d72981f05ee5a8cd6a58f"
       },
       {
-        "title": "Confere a versão da abertura entregue pelo site público",
-        "date": "2026-11-07T20:29:50Z",
-        "url": "https://github.com/sidineyr/art/commit/5f6ea19931b5f88ea5b62d34cc4b7a45772f4c68",
-        "sha": "5f6ea19931b5f88ea5b62d34cc4b7a45772f4c68"
+        "title": "Integra catálogo contextual e links oficiais de materiais",
+        "date": "2026-11-07T23:59:41Z",
+        "url": "https://github.com/sidineyr/art/commit/ef22233b91ceb7f29f4ed85b9d0c1b20bddcf7b4",
+        "sha": "ef22233b91ceb7f29f4ed85b9d0c1b20bddcf7b4"
       },
       {
-        "title": "Corrige a atualização da abertura guardada no navegador",
-        "date": "2026-11-07T20:27:27Z",
-        "url": "https://github.com/sidineyr/art/commit/a6e45277a96f5c1632d0e4186fa43864de67623d",
-        "sha": "a6e45277a96f5c1632d0e4186fa43864de67623d"
+        "title": "Publica guia de materiais com prioridades, experiências e links reais",
+        "date": "2026-11-07T23:58:42Z",
+        "url": "https://github.com/sidineyr/art/commit/892164b36c0a1d0734fc5bdc4dfe348df962c9ea",
+        "sha": "892164b36c0a1d0734fc5bdc4dfe348df962c9ea"
       },
       {
-        "title": "Transforma a abertura do ART em um palco para as oficinas",
-        "date": "2026-11-07T20:23:04Z",
-        "url": "https://github.com/sidineyr/art/commit/7e596866ba404538392264e9fd1770b7e5ea80de",
-        "sha": "7e596866ba404538392264e9fd1770b7e5ea80de"
+        "title": "Remove arquivo vazio sem uso",
+        "date": "2026-11-07T23:55:14Z",
+        "url": "https://github.com/sidineyr/art/commit/88bd6b896d49e911d0b956aabaa22f85a0c8ee7e",
+        "sha": "88bd6b896d49e911d0b956aabaa22f85a0c8ee7e"
       }
     ],
     "status": "ok"
@@ -41,38 +41,38 @@
   "einstein": {
     "repository": "sidineyr/Einstein-Fisica",
     "source": "https://github.com/sidineyr/Einstein-Fisica/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
       {
-        "title": "Prepara publicidade discreta e reforça doação independente",
-        "date": "2026-11-07T21:52:07Z",
-        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/3562a029ceeb77ea19eeaeaeac62b933d97fb515",
-        "sha": "3562a029ceeb77ea19eeaeaeac62b933d97fb515"
+        "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
+        "date": "2026-11-08T00:17:45Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/d7fcdc1ba50ee61bda4161606acbab38a1312c26",
+        "sha": "d7fcdc1ba50ee61bda4161606acbab38a1312c26"
       },
       {
-        "title": "Adiciona contador público de acessos e integração com o portfólio",
-        "date": "2026-10-16T21:43:52Z",
-        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/4e98169d21693414ba6eff0c18f3519eddf8acb0",
-        "sha": "4e98169d21693414ba6eff0c18f3519eddf8acb0"
+        "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
+        "date": "2026-11-08T00:17:30Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/8fdeade1331603fc27f9932e23ba4fca758e55d6",
+        "sha": "8fdeade1331603fc27f9932e23ba4fca758e55d6"
       },
       {
-        "title": "i18n: adicionar seletor português inglês",
-        "date": "2026-09-15T22:49:18Z",
-        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/b1601ea763367fc69e6b1e4860b7e85f1a31c2fd",
-        "sha": "b1601ea763367fc69e6b1e4860b7e85f1a31c2fd"
+        "title": "Inclui catálogo no diretório público da aplicação",
+        "date": "2026-11-08T00:00:34Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/3c49f45c642c932dfa77fff6e21e860188475e96",
+        "sha": "3c49f45c642c932dfa77fff6e21e860188475e96"
       },
       {
-        "title": "SEO: refinar termos de Física e links internos",
-        "date": "2026-09-15T22:32:46Z",
-        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/1b7240cb53c648961f39a0679079f2c97fee62fd",
-        "sha": "1b7240cb53c648961f39a0679079f2c97fee62fd"
+        "title": "Sincroniza materiais e links oficiais na versão publicada",
+        "date": "2026-11-08T00:00:25Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/bdba8f0c2c8df8514e26f2974655aad4957d7f8f",
+        "sha": "bdba8f0c2c8df8514e26f2974655aad4957d7f8f"
       },
       {
-        "title": "feat: add direct Hospital Pequeno Príncipe donation note",
-        "date": "2026-09-13T22:34:24Z",
-        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/636f78c669f9db663552b64b28ffc5eae3b7e0cc",
-        "sha": "636f78c669f9db663552b64b28ffc5eae3b7e0cc"
+        "title": "Integra catálogo contextual e links oficiais de materiais",
+        "date": "2026-11-07T23:59:44Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/19ce82474d2abcb4ba801648f462b1c444db016a",
+        "sha": "19ce82474d2abcb4ba801648f462b1c444db016a"
       }
     ],
     "status": "ok"
@@ -80,8 +80,8 @@
   "horizonte": {
     "repository": "sidineyr/horizonte",
     "source": "https://github.com/sidineyr/horizonte/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
       {
         "title": "i18n: reforçar descoberta bilíngue PT EN",
@@ -119,38 +119,38 @@
   "quality-view": {
     "repository": "sidineyr/qv",
     "source": "https://github.com/sidineyr/qv/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
       {
-        "title": "Prepara publicidade discreta e reforça doação independente",
-        "date": "2026-11-07T21:51:57Z",
-        "url": "https://github.com/sidineyr/qv/commit/bdea45cb6b2a0e24bf0a183f0892032801a3d91a",
-        "sha": "bdea45cb6b2a0e24bf0a183f0892032801a3d91a"
+        "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
+        "date": "2026-11-08T00:17:38Z",
+        "url": "https://github.com/sidineyr/qv/commit/f8f417b11159281238c4eb6a1599b0a5a1256939",
+        "sha": "f8f417b11159281238c4eb6a1599b0a5a1256939"
       },
       {
-        "title": "Corrige contador indisponível com Hits e informa início da contagem (#4)",
-        "date": "2026-11-06T20:20:49Z",
-        "url": "https://github.com/sidineyr/qv/commit/4c51eebf74c7a6086971e24856c06fd7fc80575b",
-        "sha": "4c51eebf74c7a6086971e24856c06fd7fc80575b"
+        "title": "Integra catálogo contextual e links oficiais de materiais",
+        "date": "2026-11-07T23:59:50Z",
+        "url": "https://github.com/sidineyr/qv/commit/40af0a772bd64b053e6a64ac0014faddc15ff8c0",
+        "sha": "40af0a772bd64b053e6a64ac0014faddc15ff8c0"
       },
       {
-        "title": "SEO: notificar IndexNow após deploy do QV",
-        "date": "2026-09-28T15:25:44Z",
-        "url": "https://github.com/sidineyr/qv/commit/7f7dbe739c365473981feb5172664672c0fb882c",
-        "sha": "7f7dbe739c365473981feb5172664672c0fb882c"
+        "title": "Publica guia de materiais com prioridades, experiências e links reais",
+        "date": "2026-11-07T23:59:16Z",
+        "url": "https://github.com/sidineyr/qv/commit/4d9f2505b57a4e2226052143fc5ad68bc5e8b147",
+        "sha": "4d9f2505b57a4e2226052143fc5ad68bc5e8b147"
       },
       {
-        "title": "Docs: destacar site publicado do QV",
-        "date": "2026-09-28T14:58:11Z",
-        "url": "https://github.com/sidineyr/qv/commit/78f6b5f0f2be1588e1fd1b90460330b1de16c9e0",
-        "sha": "78f6b5f0f2be1588e1fd1b90460330b1de16c9e0"
+        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
+        "date": "2026-11-07T23:09:00Z",
+        "url": "https://github.com/sidineyr/qv/commit/25fd0a04a51c79ed97e41ae3111f95fefc0b8a3c",
+        "sha": "25fd0a04a51c79ed97e41ae3111f95fefc0b8a3c"
       },
       {
-        "title": "SEO: atualizar data do sitemap do QV",
-        "date": "2026-09-28T14:58:09Z",
-        "url": "https://github.com/sidineyr/qv/commit/6c4b7b6fac0908a4528f826fcb374c264641ea6f",
-        "sha": "6c4b7b6fac0908a4528f826fcb374c264641ea6f"
+        "title": "...",
+        "date": "2026-11-07T22:34:52Z",
+        "url": "https://github.com/sidineyr/qv/commit/f742246e116af8caa4b776988133f642f80f2b36",
+        "sha": "f742246e116af8caa4b776988133f642f80f2b36"
       }
     ],
     "status": "ok"
@@ -158,38 +158,38 @@
   "python-swirl": {
     "repository": "sidineyr/python-swirl-statistics",
     "source": "https://github.com/sidineyr/python-swirl-statistics/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
       {
-        "title": "Prepara publicidade discreta e reforça doação independente",
-        "date": "2026-11-07T21:54:12Z",
-        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/b356884237121971472079f5aae24e9e16d0db79",
-        "sha": "b356884237121971472079f5aae24e9e16d0db79"
+        "title": "Amplia catálogo revisado de materiais com metadados próprios do Python Swirl",
+        "date": "2026-11-08T00:16:43Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/0083676bc841f34cdc74dbb54f21e771fea66aa0",
+        "sha": "0083676bc841f34cdc74dbb54f21e771fea66aa0"
       },
       {
-        "title": "Adiciona contador público de acessos e integração com o portfólio",
-        "date": "2026-10-16T21:44:05Z",
-        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/df4d175257ebebb0d84c5577219fddd4e23413ed",
-        "sha": "df4d175257ebebb0d84c5577219fddd4e23413ed"
+        "title": "Integra catálogo ao gerador e valida as 19 páginas do curso",
+        "date": "2026-11-08T00:09:40Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/0cc7605156da3f9f82452e0caa70857cd033c509",
+        "sha": "0cc7605156da3f9f82452e0caa70857cd033c509"
       },
       {
-        "title": "Corrige preservação de respostas e conferência; aprofunda avaliação das dez aulas",
-        "date": "2026-10-12T17:31:28Z",
-        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/ddc098e9ec9c35350c5d73607a0f0d6cf5b2d14e",
-        "sha": "ddc098e9ec9c35350c5d73607a0f0d6cf5b2d14e"
+        "title": "Integra catálogo contextual e links oficiais de materiais",
+        "date": "2026-11-07T23:59:48Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/92583f827e6a2ef9ce5b12bdc0ac55c6f1753b0a",
+        "sha": "92583f827e6a2ef9ce5b12bdc0ac55c6f1753b0a"
       },
       {
-        "title": "Document successful deployment, CI and desktop course walkthrough",
-        "date": "2026-10-08T22:56:35Z",
-        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/85afb525b05232313e13ca196024bbce212c6e92",
-        "sha": "85afb525b05232313e13ca196024bbce212c6e92"
+        "title": "Publica guia de materiais com prioridades, experiências e links reais",
+        "date": "2026-11-07T23:59:14Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/4665cf27da8fca1b9ad049926e80bb8bcaa02315",
+        "sha": "4665cf27da8fca1b9ad049926e80bb8bcaa02315"
       },
       {
-        "title": "Keep worked-example data available for notebook practice questions",
-        "date": "2026-10-08T22:53:46Z",
-        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/bcb2587a3745ab40243099ae2355ccbace16ffb1",
-        "sha": "bcb2587a3745ab40243099ae2355ccbace16ffb1"
+        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
+        "date": "2026-11-07T23:08:57Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/1c3429333227b8504c72ed7e9a82994a31568f71",
+        "sha": "1c3429333227b8504c72ed7e9a82994a31568f71"
       }
     ],
     "status": "ok"
@@ -197,38 +197,38 @@
   "chemical": {
     "repository": "sidineyr/Chemical",
     "source": "https://github.com/sidineyr/Chemical/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
       {
-        "title": "Prepara publicidade discreta e reforça doação independente",
-        "date": "2026-11-07T21:52:37Z",
-        "url": "https://github.com/sidineyr/Chemical/commit/ef2b7458604dab134948b4d95a099315bb8cc4b4",
-        "sha": "ef2b7458604dab134948b4d95a099315bb8cc4b4"
+        "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
+        "date": "2026-11-08T00:17:27Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/7ade8be202a70499e0fb8c534516ad5a3d96fdb6",
+        "sha": "7ade8be202a70499e0fb8c534516ad5a3d96fdb6"
       },
       {
-        "title": "docs: add contribution guide",
-        "date": "2026-10-16T22:48:54Z",
-        "url": "https://github.com/sidineyr/Chemical/commit/993bce92592f140e651168ee88fd0f70085815ea",
-        "sha": "993bce92592f140e651168ee88fd0f70085815ea"
+        "title": "Publica guia de materiais com prioridades, experiências e links reais",
+        "date": "2026-11-07T23:58:59Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/0ae87f8c528467b258d435c3e7d363c8f005183c",
+        "sha": "0ae87f8c528467b258d435c3e7d363c8f005183c"
       },
       {
-        "title": "Adiciona contador público de acessos e integração com o portfólio",
-        "date": "2026-10-16T21:43:55Z",
-        "url": "https://github.com/sidineyr/Chemical/commit/93d7b067ade65b3df521de4ac926e591fa3c223a",
-        "sha": "93d7b067ade65b3df521de4ac926e591fa3c223a"
+        "title": "Organiza materiais educativos e corrige a seleção de afiliados",
+        "date": "2026-11-07T23:58:30Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/be157a9184c35662e77f690ee8c08e298d4d0741",
+        "sha": "be157a9184c35662e77f690ee8c08e298d4d0741"
       },
       {
-        "title": "SEO: notificar IndexNow após deploy do Chemical",
-        "date": "2026-09-28T15:25:46Z",
-        "url": "https://github.com/sidineyr/Chemical/commit/9f8463aa5608024254217e29b51eee39e55ccf14",
-        "sha": "9f8463aa5608024254217e29b51eee39e55ccf14"
+        "title": "...",
+        "date": "2026-11-07T23:12:43Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/2c8f0a77cea00706068cc09b2d5f0cb8c6d3bcd6",
+        "sha": "2c8f0a77cea00706068cc09b2d5f0cb8c6d3bcd6"
       },
       {
-        "title": "Pages: publicar arquivos estáticos sem processamento Jekyll",
-        "date": "2026-09-28T14:58:27Z",
-        "url": "https://github.com/sidineyr/Chemical/commit/adace2dd56825fe4d3b059a3b6e1ab988434112f",
-        "sha": "adace2dd56825fe4d3b059a3b6e1ab988434112f"
+        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
+        "date": "2026-11-07T23:08:44Z",
+        "url": "https://github.com/sidineyr/Chemical/commit/63edb47fad2b31b7d9794c70657228ceb1fb6785",
+        "sha": "63edb47fad2b31b7d9794c70657228ceb1fb6785"
       }
     ],
     "status": "ok"
@@ -236,38 +236,38 @@
   "filosofia": {
     "repository": "sidineyr/filosofia-aberta",
     "source": "https://github.com/sidineyr/filosofia-aberta/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
       {
-        "title": "Adiciona contador público de acessos e integração com o portfólio",
-        "date": "2026-10-16T21:43:59Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/829cea127e79b9a6f772cc0ed0259af2735398f5",
-        "sha": "829cea127e79b9a6f772cc0ed0259af2735398f5"
+        "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
+        "date": "2026-11-08T00:17:33Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/489e4945d430786a7e9899530deaa78e5bbf082d",
+        "sha": "489e4945d430786a7e9899530deaa78e5bbf082d"
       },
       {
-        "title": "i18n: oferecer tradução PT EN em todas as páginas",
-        "date": "2026-09-15T22:49:22Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/d7b4caf257501555abaf3ada5ae39540fa57f8e4",
-        "sha": "d7b4caf257501555abaf3ada5ae39540fa57f8e4"
+        "title": "Integra catálogo contextual e links oficiais de materiais",
+        "date": "2026-11-07T23:59:46Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/bc8350efb264377fe440228a1c8020ebaea889ed",
+        "sha": "bc8350efb264377fe440228a1c8020ebaea889ed"
       },
       {
-        "title": "SEO: otimizar percurso para iniciantes",
-        "date": "2026-09-15T22:32:47Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/2a00f8345d1396581812eda906ea784606f904e2",
-        "sha": "2a00f8345d1396581812eda906ea784606f904e2"
+        "title": "Publica guia de materiais com prioridades, experiências e links reais",
+        "date": "2026-11-07T23:59:09Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/6ebc71e62e77e54cb5a52f929c2b24f410b32252",
+        "sha": "6ebc71e62e77e54cb5a52f929c2b24f410b32252"
       },
       {
-        "title": "Release v0.3.0: complete the guided philosophy path",
-        "date": "2026-09-10T21:17:15Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/3e1acd438cf1b997ff8d588be94409bc66729a61",
-        "sha": "3e1acd438cf1b997ff8d588be94409bc66729a61"
+        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
+        "date": "2026-11-07T23:08:51Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/49f3e44f1555184e072d1e3d21737c2fa0ca0f87",
+        "sha": "49f3e44f1555184e072d1e3d21737c2fa0ca0f87"
       },
       {
-        "title": "Release v0.2.0: bloquinhos de conhecimento (#2)",
-        "date": "2026-09-08T15:49:00Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/c8474d70155ebb68dbae5df95b756baf780ad241",
-        "sha": "c8474d70155ebb68dbae5df95b756baf780ad241"
+        "title": "...",
+        "date": "2026-11-07T22:34:52Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/c720d460f8efd853b1af7b1382e1177a64e73962",
+        "sha": "c720d460f8efd853b1af7b1382e1177a64e73962"
       }
     ],
     "status": "ok"
@@ -275,38 +275,38 @@
   "biosfera": {
     "repository": "sidineyr/biosfera",
     "source": "https://github.com/sidineyr/biosfera/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
       {
-        "title": "Prepara publicidade discreta e reforça doação independente",
-        "date": "2026-11-07T21:52:22Z",
-        "url": "https://github.com/sidineyr/biosfera/commit/ed41420ea899eb586b9eb9821d7d9ba430a96a5c",
-        "sha": "ed41420ea899eb586b9eb9821d7d9ba430a96a5c"
+        "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
+        "date": "2026-11-08T00:17:25Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/a44bf90f26f0cb9bc5a3d2c2097217bb12480f23",
+        "sha": "a44bf90f26f0cb9bc5a3d2c2097217bb12480f23"
       },
       {
-        "title": "Adiciona contador público de acessos e integração com o portfólio",
-        "date": "2026-10-16T21:44:02Z",
-        "url": "https://github.com/sidineyr/biosfera/commit/4c72fa79052e3d763d2f37a9910bd706af10b664",
-        "sha": "4c72fa79052e3d763d2f37a9910bd706af10b664"
+        "title": "Integra catálogo contextual e links oficiais de materiais",
+        "date": "2026-11-07T23:59:43Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/44d44b28c8233d2a67e982a46d971a817f45b1b2",
+        "sha": "44d44b28c8233d2a67e982a46d971a817f45b1b2"
       },
       {
-        "title": "i18n: alinhar metadados bilíngues",
-        "date": "2026-09-15T22:49:22Z",
-        "url": "https://github.com/sidineyr/biosfera/commit/c8088805c1ab6bbf8cc3f8f23f39fe960a063357",
-        "sha": "c8088805c1ab6bbf8cc3f8f23f39fe960a063357"
+        "title": "Publica guia de materiais com prioridades, experiências e links reais",
+        "date": "2026-11-07T23:58:54Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/b435df598f673044c2537a3a97d21f139a124d8a",
+        "sha": "b435df598f673044c2537a3a97d21f139a124d8a"
       },
       {
-        "title": "SEO: alinhar termos de Biologia interativa",
-        "date": "2026-09-15T22:32:44Z",
-        "url": "https://github.com/sidineyr/biosfera/commit/511f3927d90abb6d1b0a3e08dfbaaabe71e53168",
-        "sha": "511f3927d90abb6d1b0a3e08dfbaaabe71e53168"
+        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
+        "date": "2026-11-07T23:08:42Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/d6db20752c71ef9fb0dcee09be9f565e1c9ce52c",
+        "sha": "d6db20752c71ef9fb0dcee09be9f565e1c9ce52c"
       },
       {
-        "title": "feat: launch Biosfera Aberta visual biology experience",
-        "date": "2026-09-13T21:08:44Z",
-        "url": "https://github.com/sidineyr/biosfera/commit/b3661467df682ced6421a9c6e13dcdc8030a1daf",
-        "sha": "b3661467df682ced6421a9c6e13dcdc8030a1daf"
+        "title": "...",
+        "date": "2026-11-07T22:34:49Z",
+        "url": "https://github.com/sidineyr/biosfera/commit/41773d3bdf848bfea4598c36f21589598af25d1f",
+        "sha": "41773d3bdf848bfea4598c36f21589598af25d1f"
       }
     ],
     "status": "ok"
@@ -314,8 +314,8 @@
   "atlas": {
     "repository": "sidineyr/atlas-do-sagrado",
     "source": "https://github.com/sidineyr/atlas-do-sagrado/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
       {
         "title": "fix(ux): revisar orientação pedagógica, fontes e conclusão dos módulos",
@@ -353,38 +353,38 @@
   "bb": {
     "repository": "sidineyr/bb",
     "source": "https://github.com/sidineyr/bb/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
       {
-        "title": "Prepara publicidade discreta e reforça doação independente",
-        "date": "2026-11-07T21:51:45Z",
-        "url": "https://github.com/sidineyr/bb/commit/2bff6bcf10929fcd5bd087d1b45fa2880f1795c9",
-        "sha": "2bff6bcf10929fcd5bd087d1b45fa2880f1795c9"
+        "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
+        "date": "2026-11-08T00:17:23Z",
+        "url": "https://github.com/sidineyr/bb/commit/700aa1ba511ca2309acc7a3e81972d51e90425c6",
+        "sha": "700aa1ba511ca2309acc7a3e81972d51e90425c6"
       },
       {
-        "title": "Adiciona contador público de visitas",
-        "date": "2026-09-16T21:42:08Z",
-        "url": "https://github.com/sidineyr/bb/commit/31758078c57de80e9da124c954274de490dc1e71",
-        "sha": "31758078c57de80e9da124c954274de490dc1e71"
+        "title": "Integra catálogo contextual e links oficiais de materiais",
+        "date": "2026-11-07T23:59:42Z",
+        "url": "https://github.com/sidineyr/bb/commit/a4ef97bfb37c82fee24cb95b68b1b51a7e31c880",
+        "sha": "a4ef97bfb37c82fee24cb95b68b1b51a7e31c880"
       },
       {
-        "title": "Estiliza contador público de visitas",
-        "date": "2026-09-16T21:42:07Z",
-        "url": "https://github.com/sidineyr/bb/commit/33579c5723575a5d1e9cfefc4fe1cd752af01bc8",
-        "sha": "33579c5723575a5d1e9cfefc4fe1cd752af01bc8"
+        "title": "Publica guia de materiais com prioridades, experiências e links reais",
+        "date": "2026-11-07T23:58:47Z",
+        "url": "https://github.com/sidineyr/bb/commit/f2627961cb358008467c25c8c6adc84a75b1a3d1",
+        "sha": "f2627961cb358008467c25c8c6adc84a75b1a3d1"
       },
       {
-        "title": "Adiciona verificação IndexNow para mecanismos de busca",
-        "date": "2026-09-16T21:30:08Z",
-        "url": "https://github.com/sidineyr/bb/commit/df5f114bc6236d4367418012051bc2813a3cb854",
-        "sha": "df5f114bc6236d4367418012051bc2813a3cb854"
+        "title": "Relaciona materiais conferidos e explicita objetivos, limites e fontes do percurso",
+        "date": "2026-11-07T23:08:37Z",
+        "url": "https://github.com/sidineyr/bb/commit/082d76308004e054a689a7016cf0846a49335fa1",
+        "sha": "082d76308004e054a689a7016cf0846a49335fa1"
       },
       {
-        "title": "Cria o BB — Bê-á-Bá da Internet e da IA",
-        "date": "2026-09-16T21:08:36Z",
-        "url": "https://github.com/sidineyr/bb/commit/0d20beb4e14e920c3f6a93493f656372c8c97317",
-        "sha": "0d20beb4e14e920c3f6a93493f656372c8c97317"
+        "title": "...",
+        "date": "2026-11-07T22:34:57Z",
+        "url": "https://github.com/sidineyr/bb/commit/08be4986b7fd82e492757821cf4de0ced22fd72b",
+        "sha": "08be4986b7fd82e492757821cf4de0ced22fd72b"
       }
     ],
     "status": "ok"
@@ -392,9 +392,15 @@
   "contraprova": {
     "repository": "sidineyr/contraprova",
     "source": "https://github.com/sidineyr/contraprova/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
+      {
+        "title": "Adiciona materiais opcionais de leitura somente ao início",
+        "date": "2026-11-08T00:27:44Z",
+        "url": "https://github.com/sidineyr/contraprova/commit/f4a8ad65631169e403f2c21da72b683bef04a3c3",
+        "sha": "f4a8ad65631169e403f2c21da72b683bef04a3c3"
+      },
       {
         "title": "Adiciona contador público de acessos e integração com o portfólio",
         "date": "2026-10-16T21:44:08Z",
@@ -418,12 +424,6 @@
         "date": "2026-10-01T22:01:46Z",
         "url": "https://github.com/sidineyr/contraprova/commit/541dd6ff7e42d8d057b1bd13d89ce177dd51bfaa",
         "sha": "541dd6ff7e42d8d057b1bd13d89ce177dd51bfaa"
-      },
-      {
-        "title": "Preserve previous decisions when correcting claims and resume interpretation drafts",
-        "date": "2026-10-01T22:00:04Z",
-        "url": "https://github.com/sidineyr/contraprova/commit/f18356b543e929a1ebcb275cf510d66cae01ee79",
-        "sha": "f18356b543e929a1ebcb275cf510d66cae01ee79"
       }
     ],
     "status": "ok"
@@ -431,9 +431,15 @@
   "polliniza": {
     "repository": "sidineyr/Polliniza",
     "source": "https://github.com/sidineyr/Polliniza/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
+      {
+        "title": "...",
+        "date": "2026-11-07T22:34:51Z",
+        "url": "https://github.com/sidineyr/Polliniza/commit/242811d8a85a13e2f3a5253786842c7b755c6463",
+        "sha": "242811d8a85a13e2f3a5253786842c7b755c6463"
+      },
       {
         "title": "Prepara publicidade discreta e reforça doação independente",
         "date": "2026-11-07T21:52:21Z",
@@ -457,12 +463,6 @@
         "date": "2026-09-27T22:37:46Z",
         "url": "https://github.com/sidineyr/Polliniza/commit/0b77128f678ac9cffd408b7ffbc3f191344658b1",
         "sha": "0b77128f678ac9cffd408b7ffbc3f191344658b1"
-      },
-      {
-        "title": "feat: prepare free hosting and search indexing (#3)",
-        "date": "2026-09-27T22:12:11Z",
-        "url": "https://github.com/sidineyr/Polliniza/commit/dd2b2a3f0a9e043935bb5359f69dbc503fb52dc5",
-        "sha": "dd2b2a3f0a9e043935bb5359f69dbc503fb52dc5"
       }
     ],
     "status": "ok"
@@ -470,38 +470,38 @@
   "universidade": {
     "repository": "sidineyr/sidineyr.github.io",
     "source": "https://github.com/sidineyr/sidineyr.github.io/commits/main/universidade",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
+      {
+        "title": "Atualiza guia com 24 produtos conferidos e prioridades de uso",
+        "date": "2026-11-08T00:17:42Z",
+        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/16c8044c9eb64b597b423c11288de5f3359f6dcd",
+        "sha": "16c8044c9eb64b597b423c11288de5f3359f6dcd"
+      },
+      {
+        "title": "Integra catálogo contextual e links oficiais de materiais",
+        "date": "2026-11-07T23:59:52Z",
+        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/2a4511e7a55a6aeb130da6b5ad1ed84f439d9d9e",
+        "sha": "2a4511e7a55a6aeb130da6b5ad1ed84f439d9d9e"
+      },
+      {
+        "title": "Publica guia de materiais com prioridades, experiências e links reais",
+        "date": "2026-11-07T23:59:21Z",
+        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/a36de36f43f80eb9f2b85676f6d58671317ad03d",
+        "sha": "a36de36f43f80eb9f2b85676f6d58671317ad03d"
+      },
+      {
+        "title": "...",
+        "date": "2026-11-07T23:14:42Z",
+        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/da2c898d6497e7b285fae8d334187da997b59ac3",
+        "sha": "da2c898d6497e7b285fae8d334187da997b59ac3"
+      },
       {
         "title": "Integra contadores originais e atualização periódica das métricas",
         "date": "2026-10-16T21:43:44Z",
         "url": "https://github.com/sidineyr/sidineyr.github.io/commit/95d040cd1c0470cd9783b98e2ce8bf8c409259b5",
         "sha": "95d040cd1c0470cd9783b98e2ce8bf8c409259b5"
-      },
-      {
-        "title": "Publish curated resources and usage conditions",
-        "date": "2026-09-27T02:03:27Z",
-        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/2a472a04abd021d6092dc29d93be19bdcadd549b",
-        "sha": "2a472a04abd021d6092dc29d93be19bdcadd549b"
-      },
-      {
-        "title": "Add curated external resources to university",
-        "date": "2026-09-27T02:03:26Z",
-        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/4f33ec9611ac1b34afb568dd75dbf75944c73137",
-        "sha": "4f33ec9611ac1b34afb568dd75dbf75944c73137"
-      },
-      {
-        "title": "Add curated external resources to university",
-        "date": "2026-09-27T02:03:24Z",
-        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/7790db0d0a859a7cd924fa003935e946a9a9ff52",
-        "sha": "7790db0d0a859a7cd924fa003935e946a9a9ff52"
-      },
-      {
-        "title": "Add curated external resources to university",
-        "date": "2026-09-27T02:03:22Z",
-        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/7fec942a4af16e33802f887c04b440ef6eac07e1",
-        "sha": "7fec942a4af16e33802f887c04b440ef6eac07e1"
       }
     ],
     "status": "ok"
@@ -509,9 +509,15 @@
   "callguid": {
     "repository": "sidineyr/callguid",
     "source": "https://github.com/sidineyr/callguid/commits",
-    "checkedAt": "2026-11-07T21:54:51+00:00",
-    "attemptedAt": "2026-11-07T21:54:51+00:00",
+    "checkedAt": "2026-11-08T06:07:37+00:00",
+    "attemptedAt": "2026-11-08T06:07:37+00:00",
     "items": [
+      {
+        "title": "Inclui materiais opcionais no site e separa capturas manuais da publicação",
+        "date": "2026-11-08T00:28:38Z",
+        "url": "https://github.com/sidineyr/callguid/commit/e797e8e5bd008dd9e2b2223da28daed7d640e709",
+        "sha": "e797e8e5bd008dd9e2b2223da28daed7d640e709"
+      },
       {
         "title": "Exercise native desktop animations on the isolated CI display",
         "date": "2026-11-06T17:04:30Z",
@@ -535,12 +541,6 @@
         "date": "2026-11-06T16:57:52Z",
         "url": "https://github.com/sidineyr/callguid/commit/f9b73b9e0dbdd3276e8f3f94db692f63f2de2744",
         "sha": "f9b73b9e0dbdd3276e8f3f94db692f63f2de2744"
-      },
-      {
-        "title": "Keep bilingual desktop release notes separate from workflow YAML",
-        "date": "2026-11-06T16:54:55Z",
-        "url": "https://github.com/sidineyr/callguid/commit/356e8b05776cfa8e2734d529bcef05f28a3f4ce5",
-        "sha": "356e8b05776cfa8e2734d529bcef05f28a3f4ce5"
       }
     ],
     "status": "ok"

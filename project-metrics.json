@@ -5,9 +5,9 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/Einstein-Fisica",
     "field": "total",
     "since": "2026-10-16",
-    "value": 2,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "value": 5,
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "chemical": {
@@ -16,9 +16,9 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/Chemical",
     "field": "total",
     "since": "2026-10-16",
-    "value": 12,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "value": 16,
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "filosofia": {
@@ -27,9 +27,9 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/filosofia-aberta",
     "field": "total",
     "since": "2026-10-16",
-    "value": 1,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "value": 4,
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "biosfera": {
@@ -38,9 +38,9 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/biosfera",
     "field": "total",
     "since": "2026-10-16",
-    "value": 2,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "value": 5,
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "python-swirl": {
@@ -49,9 +49,9 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/python-swirl-statistics",
     "field": "total",
     "since": "2026-10-16",
-    "value": 3,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "value": 6,
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "contraprova": {
@@ -61,8 +61,8 @@
     "field": "total",
     "since": "2026-10-16",
     "value": 0,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "polliniza": {
@@ -72,8 +72,8 @@
     "field": "total",
     "since": "2026-10-16",
     "value": 0,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "universidade": {
@@ -82,9 +82,9 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/universidade",
     "field": "total",
     "since": "2026-10-16",
-    "value": 1,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "value": 4,
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "bb": {
@@ -92,9 +92,9 @@
     "source": "https://hits.sh/sidineyr.github.io/bb/",
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/bb",
     "field": "total",
-    "value": 5,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "value": 8,
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "quality-view": {
@@ -103,9 +103,9 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/qv",
     "field": "total",
     "since": "2026-11-06",
-    "value": 0,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "value": 3,
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "horizonte": {
@@ -114,8 +114,8 @@
     "endpoint": "https://horizonte-vocacional.blubier.chatgpt.site/api/completions",
     "field": "total",
     "value": 8,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "atlas": {
@@ -124,8 +124,8 @@
     "endpoint": "https://atlas-do-sagrado.blubier.chatgpt.site/api/views?page=inicio",
     "field": "count",
     "value": 27,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   },
   "art": {
@@ -134,9 +134,9 @@
     "endpoint": "https://hits.sh/api/urns/sidineyr.github.io/art",
     "field": "total",
     "since": "2026-11-07",
-    "value": 19,
-    "checkedAt": "2026-11-07T21:54:48+00:00",
-    "attemptedAt": "2026-11-07T21:54:48+00:00",
+    "value": 26,
+    "checkedAt": "2026-11-08T06:07:35+00:00",
+    "attemptedAt": "2026-11-08T06:07:35+00:00",
     "status": "ok"
   }
 }
