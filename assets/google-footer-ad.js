@@ -15,7 +15,7 @@
     const region = document.createElement('aside');
     region.id = id;
     region.setAttribute('aria-label', 'Publicidade');
-    region.style.cssText = 'box-sizing:border-box;clear:both;width:100%;flex-basis:100%;max-width:760px;margin:24px auto 0;padding:12px 16px;font:11px/1.5 system-ui,sans-serif;text-align:center;border-top:1px solid #8883;';
+    region.style.cssText = 'box-sizing:border-box;clear:both;grid-column:1/-1;width:100%;flex-basis:100%;max-width:760px;margin:24px auto 0;padding:12px 16px;font:11px/1.5 system-ui,sans-serif;text-align:center;border-top:1px solid #8883;';
     const label = document.createElement('small');
     label.textContent = 'Publicidade';
     const ad = document.createElement('ins');
