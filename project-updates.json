@@ -2,8 +2,8 @@
   "art": {
     "repository": "sidineyr/art",
     "source": "https://github.com/sidineyr/art/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
       {
         "title": "Integra anúncio manual da Casa de Cursos somente no rodapé",
@@ -41,9 +41,15 @@
   "einstein": {
     "repository": "sidineyr/Einstein-Fisica",
     "source": "https://github.com/sidineyr/Einstein-Fisica/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
+      {
+        "title": "Atualização",
+        "date": "2026-11-09T11:16:20Z",
+        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/f9fa38bc8ca07f595dba1097c32d21dc88d93f6b",
+        "sha": "f9fa38bc8ca07f595dba1097c32d21dc88d93f6b"
+      },
       {
         "title": "Integra anúncio manual da Casa de Cursos somente no rodapé",
         "date": "2026-11-08T22:46:58Z",
@@ -67,12 +73,6 @@
         "date": "2026-11-08T00:17:30Z",
         "url": "https://github.com/sidineyr/Einstein-Fisica/commit/8fdeade1331603fc27f9932e23ba4fca758e55d6",
         "sha": "8fdeade1331603fc27f9932e23ba4fca758e55d6"
-      },
-      {
-        "title": "Inclui catálogo no diretório público da aplicação",
-        "date": "2026-11-08T00:00:34Z",
-        "url": "https://github.com/sidineyr/Einstein-Fisica/commit/3c49f45c642c932dfa77fff6e21e860188475e96",
-        "sha": "3c49f45c642c932dfa77fff6e21e860188475e96"
       }
     ],
     "status": "ok"
@@ -80,8 +80,8 @@
   "horizonte": {
     "repository": "sidineyr/horizonte",
     "source": "https://github.com/sidineyr/horizonte/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
       {
         "title": "Documenta percurso de aprendizagem inspirado no ART",
@@ -119,8 +119,8 @@
   "quality-view": {
     "repository": "sidineyr/qv",
     "source": "https://github.com/sidineyr/qv/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
       {
         "title": "Integra anúncio manual da Casa de Cursos somente no rodapé",
@@ -158,9 +158,15 @@
   "python-swirl": {
     "repository": "sidineyr/python-swirl-statistics",
     "source": "https://github.com/sidineyr/python-swirl-statistics/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
+      {
+        "title": "Remove aviso extenso de comissões das páginas e modelos",
+        "date": "2026-11-09T10:34:38Z",
+        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/9eb4e24fe73e502321014dbec159e329c48039d3",
+        "sha": "9eb4e24fe73e502321014dbec159e329c48039d3"
+      },
       {
         "title": "Integra anúncio manual da Casa de Cursos somente no rodapé",
         "date": "2026-11-08T22:47:17Z",
@@ -184,12 +190,6 @@
         "date": "2026-11-08T16:59:23Z",
         "url": "https://github.com/sidineyr/python-swirl-statistics/commit/226af5a230ae07bdb78b53b1666eddea1291bb83",
         "sha": "226af5a230ae07bdb78b53b1666eddea1291bb83"
-      },
-      {
-        "title": "Amplia catálogo revisado de materiais com metadados próprios do Python Swirl",
-        "date": "2026-11-08T00:16:43Z",
-        "url": "https://github.com/sidineyr/python-swirl-statistics/commit/0083676bc841f34cdc74dbb54f21e771fea66aa0",
-        "sha": "0083676bc841f34cdc74dbb54f21e771fea66aa0"
       }
     ],
     "status": "ok"
@@ -197,8 +197,8 @@
   "chemical": {
     "repository": "sidineyr/Chemical",
     "source": "https://github.com/sidineyr/Chemical/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
       {
         "title": "Integra anúncio manual da Casa de Cursos somente no rodapé",
@@ -236,9 +236,27 @@
   "filosofia": {
     "repository": "sidineyr/filosofia-aberta",
     "source": "https://github.com/sidineyr/filosofia-aberta/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
+      {
+        "title": "Atualização",
+        "date": "2026-11-09T11:19:03Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/cec1a4dd5d36c84d66ccc2103305ca2c9f3e1773",
+        "sha": "cec1a4dd5d36c84d66ccc2103305ca2c9f3e1773"
+      },
+      {
+        "title": "Atualização",
+        "date": "2026-11-09T11:16:13Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/ccb58f10e29fab19346bc6a290d2d72f07d52be9",
+        "sha": "ccb58f10e29fab19346bc6a290d2d72f07d52be9"
+      },
+      {
+        "title": "Remove aviso extenso de comissões das páginas e modelos",
+        "date": "2026-11-09T10:34:33Z",
+        "url": "https://github.com/sidineyr/filosofia-aberta/commit/8c4744dc39f407ce1cd73ba2dc50d8697d704e0d",
+        "sha": "8c4744dc39f407ce1cd73ba2dc50d8697d704e0d"
+      },
       {
         "title": "Integra anúncio manual da Casa de Cursos somente no rodapé",
         "date": "2026-11-08T22:47:01Z",
@@ -250,24 +268,6 @@
         "date": "2026-11-08T17:00:52Z",
         "url": "https://github.com/sidineyr/filosofia-aberta/commit/d9c6c2a6a3a4812f2b4340b662d93cf1bd671312",
         "sha": "d9c6c2a6a3a4812f2b4340b662d93cf1bd671312"
-      },
-      {
-        "title": "Preserva integração da Casa de Cursos ao regenerar a página inicial",
-        "date": "2026-11-08T17:00:25Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/527cbfa705aea7d745987873f939726846fbe6d5",
-        "sha": "527cbfa705aea7d745987873f939726846fbe6d5"
-      },
-      {
-        "title": "Integra entrada para o percurso de aprendizagem da Casa de Cursos",
-        "date": "2026-11-08T16:59:42Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/88f030e4cb2cd004b99163ae8f7f917855a1bcd3",
-        "sha": "88f030e4cb2cd004b99163ae8f7f917855a1bcd3"
-      },
-      {
-        "title": "Documenta percurso de aprendizagem inspirado no ART",
-        "date": "2026-11-08T16:59:11Z",
-        "url": "https://github.com/sidineyr/filosofia-aberta/commit/6d9bc71b47194d55995868b520aff2075146dbba",
-        "sha": "6d9bc71b47194d55995868b520aff2075146dbba"
       }
     ],
     "status": "ok"
@@ -275,8 +275,8 @@
   "biosfera": {
     "repository": "sidineyr/biosfera",
     "source": "https://github.com/sidineyr/biosfera/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
       {
         "title": "Integra anúncio manual da Casa de Cursos somente no rodapé",
@@ -314,8 +314,8 @@
   "atlas": {
     "repository": "sidineyr/atlas-do-sagrado",
     "source": "https://github.com/sidineyr/atlas-do-sagrado/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
       {
         "title": "Documenta percurso de aprendizagem inspirado no ART",
@@ -353,8 +353,8 @@
   "bb": {
     "repository": "sidineyr/bb",
     "source": "https://github.com/sidineyr/bb/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
       {
         "title": "Integra anúncio manual da Casa de Cursos somente no rodapé",
@@ -392,8 +392,8 @@
   "contraprova": {
     "repository": "sidineyr/contraprova",
     "source": "https://github.com/sidineyr/contraprova/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
       {
         "title": "Fixa runner do teste de navegador em Ubuntu compatível com Playwright",
@@ -431,8 +431,8 @@
   "polliniza": {
     "repository": "sidineyr/Polliniza",
     "source": "https://github.com/sidineyr/Polliniza/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
       {
         "title": "Integra anúncio manual da Casa de Cursos somente no rodapé",
@@ -470,9 +470,15 @@
   "universidade": {
     "repository": "sidineyr/sidineyr.github.io",
     "source": "https://github.com/sidineyr/sidineyr.github.io/commits/main/universidade",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
+      {
+        "title": "Atualização",
+        "date": "2026-11-09T10:41:29Z",
+        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/cbd61ff1da2e2442e205accfac42151ec1bfefb8",
+        "sha": "cbd61ff1da2e2442e205accfac42151ec1bfefb8"
+      },
       {
         "title": "Integra bloco real do AdSense exclusivamente no rodapé",
         "date": "2026-11-08T22:46:22Z",
@@ -496,12 +502,6 @@
         "date": "2026-11-07T23:59:21Z",
         "url": "https://github.com/sidineyr/sidineyr.github.io/commit/a36de36f43f80eb9f2b85676f6d58671317ad03d",
         "sha": "a36de36f43f80eb9f2b85676f6d58671317ad03d"
-      },
-      {
-        "title": "...",
-        "date": "2026-11-07T23:14:42Z",
-        "url": "https://github.com/sidineyr/sidineyr.github.io/commit/da2c898d6497e7b285fae8d334187da997b59ac3",
-        "sha": "da2c898d6497e7b285fae8d334187da997b59ac3"
       }
     ],
     "status": "ok"
@@ -509,8 +509,8 @@
   "callguid": {
     "repository": "sidineyr/callguid",
     "source": "https://github.com/sidineyr/callguid/commits",
-    "checkedAt": "2026-11-09T06:40:45+00:00",
-    "attemptedAt": "2026-11-09T06:40:45+00:00",
+    "checkedAt": "2026-11-09T22:25:53+00:00",
+    "attemptedAt": "2026-11-09T22:25:53+00:00",
     "items": [
       {
         "title": "Integra percurso inicial da Casa de Cursos ao projeto",
