@@ -1,0 +1,22 @@
+/* Course page styles, aligned with the university portal palette and layout. */
+.course-header{max-width:70rem;margin:0 auto;padding:1rem 1.25rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;border-bottom:1px solid #263449}
+.course-header .brand{font-weight:700;text-decoration:none}
+.course-header nav{display:flex;gap:.75rem;flex-wrap:wrap}
+.course{max-width:70rem;margin:0 auto;padding:1.5rem 1.25rem 3rem}
+.course .hero{padding:1.5rem;border:1px solid #263449;border-radius:1rem;background:#111b2c}
+.course h1,.course h2,.course h3{line-height:1.25}
+.course .eyebrow{color:#83e3d2;font-size:.9rem;font-weight:700;letter-spacing:.04em}
+.course .lead{font-size:1.2rem;max-width:55rem}
+.course .section,.course .notice{margin:1.25rem 0;padding:1.25rem;border:1px solid #263449;border-radius:1rem;background:#111b2c}
+.course .notice{border-inline-start:5px solid #ffd166}
+.course-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:.75rem}
+.course-facts div,.catalog-card{padding:1rem;border:1px solid #35445a;border-radius:.75rem;background:#0b1220}
+.course-facts dt{font-weight:700;color:#83e3d2}
+.course-facts dd{margin:.25rem 0 0}
+.activities li{padding:.35rem 0 .75rem}
+.activities h3{margin-bottom:.25rem}
+.catalog-card{margin:1rem 0}
+.course-footer{max-width:70rem;margin:0 auto;padding:1rem 1.25rem 2rem;border-top:1px solid #263449}
+.course a:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
+@media(max-width:40rem){.course-header{align-items:flex-start}.course-header nav{width:100%}.course{padding-inline:1rem}.course .hero,.course .section,.course .notice{padding:1rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
