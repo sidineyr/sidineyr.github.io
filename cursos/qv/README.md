@@ -1,8 +1,8 @@
 # README — Quality View (jornada da Casa de Cursos)
 
-## Para quem é
 Este instrumento é de auto-observação e não substitui avaliação profissional de saúde. Não é diagnóstico.
 
+## Para quem é
 Para pessoas interessadas em observar a própria qualidade de vida e, após revisão adequada, gestores que precisem acompanhar somente tendências de grupo. Esta pasta contém uma jornada introdutória, não o código-fonte do app Quality View.
 
 ## Problema
@@ -18,4 +18,4 @@ Não é diagnóstico, triagem, avaliação clínica nem substituto de profission
 Piloto com vagas limitadas: [LINK_FORMULARIO / EMAIL_CONTATO]. Antes de exibir qualquer agregado, obter aprovação profissional do disclaimer e aprovar um limite mínimo de respondentes. Como não foi possível confirmar uma regra existente, agregados permanecem ocultos; limite: **A medir no piloto** e aprovar antes de habilitar.
 
 ## Limite do escopo verificado
-A jornada genérica desta pasta salva notas e progresso no armazenamento local do navegador e oferece exportação do caderno em texto. Isso não comprova o armazenamento, a exportação CSV ou o comportamento do app QV. Não foram adicionadas telas ou alegações de resultado.
+A jornada genérica desta pasta salva notas e progresso no armazenamento local do navegador e oferece exportação do caderno em texto. Isso não comprova como o app QV armazena respostas nem se exporta CSV. A rota Visão Gestor mantém médias ocultas porque não existe limite de respondentes aprovado nem fonte de dados de grupo disponível aqui.

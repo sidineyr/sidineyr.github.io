@@ -14,7 +14,31 @@
     return;
   }
   if (!document.body.dataset.course) return;
-  const key = `casa:1:${document.body.dataset.course}`;
+
+  const course = document.body.dataset.course;
+  const contextualActions = document.createElement('section');
+  contextualActions.className = 'lesson';
+  contextualActions.id = 'contextual-actions';
+  contextualActions.hidden = true;
+  if (course === 'horizonte') {
+    contextualActions.innerHTML = '<h2>Orientação para escolas</h2><p>Conheça a proposta do Modo Orientador. Nenhum nome ou resposta individual é exibido.</p><p><a href="/cursos/horizonte/para-escolas/">Abrir Modo Orientador</a></p><p>Piloto com vagas limitadas</p><p><a href="[LINK_FORMULARIO]">Sou orientador, quero usar com minha turma</a></p><p>[LINK_FORMULARIO / EMAIL_CONTATO]</p>';
+  } else if (course === 'qv') {
+    contextualActions.innerHTML = '<h2>Visão Gestor</h2><p>Acesso somente agregado, condicionado à aprovação de um mínimo seguro de respondentes. Agregados não são exibidos até essa aprovação.</p><p><a href="/cursos/qv/visao-gestor/">Consultar disponibilidade da visão de gestor</a></p>';
+  } else if (course === 'Einstein-Fisica') {
+    contextualActions.innerHTML = '<h2>Para professores</h2><p>Você é professor? Baixe o guia da aula</p><p><a href="/cursos/Einstein-Fisica/para-professores/GUIA-1-AULA.md">Baixar o guia da aula</a></p>';
+  }
+  if (contextualActions.innerHTML) $('conteudo').append(contextualActions);
+
+  if (course === 'qv') {
+    const disclaimer = document.createElement('p');
+    disclaimer.setAttribute('role', 'note');
+    disclaimer.className = 'lesson';
+    disclaimer.textContent = 'Este instrumento é de auto-observação e não substitui avaliação profissional de saúde. Não é diagnóstico.';
+    const main = $('conteudo');
+    main.insertBefore(disclaimer, main.firstChild);
+  }
+
+  const key = `casa:1:${course}`;
   let state = {stage:0, notes:''};
   try {
     const data = JSON.parse(localStorage.getItem(key));
@@ -26,6 +50,7 @@
     $('score').textContent = `${state.stage}/3 etapas · ${state.stage * 100} XP${state.stage===3?' · Percurso concluído!':''}`;
     $('practice').hidden = state.stage < 1;
     $('reflection').hidden = state.stage < 2;
+    if (contextualActions.innerHTML) contextualActions.hidden = state.stage < 3;
   }
   function save() {
     try { localStorage.setItem(key, JSON.stringify(state)); }
@@ -54,7 +79,7 @@
   $('export').onclick = () => {
     const blob = new Blob([`${document.title}\n\n${state.notes}\n\n${state.stage}/3 etapas`], {type:'text/plain;charset=utf-8'});
     const url=URL.createObjectURL(blob), a=document.createElement('a');
-    a.href=url; a.download=`caderno-${document.body.dataset.course}.txt`; a.click();
+    a.href=url; a.download=`caderno-${course}.txt`; a.click();
     setTimeout(()=>URL.revokeObjectURL(url),1000);
   };
   // Suporte a vídeos próprios, configurados opcionalmente no catálogo.
