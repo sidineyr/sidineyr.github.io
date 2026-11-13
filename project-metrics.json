@@ -7,8 +7,8 @@
     "since": "2026-10-16",
     "value": 6,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   },
   "chemical": {
     "label": "acessos",
@@ -18,8 +18,8 @@
     "since": "2026-10-16",
     "value": 23,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   },
   "filosofia": {
     "label": "acessos",
@@ -29,8 +29,8 @@
     "since": "2026-10-16",
     "value": 4,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   },
   "biosfera": {
     "label": "acessos",
@@ -40,8 +40,8 @@
     "since": "2026-10-16",
     "value": 5,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   },
   "python-swirl": {
     "label": "acessos",
@@ -51,8 +51,8 @@
     "since": "2026-10-16",
     "value": 6,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   },
   "contraprova": {
     "label": "acessos",
@@ -62,8 +62,8 @@
     "since": "2026-10-16",
     "value": 0,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   },
   "polliniza": {
     "label": "acessos",
@@ -73,8 +73,8 @@
     "since": "2026-10-16",
     "value": 0,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   },
   "universidade": {
     "label": "acessos",
@@ -84,8 +84,8 @@
     "since": "2026-10-16",
     "value": 5,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   },
   "bb": {
     "label": "visitas",
@@ -94,8 +94,8 @@
     "field": "total",
     "value": 9,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   },
   "quality-view": {
     "label": "acessos",
@@ -105,8 +105,8 @@
     "since": "2026-11-06",
     "value": 4,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   },
   "horizonte": {
     "label": "testes concluídos",
@@ -114,8 +114,8 @@
     "endpoint": "https://horizonte-vocacional.blubier.chatgpt.site/api/completions",
     "field": "total",
     "value": 8,
-    "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
+    "checkedAt": "2026-11-13T19:46:08+00:00",
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
     "status": "ok"
   },
   "atlas": {
@@ -124,8 +124,8 @@
     "endpoint": "https://atlas-do-sagrado.blubier.chatgpt.site/api/views?page=inicio",
     "field": "count",
     "value": 27,
-    "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
+    "checkedAt": "2026-11-13T19:46:08+00:00",
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
     "status": "ok"
   },
   "art": {
@@ -136,7 +136,7 @@
     "since": "2026-11-07",
     "value": 68,
     "checkedAt": "2026-11-13T06:50:14+00:00",
-    "attemptedAt": "2026-11-13T06:50:14+00:00",
-    "status": "ok"
+    "attemptedAt": "2026-11-13T19:46:08+00:00",
+    "status": "stale"
   }
 }
