@@ -128,6 +128,14 @@
     "fork": false
   },
   {
+    "id": "EditAI",
+    "title": "EditAI",
+    "repository": "https://github.com/sidineyr/EditAI",
+    "branch": "main",
+    "description": "",
+    "fork": false
+  },
+  {
     "id": "Einstein-Fisica",
     "title": "Einstein-Fisica",
     "repository": "https://github.com/sidineyr/Einstein-Fisica",
