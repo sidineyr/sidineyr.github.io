@@ -68,7 +68,7 @@ export function renderProjectCards(projects) {
       `          <div><span class="tag">${escapeHtml(project.area)}</span><h2 id="title-${escapeHtml(project.id)}">${escapeHtml(project.nome)}</h2><p>${escapeHtml(project.descricao_pt)}</p></div>\n` +
       `          <div class="card-bottom"><span class="status">${escapeHtml(statusText)}</span>\n` +
       `            <a class="project-link" href="${escapeHtml(project.url)}">${escapeHtml(cta)} <span aria-hidden="true">↗</span></a>${extraLinks ? `\n            ${extraLinks}` : ''}${extraNote ? `\n            ${extraNote}` : ''}\n` +
-      `            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em ${escapeHtml(project.nome)}">Tenho interesse</button><span class="vote-total" aria-live="polite">Carregando…</span></div>\n` +
+      `            <div class="access-metric" aria-live="polite">Consultando contador do projeto…</div><div class="choice"><button type="button" class="vote" disabled aria-describedby="counter-note" aria-label="Tenho interesse em ${escapeHtml(project.nome)}">Tenho interesse</button><span class="vote-total" aria-live="polite">Ative a contagem acima para participar.</span></div>\n` +
       `          </div>\n        </article>`;
   }).join('\n\n');
 }

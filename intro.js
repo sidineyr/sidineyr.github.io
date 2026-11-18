@@ -125,7 +125,10 @@
   dialog.addEventListener('close',stop);
   reduced.addEventListener('change',()=>{if(reduced.matches)paused=true;dialog.classList.toggle('paused',paused || reduced.matches);schedule();});
   dialog.querySelector('img').addEventListener('error',event=>{event.target.hidden=true;});
-  if(typeof dialog.showModal==='function'){dialog.showModal();show(0);}
+  // A apresentação é opcional; o conteúdo fica acessível desde a chegada.
+  document.querySelector('#intro-open')?.addEventListener('click',()=>{
+    if(typeof dialog.showModal==='function'){dialog.showModal();show(0);}
+  });
   const help=document.querySelector('#tutor-help');
   const helpButton=document.querySelector('#tutor-open');
   helpButton.addEventListener('click',()=>help.showModal());

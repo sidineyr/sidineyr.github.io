@@ -1,4 +1,4 @@
-"""Gera apenas cursos/; preserva o restante do portfólio."""
+"""Oficinas com conteúdo próprio; o inventário nunca cria cursos automaticamente."""
 import json
 import os
 import re
@@ -15,89 +15,93 @@ def valid_url(value):
     return isinstance(value, str) and urlparse(value).scheme == 'https'
 
 def refresh():
-    repos=[]
-    page=1
+    repos, page = [], 1
     while True:
-        headers={'User-Agent':'CasaCursos','Accept':'application/vnd.github+json'}
-        if os.environ.get('GH_TOKEN'): headers['Authorization']='Bearer '+os.environ['GH_TOKEN']
-        request=urllib.request.Request(f'https://api.github.com/users/sidineyr/repos?per_page=100&page={page}',headers=headers)
-        with urllib.request.urlopen(request, timeout=30) as response: batch=json.load(response)
-        repos.extend(dict(id=r['name'],title=r['name'],repository=r['html_url'],branch=r['default_branch'],description=r.get('description') or '',fork=r.get('fork',False)) for r in batch if not r.get('private'))
-        if len(batch)<100: break
-        page+=1
-    (ROOT/'catalog.json').write_text(json.dumps(repos,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        headers = {'User-Agent': 'CasaCursos', 'Accept': 'application/vnd.github+json'}
+        if os.environ.get('GH_TOKEN'):
+            headers['Authorization'] = 'Bearer ' + os.environ['GH_TOKEN']
+        request = urllib.request.Request(
+            f'https://api.github.com/users/sidineyr/repos?per_page=100&page={page}', headers=headers)
+        with urllib.request.urlopen(request, timeout=30) as response:
+            batch = json.load(response)
+        repos.extend(dict(id=r['name'], title=r['name'], repository=r['html_url'],
+                          branch=r['default_branch'], description=r.get('description') or '',
+                          fork=r.get('fork', False)) for r in batch if not r.get('private'))
+        if len(batch) < 100:
+            break
+        page += 1
+    (ROOT / 'catalog.json').write_text(json.dumps(repos, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-def shell(title, description, path, content, course=''):
+def shell(title, description, path, content, course='', canonical=None, archive=False, notebook=''):
+    canonical = canonical or BASE + quote(path)
+    robots = '<meta name="robots" content="noindex,follow">' if archive else ''
     return f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title) + (' · Casa de Cursos' if title != 'Casa de Cursos' else '')}</title><meta name="description" content="{e(description,quote=True)}">
-<meta name="author" content="Sidiney Rodrigues"><link rel="canonical" href="{BASE}{quote(path)}">
-<link rel="stylesheet" href="/cursos/style.css"><script defer src="/cursos/course.js"></script><script defer src="/assets/google-footer-ad.js"></script></head>
-<body data-course="{e(course,quote=True)}"><a class="skip" href="#conteudo">Pular para o conteúdo</a>
-<header><a class="brand" href="/cursos/">casa de cursos.</a><nav aria-label="Principal"><a href="/">Portfólio</a><a href="/universidade/">Universidade</a><a href="/cursos/">Todos os percursos</a></nav></header>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} · Casa de Cursos</title>
+<meta name="description" content="{e(description, quote=True)}"><meta name="author" content="Sidiney Rodrigues">
+<meta name="google-adsense-account" content="ca-pub-4924241177850142">
+<link rel="canonical" href="{e(canonical, quote=True)}">{robots}
+<link rel="stylesheet" href="/cursos/style.css"><script defer src="/cursos/course.js"></script></head>
+<body data-course="{e(course, quote=True)}" data-notebook="{e(notebook, quote=True)}"><a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header><a class="brand" href="/cursos/">casa de cursos.</a><nav aria-label="Principal"><a href="/">Portfólio</a><a href="/cursos/">Oficinas</a><a href="/cursos/arquivo/">Arquivo de código</a></nav></header>
 <main id="conteudo">{content}<p id="status" class="status" role="status" aria-live="polite"></p></main>
-<footer><p>Uma iniciativa de Sidiney Rodrigues. Percursos de exploração inicial, inspirados no <a href="https://sidineyr.github.io/art/">ART</a>. Sem diploma reconhecido.</p>
-<p>O caderno e o progresso ficam neste navegador. Nenhuma resposta é enviada a um servidor. Os sites externos têm políticas próprias.</p>
-<p><a href="https://github.com/sidineyr/sidineyr.github.io/issues">Contato e correções</a> · <a href="/materiais/">Materiais e condições comerciais</a></p>{banner()}</footer></body></html>'''
-
-def banner():
-    return '''<aside class="footer-ad" aria-label="Publicidade"><p><small>Publicidade · links de afiliados</small></p><p><a href="https://link.amazon/B0gRgztiU" target="_blank" rel="sponsored noopener noreferrer">Materiais escolares · Amazon ↗</a> · <a href="https://www.mercadolivre.com.br/social/mrsid" target="_blank" rel="sponsored noopener noreferrer">Aprender e Criar · Mercado Livre ↗</a></p></aside>'''
+<footer><p>Autoria e direção pedagógica: Sidiney Rodrigues. Oficinas livres, sem diploma reconhecido. Textos preparados com apoio de IA; veja a <a href="/politica-editorial/">política editorial</a>.</p>
+<nav aria-label="Informações do site"><a href="/sobre/">Sobre</a><a href="/contato/">Contato e correções</a><a href="/privacidade/">Privacidade</a></nav>
+<p>Seu caderno fica neste navegador. Não há envio de respostas nem anúncios nestas oficinas. Links externos têm políticas próprias.</p>
+<p>Se desejar, <a href="https://pequenoprincipe.org.br/doadores/apoie-o-pequeno-principe/">doe diretamente ao Hospital Pequeno Príncipe</a>. Iniciativa independente, sem vínculo institucional nem intermediação.</p></footer></body></html>'''
 
 def build():
-    repos=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'))
-    overrides_path=ROOT/'overrides.json'
-    overrides=json.loads(overrides_path.read_text(encoding='utf-8')) if overrides_path.exists() else {}
+    repos = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
+    lessons = json.loads((ROOT / 'lessons.json').read_text(encoding='utf-8'))
+    assert len({r['id'] for r in repos}) == len(repos)
+    assert len({r['id'] for r in lessons}) == len(lessons)
+    lookup = {r['id']: r for r in repos}
     for r in repos:
-        r.update({k:v for k,v in overrides.get(r['id'],{}).items() if k in ('title','description','video','captions')})
-    assert len({r['id'] for r in repos})==len(repos)
+        assert re.fullmatch(r'[A-Za-z0-9_.-]+', r['id']) and r['id'] not in ('.', '..', 'arquivo')
+        assert valid_url(r['repository']) and r['repository'].startswith('https://github.com/sidineyr/')
+    for lesson in lessons:
+        assert lesson['id'] in lookup and not lookup[lesson['id']].get('fork'), 'Oficina exige projeto próprio no inventário'
+        assert len(lesson['body']) > 1000, 'Oficina precisa de atividade própria completa'
     OUT.mkdir(exist_ok=True)
-    manifest=OUT/'generated.json'
-    current={r['id'] for r in repos}
-    if manifest.exists():
-        for old in json.loads(manifest.read_text(encoding='utf-8')):
-            if old not in current and re.fullmatch(r'[A-Za-z0-9_.-]+',old) and old not in ('.','..'):
-                obsolete=OUT/old/'index.html'
-                if obsolete.is_file(): obsolete.unlink()
-    for name in ('style.css','course.js'):
-        OUT.joinpath(name).write_text(ROOT.joinpath(name).read_text(encoding='utf-8'),encoding='utf-8')
-    cards=[]
-    for r in sorted(repos,key=lambda r:r['title'].lower()):
-        name=r['id']; title=r['title']; url=r['repository']
-        assert re.fullmatch(r'[A-Za-z0-9_.-]+',name) and name not in ('.','..')
-        assert valid_url(url) and url.startswith('https://github.com/sidineyr/')
-        description=r.get('description') or f'Observe, experimente e registre sua primeira exploração de {title}.'
-        cards.append(f'<article class="card" data-course><p class="eyebrow">Percurso inicial</p><h2>{e(title)}</h2><p>{e(description)}</p><a href="{quote(name)}/">Começar a explorar →</a></article>')
-        content=f'''<section class="hero"><p class="eyebrow">Seu percurso · três encontros</p><h1>{e(title)}</h1><p class="lead">Uma primeira exploração, do olhar à prática.</p><p>{e(description)}</p><a href="{e(url,quote=True)}" target="_blank" rel="noopener noreferrer">Abrir projeto e documentação ↗</a></section>
-<label for="progress">Seu progresso</label><progress id="progress" max="3" value="0"></progress><p id="score" role="status">0/3 etapas · 0 XP</p>
-<section class="lesson"><p class="eyebrow">Encontro 01</p><h2>Observar e compreender</h2>
-<p><strong>Objetivo:</strong> descobrir a proposta de {e(title)} e escolher uma pergunta para investigar.</p>
-<p><strong>Materiais:</strong> navegador, documentação do projeto e um espaço para anotar.</p>
-<ol><li>Abra o projeto e examine sua apresentação, os arquivos e os exemplos.</li><li>Localize requisitos, instruções e licença, quando disponíveis.</li><li>Escolha uma ação pequena descrita pelo autor. Se faltarem instruções, registre essa lacuna e examine um exemplo sem executá-lo.</li></ol>
-<p>Antes de executar código, compreenda o ambiente necessário e as instruções. Evite comandos de instalação por tentativa.</p>'''
-        video=r.get('video',BASE+'media/como-estudar.mp4')
-        r.setdefault('captions',BASE+'media/como-estudar.pt-BR.vtt')
-        if valid_url(video):
-            content+=f'<video id="video" controls playsinline preload="metadata" src="{e(video,quote=True)}" hidden>'
-            if valid_url(r.get('captions')): content+=f'<track kind="captions" srclang="pt-BR" label="Português" src="{e(r["captions"],quote=True)}" default>'
-            content+='</video><p id="video-status" role="status"></p><p>Assista a 90% do vídeo ou realize a atividade textual equivalente.</p>'
-        content+='''<details><summary>Atividade textual equivalente</summary><p>Observar, experimentar e refletir: consulte a documentação, realize uma pequena tarefa e registre suas descobertas. Sem ambiente de execução, analise um exemplo.</p></details><label for="answer">Qual deve ser seu primeiro passo?</label><select id="answer"><option value="">Escolha uma resposta</option><option value="guess">Executar comandos por tentativa</option><option value="docs">Consultar a proposta, os requisitos e a documentação</option></select>
-<p><button id="check" type="button">Verificar e desbloquear a prática</button></p><p id="feedback" role="status" aria-live="polite"></p></section>
-<section class="lesson" id="practice" hidden><p class="eyebrow">Encontro 02</p><h2>Experimentar e criar</h2>
-<p><strong>Tarefa:</strong> siga uma experiência da documentação. Compare o resultado com sua expectativa; altere um elemento documentado e observe o efeito.</p>
-<p><strong>Adaptação:</strong> sem ambiente disponível, leia um exemplo e descreva suas entradas e saídas. Em um projeto sem exemplos, desenhe uma proposta de melhoria e registre a ausência de orientação.</p>
-<label><input type="checkbox" id="performed"> Realizei a experiência ou sua adaptação.</label><button type="button" id="complete-practice">Concluir prática</button></section>
-<section class="lesson" id="reflection" hidden><p class="eyebrow">Encontro 03</p><h2>Refletir e registrar</h2><label for="notes">O que você observou? O que mudou? Qual será sua próxima pergunta?</label>
-<textarea id="notes" placeholder="Escreva no seu caderno…"></textarea><p class="muted">Salvo somente neste navegador. Exporte uma cópia para guardar.</p><div class="chips"><button id="finish" type="button">Concluir percurso</button><button id="export" type="button">Exportar caderno</button></div></section>''' + '''<noscript><p>Ative JavaScript para a progressão. Você também pode seguir o primeiro encontro acima e registrar sua reflexão no papel.</p></noscript>'''
-        folder=OUT/name; folder.mkdir(exist_ok=True)
-        folder.joinpath('index.html').write_text(shell(title,description,name+'/',content,name),encoding='utf-8')
-    content=f'''<section class="hero"><p class="eyebrow">Projetos abertos · Sidiney Rodrigues</p><h1>O próximo passo começa com uma pergunta.</h1><p class="lead">Observe, experimente e crie seu próprio caminho. Cada projeto tem um percurso inicial e um caderno para guardar descobertas.</p><div class="chips"><span class="chip">{len(repos)} projetos públicos</span><span class="chip">3 etapas por percurso</span><span class="chip">Sem cadastro</span></div></section>
-<section aria-label="Catálogo"><label for="search">Encontre um projeto</label><input id="search" type="search" placeholder="Busque por nome ou descrição…"><p id="results" role="status" aria-live="polite">{len(repos)} percursos disponíveis</p><div class="grid">{''.join(cards)}</div></section>'''
-    OUT.joinpath('index.html').write_text(shell('Casa de Cursos','Percursos iniciais gratuitos para explorar os projetos públicos de Sidiney Rodrigues.','',content),encoding='utf-8')
-    OUT.joinpath('sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+BASE+quote(p)+'</loc></url>' for p in ['']+[r['id']+'/' for r in repos])+'</urlset>',encoding='utf-8')
-    print(f'{len(repos)} percursos gerados; demais páginas preservadas.')
-    manifest.write_text(json.dumps(sorted(current),indent=2)+'\n',encoding='utf-8')
+    for name in ('style.css', 'course.js'):
+        OUT.joinpath(name).write_text(ROOT.joinpath(name).read_text(encoding='utf-8'), encoding='utf-8')
+    curated = {r['id'] for r in lessons}
+    cards = []
+    for lesson in lessons:
+        name, title = lesson['id'], lesson['title']
+        cards.append(f'<article class="card" data-course><p class="eyebrow">Oficina com atividade própria</p><h2>{e(title)}</h2><p>{e(lesson["description"])}</p><p>{e(lesson["audience"])}</p><a href="{quote(name)}/">Abrir oficina</a></article>')
+        content = f'''<section class="hero"><p class="eyebrow">Aprender fazendo · {e(lesson['duration'])}</p><h1>{e(title)}</h1><p class="lead">{e(lesson['description'])}</p><p>{e(lesson['audience'])}</p><p>Publicado em <time datetime="2026-11-18">18 de novembro de 2026</time>.</p></section>
+<article class="lesson">{lesson['body']}</article>
+<section class="lesson" aria-labelledby="notebook-title"><h2 id="notebook-title">Seu registro, se desejar</h2><p>Todo o conteúdo acima está disponível sem cadastro, vídeo ou JavaScript. Anote também no papel. O caderno digital salva automaticamente neste navegador, não sincroniza entre aparelhos e não avalia suas respostas.</p><label for="notes">Registre sua hipótese, os dados e o que faria diferente</label><textarea id="notes" maxlength="20000"></textarea><div class="chips"><button id="export" type="button">Exportar minhas notas</button><button id="clear-notes" type="button">Apagar minhas notas</button></div><noscript><p>O caderno digital precisa de JavaScript. Use papel ou outro editor para registrar a atividade.</p></noscript></section>'''
+        folder = OUT / name
+        folder.mkdir(exist_ok=True)
+        (folder / 'index.html').write_text(shell(title, lesson['description'], name + '/', content, name), encoding='utf-8')
+    archive_items = []
+    for r in sorted(repos, key=lambda r: r['id'].casefold()):
+        name = r['id']
+        kind = 'Fork de projeto de terceiros; consulte a autoria e a licença no repositório.' if r.get('fork') else 'Repositório público do autor; disponibilidade e instruções no GitHub.'
+        description = r.get('description') or 'Sem descrição no inventário. Consulte o README antes de tentar executar.'
+        archive_items.append(f'<li id="{e(name, quote=True)}"><h2>{e(name)}</h2><p>{e(description)}</p><p>{kind}</p><a href="{e(r["repository"], quote=True)}">Consultar repositório {e(name)}</a></li>')
+        if name not in curated:
+            content = f'''<section class="hero"><p class="eyebrow">Arquivo de código</p><h1>{e(name)}</h1><p>{e(description)}</p><p>{kind}</p><p>Este endereço anteriormente apresentava uma introdução genérica. Ele foi substituído por esta referência: não há um curso específico publicado aqui.</p><p><a href="/cursos/arquivo/#{quote(name)}">Ver este projeto no arquivo de repositórios</a></p><p><a href="{e(r['repository'], quote=True)}">Abrir código e documentação no GitHub</a></p><p>Para uma atividade orientada, escolha uma das <a href="/cursos/">oficinas com conteúdo próprio</a>.</p></section>'''
+            content += '''<details class="lesson"><summary>Recuperar meu caderno anterior</summary><p>Se você anotou algo na versão anterior deste endereço, pode recuperar ou exportar as notas neste mesmo navegador. A mudança de catálogo não apaga essas notas. Elas não são sincronizadas nem enviadas a um servidor.</p><label for="notes">Notas anteriores deste projeto</label><textarea id="notes" maxlength="20000"></textarea><div class="chips"><button id="export" type="button">Exportar minhas notas</button><button id="clear-notes" type="button">Apagar minhas notas</button></div><noscript><p>A recuperação do caderno local precisa de JavaScript.</p></noscript></details>'''
+            folder = OUT / name
+            folder.mkdir(exist_ok=True)
+            (folder / 'index.html').write_text(shell(name, description, name + '/', content,
+                canonical=BASE + 'arquivo/', archive=True, notebook=name), encoding='utf-8')
+    archive = OUT / 'arquivo'
+    archive.mkdir(exist_ok=True)
+    archive_content = f'''<section class="hero"><p class="eyebrow">Inventário público</p><h1>Arquivo de código e experiências</h1><p>Este inventário reúne projetos próprios, exercícios e forks. A presença aqui não significa curso, manutenção ativa, autoria integral ou validação pedagógica. Para aprender com uma atividade orientada, abra as <a href="/cursos/">oficinas selecionadas</a>.</p><p>Forks preservam referências a trabalhos de terceiros. Verifique autoria, licença, requisitos e data da última atualização no repositório antes de reutilizar ou executar arquivos.</p></section><ul class="archive-list">{''.join(archive_items)}</ul>'''
+    (archive / 'index.html').write_text(shell('Arquivo de repositórios', 'Inventário de projetos próprios e forks, com autoria e limites identificados.', 'arquivo/', archive_content), encoding='utf-8')
+    content = f'''<section class="hero"><p class="eyebrow">Oficinas livres · Sidiney Rodrigues</p><h1>Uma pergunta, uma experiência, um registro.</h1><p class="lead">Atividades completas para começar com os recursos que você já tem.</p><p>Escolha entre {len(lessons)} oficinas com objetivos, exemplos resolvidos e critérios para examinar seu resultado. Todo o texto fica disponível sem desbloqueios. São introduções para estudo autônomo; não substituem uma formação completa.</p><p>Os demais repositórios estão no <a href="/cursos/arquivo/">arquivo de código e experiências</a>, com os forks identificados. Atualizações do inventário não criam aulas automaticamente.</p></section><section aria-label="Oficinas"><label for="search">Encontre uma oficina</label><input id="search" type="search" placeholder="Busque por tema"><p id="results" role="status" aria-live="polite">{len(lessons)} oficinas disponíveis</p><div class="grid">{''.join(cards)}</div></section>'''
+    (OUT / 'index.html').write_text(shell('Casa de Cursos', 'Oficinas gratuitas de física, estatística, educação digital e leitura filosófica, com atividades e exemplos próprios.', '', content), encoding='utf-8')
+    paths = ['', 'arquivo/'] + [r['id'] + '/' for r in lessons]
+    (OUT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + ''.join('<url><loc>' + BASE + quote(p) + '</loc></url>' for p in paths) + '</urlset>', encoding='utf-8')
+    # Preserva rotas publicadas, README, evidências e os cadernos locais existentes.
+    (OUT / 'generated.json').write_text(json.dumps(sorted(lookup), indent=2) + '\n', encoding='utf-8')
+    print(f'{len(lessons)} oficinas com conteúdo próprio; {len(repos) - len(lessons)} referências preservadas no arquivo.')
 
-if __name__=='__main__':
+if __name__ == '__main__':
     import sys
-    if '--refresh' in sys.argv: refresh()
+    if '--refresh' in sys.argv:
+        refresh()
     build()

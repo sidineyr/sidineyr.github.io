@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://sidineyr.github.io/sitemap.xml
 Sitemap: https://sidineyr.github.io/universidade/sitemap.xml
+Sitemap: https://sidineyr.github.io/cursos/sitemap.xml

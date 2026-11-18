@@ -26,6 +26,11 @@
   function renderTotal(node, count) {
     node.textContent = formatter.format(count) + (count === 1 ? ' escolha' : ' escolhas');
   }
+  const activate = document.querySelector('#load-interest');
+  // Nenhum contato com CounterAPI antes da escolha explícita do visitante.
+  activate?.addEventListener('click', () => {
+  activate.disabled = true;
+  activate.textContent = 'Contagem de interesse ativada nesta página';
   document.querySelectorAll('[data-project]').forEach(card => {
     const id = card.dataset.project;
     const button = card.querySelector('.vote');
@@ -65,4 +70,5 @@
       if (event.key === prefix + id && event.newValue === '1') markChosen();
     });
   });
+  }, {once:true});
 })();

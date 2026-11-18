@@ -10,7 +10,11 @@
       document.querySelectorAll('[data-project]').forEach(card => {
         const metric = metrics[card.dataset.project];
         const node = card.querySelector('.access-metric');
-        if (!metric || !node) return;
+        if (!node) return;
+        if (!metric) {
+          node.textContent = 'Contagem de acessos não disponível para este projeto';
+          return;
+        }
         const value = metric.value;
         const valid = Number.isSafeInteger(value) && value >= 0;
         const label = document.createElement('strong');

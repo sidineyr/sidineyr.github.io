@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sidineyr.github.io/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://sidineyr.github.io/apoie/</loc>
@@ -41,4 +41,14 @@
   <url><loc>https://sidineyr.github.io/callguide/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://sidineyr.github.io/callguide/privacy/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://sidineyr.github.io/art/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://sidineyr.github.io/sobre/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://sidineyr.github.io/contato/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://sidineyr.github.io/privacidade/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://sidineyr.github.io/politica-editorial/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://sidineyr.github.io/cursos/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://sidineyr.github.io/cursos/arquivo/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://sidineyr.github.io/cursos/python-swirl-statistics/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://sidineyr.github.io/cursos/Einstein-Fisica/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://sidineyr.github.io/cursos/bb/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://sidineyr.github.io/cursos/filosofia-aberta/</loc><lastmod>2026-11-18</lastmod></url>
 </urlset>
