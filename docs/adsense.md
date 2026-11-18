@@ -2,7 +2,7 @@
 
 Atualizado em 18 de novembro de 2026.
 
-O e-mail de recusa informa que o site precisa de ajustes, mas não identifica a causa. A causa específica e o estado de revisão devem ser conferidos em **AdSense → Sites**. Este registro não representa aprovação do Google nem confirma que uma nova análise foi solicitada.
+O painel **AdSense → Sites** confirmou a causa da recusa: **Conteúdo de baixo valor**. Depois da publicação das correções e da conferência das páginas em produção, uma nova revisão foi solicitada em **18 de novembro de 2026**. O painel confirmou **Revisão solicitada**, com estado **Preparando**. O `ads.txt` do domínio aparece como **Autorizado**. Isso confirma o recebimento do pedido; a aprovação ainda depende da análise do Google.
 
 ## Alterações nesta versão
 
@@ -28,7 +28,7 @@ A geração de oficinas deve ser determinística. Atualizar `catalog.json` não 
 
 ## Etapa no painel e eventual ativação
 
-Depois de confirmar a publicação, abrir o domínio na lista **Sites**, ler a razão específica e solicitar nova revisão se essa ação estiver disponível. Se houver exigência adicional no painel, resolvê-la antes de afirmar que o processo foi concluído. Não remover e cadastrar o domínio repetidamente durante a análise.
+O domínio já foi reenviado pela opção **Pedir revisão**. Acompanhar o resultado em **Sites** e tratar eventual nova exigência do painel. Não remover nem cadastrar o domínio repetidamente durante a análise.
 
 Manter anúncios suspensos até confirmar o estado de aprovação e preparar a configuração de privacidade adequada, incluindo CMP certificada onde exigida. Não tratar eventos JavaScript ou um botão próprio como prova de consentimento válido. Não colocar anúncios em contas, resultados pessoais ou cadernos.
 
