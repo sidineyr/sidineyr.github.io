@@ -376,6 +376,14 @@
     "fork": false
   },
   {
+    "id": "saida-da-caverna",
+    "title": "saida-da-caverna",
+    "repository": "https://github.com/sidineyr/saida-da-caverna",
+    "branch": "main",
+    "description": "Composição curta em Python com music21 e FluidSynth, incluindo contraponto de violoncelo, MIDI e WAV.",
+    "fork": false
+  },
+  {
     "id": "serenata-de-amor",
     "title": "serenata-de-amor",
     "repository": "https://github.com/sidineyr/serenata-de-amor",
