@@ -1,0 +1,10 @@
+/* TEAM */
+Author: Sidiney Rodrigues
+Site: https://sidineyr.github.io/
+Contact: https://github.com/sidineyr/sidineyr.github.io/issues
+
+/* SITE */
+Standards: HTML, CSS, JavaScript
+Language: Portuguese (Brazil)
+Hosting: GitHub Pages
+Privacy: https://sidineyr.github.io/privacidade/

@@ -35,11 +35,45 @@ def refresh():
 def shell(title, description, path, content, course='', canonical=None, archive=False, notebook=''):
     canonical = canonical or BASE + quote(path)
     robots = '<meta name="robots" content="noindex,follow">' if archive else ''
+    structured = []
+    if course:
+        structured.append({
+            '@context': 'https://schema.org',
+            '@type': 'LearningResource',
+            'name': title,
+            'description': description,
+            'url': canonical,
+            'inLanguage': 'pt-BR',
+            'isAccessibleForFree': True,
+            'learningResourceType': 'Oficina educacional',
+            'author': {'@id': 'https://sidineyr.github.io/#person'},
+        })
+    if not archive:
+        segments = path.strip('/').split('/')
+        items = [
+            {'@type': 'ListItem', 'position': 1, 'name': 'Portfólio', 'item': 'https://sidineyr.github.io/'},
+            {'@type': 'ListItem', 'position': 2, 'name': 'Casa de Cursos', 'item': BASE},
+        ]
+        if segments != ['']:
+            items.append({'@type': 'ListItem', 'position': 3, 'name': title, 'item': canonical})
+        structured.append({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            'itemListElement': items,
+        })
+    jsonld = ''.join(
+        '<script type="application/ld+json">' +
+        json.dumps(item, ensure_ascii=False).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026') +
+        '</script>'
+        for item in structured
+    )
+    if jsonld:
+        jsonld = '\n' + jsonld
     return f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} · Casa de Cursos</title>
 <meta name="description" content="{e(description, quote=True)}"><meta name="author" content="Sidiney Rodrigues">
 <meta name="google-adsense-account" content="ca-pub-4924241177850142">
-<link rel="canonical" href="{e(canonical, quote=True)}">{robots}
+<link rel="canonical" href="{e(canonical, quote=True)}">{robots}{jsonld}
 <link rel="stylesheet" href="/cursos/style.css"><script defer src="/cursos/course.js"></script></head>
 <body data-course="{e(course, quote=True)}" data-notebook="{e(notebook, quote=True)}"><a class="skip" href="#conteudo">Pular para o conteúdo</a>
 <header><a class="brand" href="/cursos/">casa de cursos.</a><nav aria-label="Principal"><a href="/">Portfólio</a><a href="/cursos/">Oficinas</a><a href="/cursos/arquivo/">Arquivo de código</a></nav></header>
