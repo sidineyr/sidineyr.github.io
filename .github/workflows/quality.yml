@@ -1,0 +1,42 @@
+name: Verificações do site
+
+on:
+  pull_request:
+  push:
+    branches: [main, melhoria-portfolio]
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Testes Python e integridade do sitemap
+        run: |
+          python -X utf8 -m unittest discover -s tests -v
+          node --test tests/*.test.mjs
+          python -X utf8 casa-source/build.py
+          python -X utf8 scripts/generate-sitemap.py --check
+          git diff --exit-code -- cursos
+      - name: Validar HTML mantido
+        run: npx --yes html-validate@10.4.0 index.html 404.html apoie/index.html sobre/index.html contato/index.html privacidade/index.html cursos/index.html cursos/arquivo/index.html cursos/python-swirl-statistics/index.html cursos/Einstein-Fisica/index.html cursos/bb/index.html cursos/filosofia-aberta/index.html
+      - name: Lighthouse CI
+        run: |
+          npm install --global @lhci/cli@0.14.0
+          lhci autorun --config=.lighthouserc.json
+      - name: Publicar relatório Lighthouse como artefato
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-report
+          path: .lighthouseci/
+          if-no-files-found: ignore
+          include-hidden-files: true

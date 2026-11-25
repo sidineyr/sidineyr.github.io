@@ -2,6 +2,11 @@
 (() => {
   const target = document.getElementById('google_translate_element');
   if (!target) return;
+  const updateDocumentLanguage = () => {
+    const language = target.querySelector('.goog-te-combo')?.value;
+    document.documentElement.lang = language === 'en' ? 'en' : 'pt-BR';
+  };
+  target.addEventListener('change', updateDocumentLanguage);
   const button = document.createElement('button');
   button.type = 'button'; button.textContent = 'Translate with Google';
   button.title = 'Carrega um serviço externo do Google. Consulte a política de privacidade.';

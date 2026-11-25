@@ -1,6 +1,7 @@
 """Regressões da geração: inventário não vira aula; rotas e arquivos sobrevivem."""
 import importlib.util
 import json
+import re
 import shutil
 import tempfile
 import unittest
@@ -52,6 +53,12 @@ class EditorialTests(unittest.TestCase):
             self.assertNotIn(' hidden', page)
             self.assertNotIn('adsbygoogle', page)
             self.assertNotIn('google-footer-ad.js', page)
+            schemas = [
+                json.loads(value)
+                for value in re.findall(r'<script type="application/ld\+json">(.*?)</script>', page, re.S)
+            ]
+            self.assertTrue(any(schema.get('@type') == 'LearningResource' for schema in schemas))
+            self.assertTrue(any(schema.get('@type') == 'BreadcrumbList' for schema in schemas))
 
     def test_ownership_without_ad_requests_and_public_information(self):
         self.assertEqual((ROOT / 'ads.txt').read_text().strip(), 'google.com, pub-4924241177850142, DIRECT, f08c47fec0942fa0')

@@ -1,39 +1,78 @@
-# Projetos de Sidiney Rodrigues
+# Portfólio de Sidiney Rodrigues
 
-Página central dos projetos públicos de educação, ciência e tecnologia de Sidiney Rodrigues.
+Site estático com projetos e recursos educacionais abertos em Artes, ciência,
+programação, estatística e educação digital.
 
-- Site: https://sidineyr.github.io/
-- Sitemap: https://sidineyr.github.io/sitemap.xml
+- **Demonstração:** https://sidineyr.github.io/
+- **Sobre e contato:** https://sidineyr.github.io/sobre/ · https://sidineyr.github.io/contato/
+- **Oficinas:** https://sidineyr.github.io/cursos/
 
-## Revisão de 16/10/2026
+## Tecnologias
 
-Doze projetos e percursos, incluindo Python Swirl, BB, Contraprova e Polliniza.
-Descrições conferidas nos READMEs atuais. Contraprova e Polliniza levam ao código e às instruções: não afirmamos publicação online irrestrita nem APIs configuradas.
+HTML, CSS e JavaScript sem framework de interface. Conteúdo estático; scripts
+aprimoram ordenação, consulta de métricas e cadernos locais, mas não são
+necessários para ler os projetos e oficinas. A publicação é feita no GitHub
+Pages e verificações adicionais rodam no GitHub Actions.
 
-### Contadores de interesse
+## Estrutura
 
-`project-votes.js` consulta o CounterAPI público (`counterapi.com`, não `counterapi.dev`), namespace `sidineyr.github.io`, ação `portfolio-choice-v1`, chave estável por projeto. A carga inicial usa `readOnly=true`; somente o botão envia incremento. Totais começam no serviço, sem números artificiais. Links não dependem da API.
+- `index.html` — portfólio, cards e navegação principal.
+- `data/projetos.json` — manifesto editorial dos projetos.
+- `project-metrics.json` e `project-updates.json` — snapshots de fontes
+  originais; não são contagens atualizadas ao visitar o portfólio.
+- `casa-source/` — inventário, conteúdo próprio das oficinas e gerador.
+- `cursos/` — páginas publicadas das oficinas e referências do inventário.
+- `universidade/` — percursos em português e inglês.
+- `assets/` — estilos, scripts e recursos visuais.
+- `scripts/` e `tests/` — geração determinística e testes.
+- `docs/` — auditoria, mapa de busca e pendências editoriais.
 
-Cada navegador guarda uma marca por projeto em localStorage; falhas de armazenamento usam memória. Outra aba recebe a marca pelo evento storage. Não há autenticação: dados são indicativos e podem sofrer repetição/abuso; não representam pessoas únicas ou resultados educacionais. Não usar como eleição. O serviço externo recebe dados técnicos da conexão, mas não recebe nomes, respostas ou conteúdo dos projetos. As requisições omitem cookies e referrer.
+## Executar localmente
 
-Timeout de dez segundos, validação de resposta e erro explícito sem falso zero. Escritas sem confirmação não são repetidas automaticamente, pois o servidor pode já ter contado. Não há armazenamento de credenciais. A disponibilidade depende de terceiro. Documentação: https://counterapi.com/
+Requer Python 3.10 ou superior para testes e geradores. Na raiz:
 
+```powershell
+python -m http.server 8000
+```
 
-## Contador de acessos (16/10/2026)
+Abra `http://localhost:8000/`. Em Windows com locale não UTF-8, use `-X utf8`
+nos comandos Python:
 
-A página inicial exibe um contador público Hits, chave `sidineyr.github.io/universidade`. Conta carregamentos do indicador desde a instalação, não pessoas únicas. O serviço externo recebe dados técnicos da conexão; nenhuma resposta de atividade é enviada. O portfólio consulta o total pela API de estatísticas, sem carregar o SVG e sem acrescentar acessos. Histórico anterior à instalação não foi estimado.
+```powershell
+python -X utf8 -m unittest discover -s tests -v
+python -X utf8 scripts/generate-sitemap.py --check
+```
 
+Para reconstruir as páginas de oficina a partir do inventário e dos conteúdos
+editáveis:
 
-## Contadores originais dos projetos
+```powershell
+python -X utf8 casa-source/build.py
+python -X utf8 scripts/generate-sitemap.py
+```
 
-`metrics-sources.json` mapeia cada contador existente, sem mudar chaves nem importar números manuais. `project-metrics.json` é uma consulta datada, não soma de interesse e acesso. Horizonte registra conclusões, Atlas registra leituras da página inicial, QV usa VisitorBadge e BB usa Hits. Novos indicadores Hits contam carregamentos apenas desde 16/10/2026.
+O gerador não cria cursos automaticamente a partir de repositórios e preserva
+arquivos e anotações já existentes. A validação HTML e o Lighthouse CI rodam
+no workflow `Verificações do site`; localmente, também é possível executar
+`node --test tests/*.test.mjs` com Node.js.
 
-O workflow `refresh-metrics.yml` consulta endpoints de estatísticas somente leitura a cada seis horas, registra o JSON e publica o Pages. Não consulta SVG nem VisitorHit. Falhas conservam último valor confirmado com data e estado pendente; sem histórico confirmado, exibe indisponível. Fontes bloqueadas podem exigir correção no provedor. Não há garantia de execução pontual do agendamento do GitHub. Exibir o portfólio nunca deve gerar visita nos projetos.
+## Contribuir
 
-## Ordenação e histórico (06/11/2026)
+Use issues públicas para relatar erros e pull requests para propor mudanças.
+Não inclua credenciais, dados pessoais nem respostas identificáveis de
+estudantes. Veja [CONTRIBUTING.md](./CONTRIBUTING.md) e
+[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
-Cards podem ser ordenados por acessos, atualização do código ou nome. A ordem de acessos usa os últimos valores confirmados, em ordem decrescente; acessos/visitas/leituras primeiro, conclusões de testes depois e contagens indisponíveis por último. Empates seguem o nome. Essas métricas têm períodos e definições diferentes e não representam visitantes únicos.
+## Licenças
 
-Cada card consulta `project-updates.json`, com até cinco mensagens reais de commits e links para o histórico completo. Isso documenta alterações no código, sem afirmar que foram publicadas. Universidade filtra a pasta `universidade` do portal. `scripts/sync-updates.py` atualiza o snapshot no mesmo workflow de seis horas dos contadores, preservando dados e datas anteriores em falhas. Nenhuma credencial é enviada ao navegador.
+- Código original: [MIT](./LICENSE).
+- Conteúdo educacional original: [CC BY 4.0](./LICENSE-CONTENT.md).
+- Forks, mídias e materiais de terceiros mantêm suas licenças próprias; confira
+  cada repositório e recurso antes de reutilizar.
 
-Quality View: em 06/11/2026, VisitorBadge retornou HTTP 403. Substituído por Hits com chave `sidineyr.github.io/qv`, sem importar ou estimar o histórico anterior. O projeto carrega o SVG; o portfólio lê somente a API de estatísticas.
+## Privacidade e métricas
+
+A contagem de interesse é opcional e só consulta serviço externo após ativação.
+Snapshots de acesso leem fontes originais sem carregar seus SVGs. Consulte
+[privacidade](https://sidineyr.github.io/privacidade/) para serviços,
+armazenamento local e publicidade.

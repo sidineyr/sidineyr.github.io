@@ -1,0 +1,33 @@
+name: Relatar um problema
+description: Informe um erro de conteúdo, link ou acessibilidade.
+title: "[Problema] "
+body:
+  - type: markdown
+    attributes:
+      value: Issues são públicas. Não inclua senhas, dados pessoais ou respostas identificáveis de estudantes.
+  - type: input
+    id: page
+    attributes:
+      label: Página ou projeto
+      description: Informe o endereço público.
+      placeholder: https://sidineyr.github.io/
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: O que aconteceu?
+      description: Descreva os passos e o resultado observado.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: O que você esperava?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Navegador e acessibilidade
+      description: Opcional. Se relevante, informe dispositivo, navegador e uso de teclado ou leitor de tela.
