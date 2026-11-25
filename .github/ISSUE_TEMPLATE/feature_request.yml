@@ -1,0 +1,21 @@
+name: Sugerir uma melhoria
+description: Proponha uma mudança pequena e explique quem ela ajuda.
+title: "[Sugestão] "
+body:
+  - type: markdown
+    attributes:
+      value: Não inclua dados pessoais, documentos ou respostas identificáveis de estudantes.
+  - type: textarea
+    id: need
+    attributes:
+      label: Necessidade
+      description: Que tarefa ou dificuldade a mudança pretende atender?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta
+      description: Descreva uma solução possível, sem presumir que já foi aprovada.
+    validations:
+      required: true
