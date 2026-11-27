@@ -264,6 +264,14 @@
     "fork": true
   },
   {
+    "id": "money",
+    "title": "money",
+    "repository": "https://github.com/sidineyr/money",
+    "branch": "main",
+    "description": "Análise de investimentos com IA local opcional. Dashboard de risco e retorno, cenários de mercado e diário de investimentos. Software livre para Windows, com Ollama e Qwen.",
+    "fork": false
+  },
+  {
     "id": "my-first-blog",
     "title": "my-first-blog",
     "repository": "https://github.com/sidineyr/my-first-blog",
